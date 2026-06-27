@@ -6,4 +6,4 @@ Allow: /
 Disallow: /search?
 
 # Sitemap 声明（必须指向 index）
-Sitemap: https://idao.fun/sitemap-index.xml
+Sitemap: https://idao.fun/sitemap.xml
