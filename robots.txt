@@ -1,9 +1,0 @@
-
-User-agent: *
-Allow: /
-
-# 屏蔽 search 页的所有查询参数变体，防止搜索引擎抓取重复内容
-Disallow: /search?
-
-# Sitemap 声明（必须指向 index）
-Sitemap: https://idao.fun/sitemap.xml
