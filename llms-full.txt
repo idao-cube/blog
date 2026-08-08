@@ -2,6 +2,8 @@
 
 > iDao技术魔方｜全职独立开发者原创技术博客，分享全栈开发、开源项目与AI全栈创作内容，记录独立开发者成长历程与副业变现实践心得。
 
+本文件为全站内容索引：每项仅含标题、链接、日期、分类、标签与简介，不包含正文。需要正文时请直接访问各项的原始 Markdown 正文端点（/blog/{slug}.md、/utils/{slug}.md、/ai/{tool}.md、/projects/{slug}.md），无 HTML 干扰、零损耗解析。
+
 作者：iDao ｜ 一枚全职独立开发者，懂全栈、爱开源、专注做优质技术内容
 网站：https://idao.fun
 语言：zh-CN
@@ -11,2630 +13,287 @@ Twitter：https://x.com/idaocube
 
 ## 核心页面
 
-- [首页](https://idao.fun/) — iDao技术魔方，独立全栈开发者 · AI实战 · 全栈开发 · 开源教程
-- [博客](https://idao.fun/blog/) — 全栈开发与AI实战原创教程，共 37 篇文章
-- [AI精选](https://idao.fun/ai/) — AI工具实测、评测与推荐
-- [开源项目](https://idao.fun/projects/) — 开源项目源码与深度复盘
-- [关于](https://idao.fun/about/) — 独立全栈开发者与技术博主个人介绍
-- [技术服务](https://idao.fun/service/) — 成都独立全栈开发定制服务
-- [在线工具集](https://idao.fun/utils/) — 即开即用的开发者在线工具，共 21 个
-
-## 在线工具集
-
-即开即用的开发者在线工具，全部免费、无需注册。
-
-### 计算工具（3 个工具）
-
-- **⚖️ [BMI 计算器](https://idao.fun/utils/bmi-calculator/)** — 在线身体质量指数（BMI）计算工具，根据身高体重快速计算 BMI 值，并提供体重状况分类参考（偏瘦/正常/超重/肥胖）。
-- **👨‍👩‍👧‍👦 [亲戚关系计算器](https://idao.fun/utils/kinship-calculator/)** — 在线亲戚称呼计算工具，输入关系链即可算出正确称呼。支持性别选择、呼称方向切换，涵盖中国传统家庭称谓体系。
-- **🏦 [贷款计算器](https://idao.fun/utils/loan-calculator/)** — 在线个人贷款计算工具，支持等额本息和等额本金两种还款方式，快速计算月供、总利息与还款总额。
-
-### 编码转换（4 个工具）
-
-- **🖼️ [图片Base64 转换器](https://idao.fun/utils/base64-image-converter/)** — 在线图片 Base64 编码转换工具，支持 JPG、PNG、GIF、WebP 等格式，可将图片转换为 Base64 编码字符串，或将 Base64 编码还原为图片并下载。
-- **💾 [字节单位转换器](https://idao.fun/utils/byte-converter/)** — 在线存储容量单位转换工具，支持 Byte、KB、MB、GB、TB、PB 等多种单位的精确互转，快速了解文件大小换算。
-- **🔢 [文件 HEX 值计算器](https://idao.fun/utils/hex-converter/)** — 在线文件 HEX 值分析工具，支持文本与十六进制互转、上传文件查看 HEX 二进制转储，快速查看文件底层数据结构。
-- **💴 [人民币大写转换](https://idao.fun/utils/rmb-converter/)** — 在线人民币金额大小写转换工具，支持小写数字转中文大写金额（含圆角分），遵循金融票据规范标准。
-
-### 开发工具（9 个工具）
-
-- **🔢 [进制转换](https://idao.fun/utils/base-converter/)** — 在线整数进制转换工具，支持 2 至 64 进制互转，涵盖二进制、八进制、十进制、十六进制、Base64 及自定义进制。
-- **🔐 [Base64 编解码](https://idao.fun/utils/base64-encode/)** — 在线 Base64 字符串编码与解码工具。支持标准 Base64 与 URL-safe Base64（base64url）互转，实时输出，一键复制。
-- **🎨 [颜色转换](https://idao.fun/utils/color-converter/)** — 在线颜色格式转换工具，支持 HEX、RGB、HSL、HWB、LCH、CMYK、CSS 颜色名称互转，内置取色器，修改任意格式自动同步。
-- **⏰ [Crontab 表达式生成器](https://idao.fun/utils/crontab-generator/)** — 在线 Crontab 表达式生成与解释工具，快速生成 Linux 定时任务表达式，支持常用时间周期选择、各字段单独配置，并自动生成人类可读的中文解释。
-- **🌐 [HTTP 接口测试](https://idao.fun/utils/http-tester/)** — 在线 HTTP 请求调试工具，支持 GET/POST/PUT/DELETE 等方法，可自定义请求头、请求体，查看响应状态码、响应头和响应体。
-- **🛠 [JSON 格式化](https://idao.fun/utils/json-formatter/)** — 在线 JSON 格式化、压缩与验证工具。支持 JSON 美化排版、语法校验、转义与压缩，适合 API 调试与数据查看。
-- **🪙 [JWT 解析](https://idao.fun/utils/jwt-parser/)** — 在线 JSON Web Token (JWT) 解析与解码工具。自动解码 JWT 的 Header、Payload 和 Signature，支持标准 JWT claims 的人类可读名称显示和时间戳自动转换。
-- **⏰ [日期时间转换](https://idao.fun/utils/timestamp-converter/)** — 在线日期时间格式转换工具，支持同时显示 JS locale、ISO 8601、ISO 9075、RFC 3339、RFC 7231、Unix 时间戳、UTC 格式、Mongo ObjectID、Excel 序列号等 10 种格式。
-- **🔗 [URL 编解码](https://idao.fun/utils/url-encode/)** — 在线 URL 编码与解码工具。支持对 URL 参数、中文、特殊符号进行 encodeURIComponent 编码与解码。
-
-### 加密安全（3 个工具）
-
-- **🔐 [加密解密](https://idao.fun/utils/encryption-tool/)** — 在线文本加密解密工具，支持 AES、TripleDES、Rabbit、RC4 等算法，实时加密解密你的文本内容。
-- **🔐 [Hash 文本](https://idao.fun/utils/hash-text/)** — 在线文本哈希计算工具，支持 MD5、SHA1、SHA224、SHA256、SHA384、SHA512、SHA3、RIPEMD160 等多种哈希算法，实时计算并支持十六进制和 Base64 输出。
-- **🔑 [随机密码生成器](https://idao.fun/utils/password-generator/)** — 在线随机密码生成工具。支持自定义密码长度、包含字符类型（大写/小写/数字/符号），一键复制高强度密码。
-
-### 文本工具（2 个工具）
-
-- **🔤 [文本格式转换](https://idao.fun/utils/case-converter/)** — 在线文本大小写转换工具，支持 14 种格式互转：大小写、驼峰、蛇形、帕斯卡、连字符、点分隔、路径形式等。
-- **📝 [字数统计](https://idao.fun/utils/word-counter/)** — 在线字数统计工具。实时统计文字数量、字符数、段落数、行数，支持中英文混排与去除空格统计。
-
-## 所有文章详细内容
-
-### AI工具
-
----
-### [AI Coding Method Map：从辅助到自主代理看懂AI编程的完整链路](https://idao.fun/blog/2026-06-20-ai-coding-method-map/)
-
-- **发布日期**：2026-06-20
-- **分类**：AI工具
-- **标签**：AI编程, Agent, 工作流, MCP, CodeGraph, Superpower, Claude Code, Cursor
-- **描述**：从需求到交付，AI 编码代理到底是怎么工作的？拆解普通 Agent、工作流 Agent、IDE Agent 的本质差异，以及 CodeGraph、ECC、Superpower 等增强工具如何补齐能力缺口。
-
----
-
-
-
-2024-2026 年，AI 编程经历了从"辅助补全"到"自主代理"的跃迁。但很多人对 AI Coding 的理解，仍然停留在"它在帮我写代码"这个层面上。
-
-真正有用的 AI Coding，不只是回答一个代码问题，而是能持续完成以下整条链路：
-
-```
-接收对话 → 理解需求 → 拆解任务 → 获取上下文 → 执行修改 → 运行验证 → 迭代交付
-```
-
-沿着这条链路往下看，你也会更容易看懂普通 Agent、工作流 Agent、IDE Agent 到底差在哪。
-
----
-
-
-
-需求、报错、截图，甚至一句模糊描述，都会成为任务入口。关键区别在于：好的 Agent 会把自然语言转成可执行任务，而不是立刻开写。
-
-
-
-识别目标、约束、缺失信息和成功标准，判断问题到底要解决什么。好的 Agent 会意识到"信息还不够"——它不会在你只说"帮我优化一下"的时候直接动手，而是会追问"你指的优化是性能、可读性还是包体积"。
-
-
-
-决定先看哪里、先改什么、先验证什么，避免盲改和乱试。这里体现的是计划能力，而不只是生成能力。一个能拆任务的 Agent，和只会"接一句回一段"的聊天工具，分水岭就在这里。
-
-
-
-读代码、搜文件、看调用链、查文档，补齐工程里的真实信息。这是从"会写代码"到"能在代码库里工作"的分水岭。
-
-
-
-改文件、补实现、加测试、调配置，真正进入动手阶段。这一层已经不是建议层，而是行动层。
-
-
-
-跑测试、lint、build、检查命令输出，确认结果是否真的成立。AI Coding 真正的门槛，往往就在验证闭环。
-
-
-
-根据结果继续修正，最后输出代码、说明、风险和后续建议。交付不是贴一段代码，而是给出一个能落地的结果。
-
----
-
-
-
-很多人第一次看 Agent 讨论，会被 Token、Prompt、MCP、CDP、命中率这类词绕住。其实它们都可以放回"Agent 怎么推进任务"这条主线里理解。
-
-
-
-Prompt 不只是你输入的一句话。在真实 Agent 里，它往往包含用户需求、系统规则、当前目标、工具说明、上下文摘要，甚至执行阶段的中间状态。工作流 Agent 比普通聊天工具更强，很多时候就是因为它背后拼接的是一整套结构化 Prompt。
-
-
-
-Token 可以粗略理解成模型处理文本时的最小计量单位。你的输入、系统提示、代码、日志、工具返回结果，都会占用 Token。上下文越长、任务越复杂，消耗就越大；这会直接影响成本、速度，以及 Agent 一次性能带多少信息进场。
-
-
-
-上下文不只是你贴给它的代码片段。它还包括项目结构、依赖关系、历史实现、当前文件、报错位置、运行结果。普通 Agent 往往依赖你手喂上下文，IDE Agent 和工作流 Agent 则更擅长自己去拿上下文。
-
-
-
-可以把它理解成"之前看过、处理过的上下文，这次还能不能直接复用"。命中高，通常意味着更快、更省成本，也更少重复读取同样的信息。
-
-
-
-MCP 可以理解成让模型接上外部工具和外部世界的一种标准接口。通过它，Agent 才能去读文件、查文档、调浏览器、连数据库、调用设计或工程工具。没有工具接入，很多 Agent 只能"猜"；有了 MCP，它才更像"会动手"。
-
-
-
-CDP 可以理解成让 Agent 和浏览器开发者工具打交道的一套协议。有了它，AI 才能更系统地查看页面结构、网络请求、控制台报错、性能信息，甚至驱动浏览器做自动化操作。对前端场景来说，这会极大增强"看页面、查问题、再修代码"的能力。
-
-
-
-这是 Agent 从"会说"变成"会做"的关键。比如
-
-... [阅读全文](https://idao.fun/blog/2026-06-20-ai-coding-method-map/)
-
-### AI应用
-
----
-### [Marketing Skills 深度解析：32K Stars 的 AI 营销技能体系](https://idao.fun/blog/2026-06-08-marketing-skills-ai-agent-deep-dive/)
-
-- **发布日期**：2026-06-08
-- **分类**：AI应用
-- **标签**：AI, Marketing, Agent, Growth, SEO, CRO, Copywriting, 市场营销
-- **描述**：全面解读 Corey Haines 打造的 AI Agent 营销技能仓库——43 个模块化 Skill、AARRR 框架驱动、139 种增长策略、fCMO 级营销计划、AI SEO 优化，以及 80+ 工具的 CLI/API 集成体系。
-
-> 项目地址：[github.com/coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 32.4K Stars | MIT 协议 | 43 Skills | v2.3.0
-
-
-
-2026 年初，一个名为 `marketingskills` 的仓库在 GitHub 上以惊人的速度增长——短短几个月就斩获了 32K+ Stars。它不是什么炫酷的前端框架，也不是什么革命性的 AI 模型，而是一堆 .md 文件。
-
-但正是这堆 .md 文件，正在重新定义"营销"这件事在 AI 时代的执行方式。
-
-**`marketingskills` 是由 Corey Haines 创建的开源项目**，本质上是一套为 AI Agent（Claude Code、Cursor、Windsurf、Codex 等）设计的营销技能指令集。但如果你仅仅把它看作"AI 提示词合集"，你将错过这个项目真正革命性的地方。
-
-这个项目回答了一个根本性问题：**当 AI Agent 能够理解你的产品、你的用户、你的市场时，营销执行应该是什么样的？**
-
-答案是：**一个由 43 个模块化 Skill 构成的、层层依赖的、工具链完备的营销操作系统。**
-
-
-
-
-
-`marketingskills` 最精妙的设计之一是它的上下文穿透机制。所有 43 个 Skill 共享一个基础——`.agents/product-marketing.md`。
-
-这个文件是一切营销活动的"宪法"：
-
-```yaml
-
-
-**One-liner:**
-**Product category:**
-**Business model:**
-
-
-**ICP:**
-**Use cases:**
-
-
-**Direct competitors:**
-**Differentiation:**
-
-
-**Verbatim quotes:**
-**Words to use/avoid:**
-```
-
-任何一个 Skill 被调用时，第一件事就是检查这个文件是否存在。如果存在，Agent 会自动加载它，省去重复询问产品信息的痛苦。这就像给 AI Agent 装上了"长期记忆"。
-
-而文件中的内容是通过 `product-marketing` Skill 本身生成的——它可以自动扫描整个代码库（README、Landing Page、package.json），草拟一份 V1 版本，用户只需审核修正即可。
-
-
-
-```
-                ┌────────────────────────────────┐
-                │      product-marketing         │
-                │  （所有 Skill 的上下文基础）      │
-                └──────────────┬─────────────────┘
-                               │
-    ┌────────────┬─────────────┼─────────────┬──────────────┬──────────────┐
-    ▼            ▼             ▼             ▼              ▼              ▼
-┌─────────┐ ┌─────────┐ ┌─
-
-... [阅读全文](https://idao.fun/blog/2026-06-08-marketing-skills-ai-agent-deep-dive/)
-
----
-### [从开源到商业：MoneyPrinterTurbo 的 AI 视频工厂架构剖析](https://idao.fun/blog/2026-05-28-money-printer-turbo-ai-video-factory-architecture/)
-
-- **发布日期**：2026-05-28
-- **分类**：AI应用
-- **标签**：AI, 视频生成工厂, Agent
-- **描述**：MoneyPrinterTurbo 正是这样一个典型代表。它不是为 AI 代理而生的，但它展示了 AI 代理如何与视频素材库、大语言模型、语音合成、视频剪辑工具等外部服务交互，最终构建出一个完整的"视频生成工厂"。这正是 AI 编码代理从"理解代码"走向"理解世界"的重要一步。
-
-在 AI 编码代理的生态图谱中，我们通常关注三类项目：给代理查的索引（如 CodeGraph）、给人看的地图（如 Understand Anything）、让代理干得更好的调优系统（如 ECC）。但还有一个被忽视的维度：**AI 代理如何与外部世界交互**。
-
-MoneyPrinterTurbo 正是这样一个典型代表。它不是为 AI 代理而生的，但它展示了 AI 代理如何与视频素材库、大语言模型、语音合成、视频剪辑工具等外部服务交互，最终构建出一个完整的"视频生成工厂"。这正是 AI 编码代理从"理解代码"走向"理解世界"的重要一步。
-
-
-
-MoneyPrinterTurbo 采用了经典的 MVC 架构，但进行了现代化的改造：
-
-
-
-位于 `app/models/` 目录，定义了视频生成的核心数据模型：
-
-- **VideoParams**：视频生成参数（主题、脚本、素材来源、转场模式、宽高比等）
-- **VideoAspect**：视频尺寸枚举（9:16 竖屏、16:9 横屏）
-- **VideoConcatMode**：素材拼接模式（顺序、随机）
-- **VideoTransitionMode**：转场效果（无、随机混剪、淡入淡出、滑动等）
-
-这些模型不仅用于数据存储，更作为**API 契约**，定义了前端与后端的交互边界。
-
-
-
-位于 `webui/` 目录，基于 Streamlit 构建：
-
-- **Main.py**：主界面，包含 LLM 设置、视频源选择、字幕配置等面板
-- **i18n/**：多语言支持（中文、英文、德文、法文、越南文、泰文、土耳其文）
-- **components/**：可复用的 UI 组件（字体选择器、TTS 试听按钮等）
-
-Streamlit 的选择很明智：它让非前端工程师也能快速构建数据驱动界面，且天然支持响应式布局。
-
-
-
-位于 `app/controllers/` 目录，负责协调模型与视图：
-
-- **GenerateController**：接收用户请求，调用服务层生成视频
-- **TaskController**：管理任务队列，处理批量生成
-- **MaterialController**：管理素材上传、下载、缓存
-
-这些控制器不是简单的"接收请求 - 调用服务"，而是**状态机**：每个视频生成任务都有明确的状态流转（待生成→生成脚本→获取素材→合成→完成/失败）。
-
-
-
-位于 `app/services/` 目录，这是 MoneyPrinterTurbo 的"大脑"：
-
-
-
-LLM 服务是 MoneyPrinterTurbo 与外部大模型交互的网关。它支持 15+ 种模型提供商：
-
-- **OpenAI / Azure**：行业标准，但需要 VPN
-- **Moonshot / DeepSeek**：中国用户首选，国内直连
-- **Qwen / ModelScope**：通义千问、魔搭社区
-- **Gemini / Grok / Pollinations**：国际模型
-- **Ollama / LiteLLM**：本地部署、多模型路由
-
-LLM 服务的核心不是"调用 API"，而是**智能路由**：
-
-```python
-def generate_script(subject: str, language: str) -> str:
-    """根据主题生成视频脚本"""
-    # 1. 选择最优模型（考虑成本、延迟、语言支持）
-    # 2. 构造提示词（包含角色设定、输出格式、风格约束）
-
-... [阅读全文](https://idao.fun/blog/2026-05-28-money-printer-turbo-ai-video-factory-architecture/)
-
----
-### [AiToEarn 深度解析：11K Stars 的开源 AI 内容营销平台 — 当 AI Agent 开始帮你赚钱](https://idao.fun/blog/aitoearn-ai-content-marketing-agent/)
-
-- **发布日期**：2026-05-12
-- **分类**：AI应用
-- **标签**：AI, Agent, AiToEarn, 内容营销, 开源, OPC, MCP, 一人公司, 自媒体
-- **描述**：全面解读 yikart 打造的开源 AI 内容营销智能体 AiToEarn——四大 Agent 框架（Monetize/Publish/Engage/Create）、12 平台跨海分发、内容交易市场、MCP 协议集成、一人公司（OPC）操作系统，深挖其产品逻辑与商业哲学。
-
-> 项目地址：[github.com/yikart/AiToEarn](https://github.com/yikart/AiToEarn) | 11.4K+ Stars | MIT 协议 | 2,591 Commits | 26 Releases
-
-
-
-2025 年，AI 代码助手红海一片；2026 年，**AI 赚钱**成了新战场。
-
-AiToEarn 的口号极简但极具野心：**"Let's use AI to Earn!"**
-
-它不是又一个文字生成海报的工具，也不是又一个 AI 写文案的插件。AiToEarn 是一个 **AI 原生的一人公司（OPC，One-Person Company）操作系统**——覆盖从内容创作、多平台分发、自动化互动到商业变现的全链路。
-
-> "Monetize · Publish · Engage · Create —— 一站式平台。"
-
-四个词，四条 Agent 能力线。这不是营销话术，而是一个正在被 2,591 次提交逐步兑现的产品蓝图。
-
-
-
-| 维度 | 数据 |
-|------|------|
-| GitHub Stars | 11,400+ |
-| 总提交数 | 2,591 |
-| 发布版本 | 26 个（v0.1.1 → v2.1.0） |
-| 核心技术栈 | TypeScript (92.6%) + Next.js + Nx monorepo |
-| 支持平台 | 12 个（国内 4 + 海外 8） |
-| 部署方式 | 5 种（Web/OpenClaw/MCP/Docker/源码） |
-| 开源协议 | MIT |
-| 线上服务 | aitoearn.ai（国际）/ aitoearn.cn（中国） |
-| MCP 支持 | 全面兼容，Claude/Cursor 即插即用 |
-
----
-
-
-
-AiToEarn 的产品演进路径清晰地展示了从"工具"到"平台"再到"Agent 操作系统"的三级跳跃。
-
-
-
-**v0.1.1（2025-02-26）**：首个开源版本，能力极简——小红书、抖音、快手、视频号，四平台的一键视频发布。
-
-这个阶段的 AiToEarn 本质上是一个 **API 封装器**——对接各平台的上传接口，用一个统一的界面解决"逐个平台手动上传"的痛点。技术门槛不高，但切中了一个真实需求：做跨平台内容的人，谁没用过"先发抖音、再导出视频、再发小红书……"的重复劳动？
-
-
-
-**v1.0.18（2025-09-16）**：首次出海。新增 Facebook、Instagram、Threads、Twitter（X）、YouTube、TikTok、Pinterest。
-
-这是关键转折。从一个"中国自媒体工具"变成了一个"全球内容分发平台"。同时覆盖中西方主流社交平台，意味着用户的管理复杂度指数级增长——而这正是自动化工具的核心价值。
-
-**v1.3.2（2025-11-12）**：首个可完全使用的开源版本。
-
-
-
-**v1.4.0（2025-11-28）**：创作界面接入 AI 功能——缩写、扩写、图片生成、视频生成、标签生成。支持 Nano Banana Pro 图片模型。
-
-**v1.4.3（2025-12-15）**：项目的"All In Agent"里程碑。加入了能够自动内容生成和发布的超级 AI Agent。
-
-**v1.8.0（2026-02-07）**：线下商户推广解决方案，将物理世界的推广需求（餐厅、零售店、民宿等）转化为可执行的线上传播任务。
-
-**v2.1.0（2026-
-
-... [阅读全文](https://idao.fun/blog/aitoearn-ai-content-marketing-agent/)
-
----
-### [Ruflo 深度解析：49K Stars 的 AI Agent 编排平台 — 给 Claude Code 装上分布式神经系统](https://idao.fun/blog/ruflo-agent-orchestration-platform/)
-
-- **发布日期**：2026-05-12
-- **分类**：AI应用
-- **标签**：AI, Agent, Ruflo, Claude Code, 开源, 编排, MCP, 蜂群智能
-- **描述**：全面解读 ruvnet 打造的开源多智能体编排平台 Ruflo——100+ Agent 蜂群协作、自学习 SONA 神经网络、跨机器 Agent 联邦、32 插件生态、GOAP 目标规划，深挖其架构设计与工程哲学。
-
-> 项目地址：[github.com/ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 49K+ Stars | MIT 协议 | 6,400+ Commits
-
-
-
-如果你用过 Claude Code，你体验的是**单个 Agent**的能力。但如果一个团队有 10 个、50 个、100 个 Agent 同时工作呢？谁来管理它们之间的沟通、记忆、任务分配和信任关系？
-
-**Ruflo** 就是答案。
-
-它不是一个简单的 AI 插件。Ruflo 是一个完整的**多智能体编排平台**——准确地说，它给 Claude Code 装上了一个"分布式神经系统"。
-
-> "Claude Flow is now Ruflo — named by rUv, who loves Rust, flow states, and building things that feel inevitable. The 'Ru' is the rUv. The 'flo' is working until 3am." —— 项目自述
-
-
-
-Ruflo 的核心能力可以概括为一句话：**让 AI Agent 不仅跑起来，还能协作起来。**
-
-| 能力维度 | 具体能力 |
-|---------|---------|
-| **Agent 规模** | 100+ 预置专业 Agent（编码/测试/安全/架构/文档） |
-| **协作拓扑** | 分层式、网格式、自适应，支持 Raft/拜占庭/流言共识 |
-| **记忆系统** | HNSW 索引向量数据库，检索速度提升 150~12,500 倍 |
-| **自学习** | SONA 神经网络模式匹配 + ReasoningBank 轨迹学习 |
-| **联邦通信** | mTLS + ed25519 零信任跨机器 Agent 协作 |
-| **插件市场** | 32 个原生插件 + 21 个 npm 包 |
-| **模型路由** | Claude、GPT、Gemini、Cohere、Ollama 智能路由 + 故障转移 |
-| **MCP 工具** | ~210 个开箱即用的 MCP 工具 |
-
-一个 `npx ruflo init` 之后，Claude Code 就不再是孤立的编码助手——它变成了一个有神经系统、有记忆、能自我进化的**智能体网络**。
-
----
-
-
-
-Ruflo 最初的名字叫 **Claude Flow**，由独立开发者 **rUv**（ruvnet）发起。项目发展迅猛，6,400+ 次提交从 2024 年延续至今，从简单的 Claude Code MCP 服务器演变成了今天这个庞大的编排平台。
-
-名称变更的背后是一种工程哲学：**"Ru"代表创造者 rUv 的个人印记，"flo"代表心流状态（flow state）**——那种在凌晨 3 点还在写代码的、不可阻挡的构建冲动。
-
-项目底层由 [Cognitum.One](https://cognitum.one) 架构驱动，搭载了一套超级加速的 Rust 引擎，负责嵌入向量（embeddings）、记忆管理和插件系统。
-
-
-
-当前版本为 **v3.7.0-alpha.26**（持续迭代中），三个 npm 包同步发布：
-- `@claude-flow/cli` — 核心 CLI
-- `claude-flow` — 统一入口
-- `ruflo` — 别名入口
-
-发布策略颇为讲究：每次更新必须三个包同步发布、同步打标签，任
-
-... [阅读全文](https://idao.fun/blog/ruflo-agent-orchestration-platform/)
-
----
-### [DeepSeek TUI：原生 Rust 打造的终端 AI 编码 Agent](https://idao.fun/blog/deepseek-tui-coding-agent/)
-
-- **发布日期**：2026-05-04
-- **分类**：AI应用
-- **标签**：AI, Agent, DeepSeek, Rust, 编程工具, TUI, 开源, 教程
-- **描述**：全面解读 DeepSeek TUI——基于 Rust 的终端原生编码 Agent，专为 DeepSeek V4 的 1M 上下文设计。单二进制分发、Ratatui UI、三模式交互、MCP 协议支持。
-
-> 项目地址：[github.com/Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | 2.9K Stars | MIT 协议
->
-> 项目作者：Hmbown（非 DeepSeek 官方项目）
-
-
-
-**DeepSeek TUI** 是一个终端原生的 AI 编码 Agent，专门为 **DeepSeek V4 大模型** 构建。与其说它是一个聊天界面，不如说它是一个**全功能的终端开发环境**——内置文件操作、Shell 执行、Git 管理、LSP 诊断、MCP 协议支持等一系列开发工具。
-
-官方描述：*"A terminal-native coding agent built around DeepSeek V4's 1M-token context and prefix cache."*
-
-> 核心特色：以**单个 Rust 二进制文件**分发，无需安装 Node.js、Python 等运行时，下载即用。
-
-
-
-| 特性 | 说明 |
-|---|---|
-| **纯 Rust 实现** | 单二进制分发，无需 Node.js/Python 运行时 |
-| **1M Token 上下文** | 专为 DeepSeek V4 的超长上下文设计 |
-| **三模式交互** | Plan（只读）→ Agent（审批）→ YOLO（自动），渐进式授权 |
-| **Ratatui UI** | 基于 Rust Ratatui 框架的终端界面，DeepSeek 蓝色主题 |
-| **MCP 协议支持** | 兼容 Model Context Protocol 生态 |
-| **LSP 原生集成** | rust-analyzer、pyright、typescript-language-server 等 |
-| **会话管理** | 保存/恢复、Checkpoint、工作区回滚 |
-| **技能系统** | SKILL.md 可发现安装，支持 GitHub 仓库安装 |
-| **超低价格** | 缓存命中低至 $0.0036/百万 token |
-
----
-
-
-
-
-
-DeepSeek TUI 采用"**分派器 → TUI → 引擎 → 工具**"的四层架构：
-
-```text
-deepseek (CLI 分派器)
-    └── deepseek-tui (TUI 进程)
-            └── 异步引擎 (Agent 循环)
-                    ├── LLM 流式客户端
-                    ├── 工具注册表
-                    │   ├── 文件操作
-                    │   ├── Shell 执行
-                    │   ├── Git 管理
-                    │   ├── MCP 客户端
-                    │   └── RLM 子代理
-                    └── 会话管理器
-```
-
-- **`deepseek`**：轻量级 CLI 分派器，负责参数解析和进程管理
-- **`deepseek-tui`**：实际的 TUI 进程，使用 Ratatui 框架渲染界面
-- **引擎**：异步 Agent 循环，处理用户输入 → LLM 调用 → 工具调用 → 结果返回的完整链路
-- 两个二进制文件
-
-... [阅读全文](https://idao.fun/blog/deepseek-tui-coding-agent/)
-
----
-### [OpenStock 深度解析：开源股票市场追踪平台](https://idao.fun/blog/openstock-stock-market-platform/)
-
-- **发布日期**：2026-05-04
-- **分类**：AI应用
-- **标签**：股票, 开源, Next.js, TypeScript, React, 金融, 教程, OpenStock
-- **描述**：全面解读 Open Dev Society 打造的开源股票追踪平台——Next.js 15 + React 19 + TypeScript，实时行情、智能监控、AI 日报，完全免费的开源替代方案。
-
-> 项目地址：[github.com/Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | 11.2K Stars | AGPL-3.0 协议
->
-> 在线体验：[openstock-ods.vercel.app](https://openstock-ods.vercel.app)
-
-
-
-**OpenStock** 是一个开源的股票市场追踪平台，由 **Open Dev Society** 社区维护，定位为**付费股票工具的免费开源替代品**。
-
-它提供实时行情追踪、自定义监控、公司基本面分析等功能——而且完全免费。
-
-> 核心理念："技术应该属于每个人。"
-
-
-
-| 特性 | 说明 |
-|---|---|
-| **开源免费** | AGPL-3.0 协议，代码完全开放 |
-| **实时行情** | 集成 Finnhub API + TradingView 图表 |
-| **智能监控** | 自选股监控、签到提醒 |
-| **AI 日报** | 每日邮件推送，基于 Gemini 生成摘要 |
-| **个性签到** | 首次注册 AI 生成欢迎邮件 |
-| **市场概览** | 热力图、报价、头条新闻 |
-| **全局搜索** | Cmd+K 命令面板，快速查找股票 |
-| **技术栈** | Next.js 15 + React 19 + TypeScript + MongoDB |
-
----
-
-
-
-| 层级 | 技术选型 |
-|---|---|
-| **框架** | Next.js 15（App Router） |
-| **UI 库** | React 19 |
-| **语言** | TypeScript（91.7%） |
-| **样式** | Tailwind CSS v4 + shadcn/ui + Radix UI |
-| **图标** | Lucide |
-| **数据库** | MongoDB + Mongoose |
-| **认证** | Better Auth（邮箱/密码 + MongoDB 适配器） |
-| **行情数据** | Finnhub API |
-| **图表** | TradingView 嵌入式组件 |
-| **后台任务** | Inngest（cron + AI 推理） |
-| **AI** | Google Gemini API（欢迎邮件 + 日报摘要） |
-| **邮件** | Nodemailer（Gmail） |
-| **容器** | Docker + docker-compose |
-
----
-
-
-
-
-
-- 邮箱/密码注册和登录（Better Auth）
-- 受保护路由通过 Next.js 中间件实现
-- 签到页面收集用户信息：国家、投资目标、风险承受能力、偏好行业
-
-
-
-- `Cmd+K` / `Ctrl+K` 唤起命令面板
-- 基于 Finnhub 的股票搜索
-- 空闲时显示热门股票推荐
-- 支持防抖查询
-
-
-
-- 每个用户可以创建自选股列表
-- 数据存储在 MongoDB（每个用户每只股票唯一）
-- 支持添加和移除
-
-
-
-每只股票提供完整的交易视图：
-
-- **TradingView 组件**：实时报价、K 线图、基线指标、技术指标
-- **公司信息**：公司简介、财务数据
-- **情绪分析**（可选）：通过 Adanos 整合 Reddit、X（Twitter）、新闻、Polymarket 的跨源
-
-... [阅读全文](https://idao.fun/blog/openstock-stock-market-platform/)
-
----
-### [Claude Code 进阶：32 个精选 Skills + 8 个 MCP 服务器实测指南](https://idao.fun/blog/claude-code-skills-mcp-guide/)
-
-- **发布日期**：2026-05-02
-- **分类**：AI应用
-- **标签**：Claude, Claude Code, Skills, MCP, AI, 开发工具, 教程
-- **描述**：别再裸用 Claude Code 了！一篇讲透 Skills 与 MCP 的核心区别，亲测可用的一键安装命令和配置方案，让你的 AI 编程助手从补代码升级为全流程开发搭档。
-
-你是不是也有这样的困扰：
-
-- 用 Claude Code 写代码，总觉得它不够懂需求，生成的内容还要反复修改
-- 想让它做个 Dashboard / 落地页，结果生成的界面丑到没法直接用
-- 想让它读写本地文件、操作浏览器、联动设计工具，却完全不知道怎么配置
-- 会话一清空，之前的调试经验、项目细节全忘了，每次都要重新铺垫上下文
-
-这篇文章整理了 **32 个精选 Skills + 8 个 MCP 服务器**，全部分享给你。一键安装、自动触发，让你的 Claude Code 从「只会补代码的助手」，变成「能帮你搞定全流程的开发搭档」。
-
----
-
-
-
-很多新手刚上手会搞混这两个扩展能力，先一句话讲透：
-
-- **Skills**：封装好的提示词 / 标准化工作流，让 Claude 变成特定领域的「专业人士」，本质是让 AI **更懂怎么干**
-- **MCP 服务器**：真正的工具能力，能让 Claude 访问本地文件、浏览器、外部 API、第三方工具，本质是让 AI **真的能去干**
-
-> 绝大多数能力都会**自动触发**，你不需要手动调用。当你说「帮我写个 README」「审查一下这段代码」时，Claude Code 会自动激活对应的能力。
-
-
-
-| 对比维度 | Skills 技能 | MCP 服务器 |
-|---|---|---|
-| 核心本质 | 提示词 / 标准化工作流封装 | 本地运行的工具 / API 服务 |
-| 安装方式 | `npx skills add` 一键安装 | 修改 `mcp.json` 配置文件 |
-| 运行位置 | Claude 大模型内部 | 本地独立进程 |
-| 访问外部资源 | 不支持 | 支持本地系统、浏览器、第三方服务 |
-| 额外依赖 | 仅需 node 环境，无需 API Key | 部分服务需要 API Key |
-
-**一句话总结：Skills 让 Claude 更聪明，MCP 让 Claude 更能干，两者搭配使用才能把能力拉满。**
-
----
-
-
-
-技能是 Claude Code 最轻量化的扩展方式，通过 Skills CLI 即可一键安装，类似前端常用的 npm 包管理器。
-
-
-
-
-
-```bash
-
-npx skills find <关键词>
-
-
-npx skills add <owner/repo@skill> -y -g
-
-
-npx skills list -g
-
-
-npx skills check
-
-
-npx skills update
-```
-
-> 关键提醒：安装技能**必须加 `-g` 全局安装参数**，否则 Claude Code 无法识别；安装完成后**必须重启 Claude Code** 才能生效。
-
-
-
-所有社区开源技能均可在官方市场查看：[skills.sh](https://skills.sh/)，有完整的安装量排行榜，帮你快速筛选热门优质技能。
-
-
-
-```bash
-
-ls ~/.claude/skills/
-ls ~/.agents/skills/
-
-
-dir C:\Users\你的用户名\.claude\skills\
-```
-
-Claude Code 内直接输入 `/` 即可唤起完整技能列表，点击即可手动触发。
-
----
-
-
-
-所有技能按开发场景分类，标注安装命令、核心能力和触发场景。
-
-
-
-**find-skills — 技能发现神器**
-- 安装：`npx skills add find-skills -y -g`
-- 能力：技能市场的内置搜索引擎
-
-... [阅读全文](https://idao.fun/blog/claude-code-skills-mcp-guide/)
-
----
-### [Hermes Agent 深度解析：129K Stars 的开源自进化 AI Agent](https://idao.fun/blog/hermes-agent-deep-dive/)
-
-- **发布日期**：2026-05-02
-- **分类**：AI应用
-- **标签**：AI, Agent, Hermes, Nous Research, 开源, Python, 教程
-- **描述**：全面解读 Nous Research 打造的开源 AI Agent —— 闭环学习、多平台支持、终端 UI、模型无关架构，深度拆解其核心设计理念与实战用法。
-
-> 项目地址：[github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 129K Stars | MIT 协议
-
-
-
-**Hermes Agent** 是由 **Nous Research** 打造的开源、自进化 AI Agent。它的核心理念很简单：**这个代理会随着你的使用而成长**。
-
-传统 AI Agent 每次对话都是独立的，用完就忘。Hermes 不一样——它有一个内置的**闭环学习机制**：
-
-- 从每次交互中提取经验，自动生成技能
-- 技能在使用过程中自我改进
-- 跨会话构建用户模型，越用越懂你
-
-> 项目标语："The agent that grows with you"（与你一同成长的代理）
-
-
-
-| 特性 | 说明 |
-|---|---|
-| **闭环学习** | 自主创建技能，自动改进，跨会话记忆 |
-| **多平台** | 一套后端同时支持 Telegram、Discord、Slack、WhatsApp、Signal、CLI |
-| **终端 UI** | 完整 TUI 界面，多行编辑、斜杠命令自动补全、流式工具输出 |
-| **模型无关** | 支持 Nous Portal、OpenRouter（200+ 模型）、NVIDIA NIM、OpenAI、Hugging Face 等 |
-| **定时任务** | 内置 cron 调度器，支持日报、备份、审计等自动化 |
-| **子代理** | 启动隔离子代理执行并行任务，通过 RPC 调用工具 |
-| **6 种后端** | Local、Docker、SSH、Daytona、Singularity、Modal |
-
----
-
-
-
-
-
-这是 Hermes 最核心的差异化能力。传统 Agent 的"学习"通常只是把对话历史存下来下次当上下文用，Hermes 则完全不同：
-
-1. **经验提炼**：完成复杂任务后，Agent 会自动回顾执行过程，提取可复用的模式
-2. **技能生成**：把提炼出的经验封装为可调用的技能文件
-3. **技能进化**：技能在使用过程中持续被评估和改进，而非一成不变
-4. **用户建模**：跨会话积累对用户偏好、工作风格的理解
-
-这意味着你使用 Hermes 的时间越长，它对你的了解越深，自动化程度越高。
-
-
-
-Hermes 采用**单一网关**架构，所有平台共享同一个 Agent 后端：
-
-```text
-Telegram ─┐
-Discord  ─┤
-Slack    ─┼── Gateway ── Agent Core
-WhatsApp ─┤
-Signal   ─┤
-CLI/TUI ─┘
-```
-
-在任何平台上的交互都会被记录到同一个记忆系统和技能库中，无缝切换。
-
-
-
-通过 `hermes model` 命令，可以在不修改任何代码的情况下切换底层模型：
-
-```bash
-hermes model openrouter:anthropic/claude-sonnet-4-20250514
-hermes model nousresearch:hermes-4
-hermes model openai:gpt-4o
-hermes model nvidia:llama-3.1-405b-instruct
-```
-
-支持 200+ 模型提供商，真正的"无锁定"架构。
-
----
-
-
-
-
-
-- Linux、macOS、WSL2（Windows 用
-
-... [阅读全文](https://idao.fun/blog/hermes-agent-deep-dive/)
-
----
-### [OpenClaw 深度解析：367K Stars 的开源个人 AI 助手](https://idao.fun/blog/openclaw-ai-assistant-deep-dive/)
-
-- **发布日期**：2026-05-02
-- **分类**：AI应用
-- **标签**：AI, Agent, OpenClaw, 开源, TypeScript, 工具, 教程
-- **描述**：全面解读 OpenClaw——自托管、本地优先的个人 AI 助手。支持 20+ 消息平台、多 Agent 路由、语音交互、Live Canvas，完全掌控你的 AI 数据。
-
-> 项目地址：[github.com/openclaw/openclaw](https://github.com/openclaw/openclaw) | 367K Stars | MIT 协议
-
-
-
-**OpenClaw** 是一个**自托管、本地优先的个人 AI 助手**——运行在你自己的设备上，数据不出门，在任何消息平台都能用。
-
-官方标语：*"Your own personal AI assistant. Any OS. Any Platform. The lobster way."*
-
-它由 **Peter Steinberger（steipete）** 为 **Molty**（一只太空龙虾 AI 助手）创建，现已成为 GitHub 上最受欢迎的 AI 开源项目之一。
-
-> 核心理念：它在**你已经使用的消息平台上**与你交流，而不是强迫你打开一个新的应用。
-
-
-
-| 特性 | 说明 |
-|---|---|
-| **自托管** | 运行在你自己的设备或服务器上，数据完全由你掌控 |
-| **20+ 消息平台** | WhatsApp、Telegram、Discord、微信、QQ、iMessage 等全覆盖 |
-| **多 Agent 路由** | 不同渠道/账号可路由到独立的 Agent，每个 Agent 拥有隔离会话 |
-| **Local-first** | 本地优先架构，网关是所有会话、渠道、工具和事件的单一控制平面 |
-| **Live Canvas** | 浏览器内的可视化工作空间，支持实时协作 |
-| **语音唤醒 + 对话** | macOS/iOS 语音唤醒，Android 连续语音对话 |
-| **Companion App** | iOS 和 Android 节点应用，通过 WebSocket 配对连接 |
-| **367K Stars** | GitHub 社区热度极高 |
-
----
-
-
-
-
-
-```
-消息平台 ─┐
-WhatsApp ─┤
-Telegram ─┤
-Discord  ─┼── OpenClaw Gateway ── Agent ── LLM
-微信 ─────┤                        │
-QQ ───────┤                    ┌───┴───┐
-iMessage ─┘                Tools  Skills  Canvas
-```
-
-**Gateway（网关）**是 OpenClaw 的核心——它是会话、渠道、工具和事件的单一控制平面。所有消息从各平台进入网关，由网关路由到对应的 Agent，Agent 调用工具和技能来完成任务。
-
-
-
-OpenClaw 支持**多 Agent 架构**——你可以为不同的消息渠道、账号或联系人配置不同的 Agent：
-
-- 每个 Agent 有独立的会话空间
-- 每个 Agent 可以配置不同的模型
-- 每个 Agent 可以设定不同的个性（通过 SOUL.md）
-- Agent 之间的资源完全隔离
-
-这意味着你可以让工作用的 Telegram 账号使用一个 Agent，个人 WhatsApp 使用另一个，各有各的记忆和配置。
-
-
-
-非主会话支持三种沙箱后端，提供安全隔离：
-
-| 沙箱 | 适用场景 |
-|---|---|
-| **Docker**（默认） | 标准化容器隔离 |
-| **SSH** | 远程执行 |
-| **OpenShell** | 轻量级沙箱 |
-
-通过 `sandbox.mode
-
-... [阅读全文](https://idao.fun/blog/openclaw-ai-assistant-deep-dive/)
-
----
-### [OpenCode 深度解析：153K Stars 的开源 AI 编码 Agent](https://idao.fun/blog/opencode-ai-coding-agent-deep-dive/)
-
-- **发布日期**：2026-05-02
-- **分类**：AI应用
-- **标签**：AI, Agent, OpenCode, 编程工具, 开源, TypeScript, 教程
-- **描述**：全面解读 anomalyco 打造的开源 AI 编码助手——终端 TUI、双 Agent 架构（build/plan）、LSP 原生支持、模型无关、客户端/服务器分离设计。
-
-> 项目地址：[github.com/anomalyco/opencode](https://github.com/anomalyco/opencode) | 153K Stars | MIT 协议
-
-
-
-**OpenCode** 是由 **anomalyco**开发的开源 AI 编码 Agent。它运行在终端中，提供完整的 TUI（终端 UI）体验。
-
-核心定位很简单：**一个完全开源、不锁定任何模型供应商的 AI 编程助手**。
-
-官方标语：*"The open source AI coding agent."*
-
-> 项目最初由 Neovim 用户构建，因此对终端体验有极致追求。
-
-
-
-| 特性                        | 说明                                                |
-| --------------------------- | --------------------------------------------------- |
-| **双 Agent 架构**     | build（全权限开发）+ plan（只读分析），Tab 一键切换 |
-| **模型无关**          | 支持 Claude、OpenAI、Google、本地模型，不锁定供应商 |
-| **LSP 原生支持**      | 开箱即用的语言服务器协议支持                        |
-| **TUI 体验**          | 极致的终端 UI，支持多行编辑、斜杠命令、流式输出     |
-| **客户端/服务器架构** | 前端只是客户端，可从手机 App 远程驱动               |
-| **桌面 App（Beta）**  | 提供 macOS/Windows/Linux 桌面客户端                 |
-| **153K Stars**        | GitHub 社区热度极高                                 |
-
----
-
-
-
-OpenCode 内置了两个独立的 Agent，通过 `Tab` 键即可在对话中即时切换。
-
-
-
-默认 Agent，拥有完整的系统操作权限：
-
-- 读写文件、创建 / 修改 / 删除
-- 执行 Shell 命令
-- 运行测试、构建、部署
-- 安装依赖、配置环境
-- 完整的代码修改和执行链路
-
-适合日常开发、功能实现、调试修复等场景。
-
-
-
-只读模式的 Agent，专为探索和分析设计：
-
-- 阅读代码、搜索文件、理解架构
-- **拒绝文件写入操作**
-- 执行 Bash 命令前**征求用户许可**
-- 适合在修改代码前先理解项目的结构
-
-适合浏览不熟悉的代码库、做修改前的架构分析、审查代码。
-
-> 两个 Agent 共享同一个对话上下文。你可以先用 Plan 分析完代码结构和影响范围，再切到 Build 执行修改——一个非常流畅的"先分析后执行"工作流。
-
----
-
-
-
-OpenCode 的核心理念之一：**不被任何模型供应商锁定**。
-
-你可以在任意时刻切换底层模型，无需修改任何配置：
-
-```bash
-
-opencode --model claude-sonnet-4-20250514
-
-
-opencode --model gpt-4o
-
-
-opencode --model gemini-2.5-pro
-
-
-opencode --model ollama:
-
-... [阅读全文](https://idao.fun/blog/opencode-ai-coding-agent-deep-dive/)
-
----
-### [Claude Desktop 接入第三方 API 完整教程（Windows 实测）](https://idao.fun/blog/claude-desktop-third-party-api/)
-
-- **发布日期**：2026-05-01
-- **分类**：AI应用
-- **标签**：Claude, API, 教程, 工具, AI
-- **描述**：无需 Claude 官方订阅：只需几步配置，让 Claude Desktop 走你自己的 API，畅享 Cowork、Projects、Artifacts 等桌面端能力。
-
-这个功能可以把 **Claude Desktop 变成你自己的第三方 API 桌面客户端**。配置完成后，模型调用走你填的第三方 API，不再消耗 Claude 官方订阅额度（但会消耗第三方 API 的额度或余额）。
-
-适合想用 **Cowork、Projects、Artifacts** 等 Claude Desktop 专属能力，同时又希望接入自己 API 服务的用户。
-
-> ⚠️ 注意：第三方模式不是"完整网页版 Claude"的替代品。官方普通 Chat 标签在此模式下不可用，主要使用的是 **Cowork / Code / Projects / Artifacts** 这些能力。
-
----
-
-
-
-配置前必须确认以下几点：
-
-- **使用最新版 Claude Desktop**：低版本可能没有开发者模式或第三方推理配置入口。
-- **先不要登录 Claude 官方账号**：建议保持未登录状态。如果已经登录，先退出再配置。
-- **使用支持 Anthropic-compatible 的 API**：单纯 OpenAI-compatible 的接口不一定能用。
-- **Base URL 必须是 HTTPS**：对应服务需要支持 Anthropic Messages API（能处理 `/v1/messages` 请求）。
-- **注意隐私风险**：你的提示词、文件内容、项目上下文会经过第三方 API 服务。不要把敏感资料交给不可信的中转站。
-
-> 本教程以 Windows 为例，截图也是 Windows 环境下的界面。
-
----
-
-
-
-打开 Claude Desktop，**先不要登录官方账号**。
-
-在顶部菜单栏选择 **Help（帮助） → Troubleshooting（疑难解答）**。
-
-在弹出的子菜单里点击 **Enable Developer Mode（启用开发者模式）**。
-
-> 如果当前界面不好直接点菜单，可以按键盘 `Tab` 切到左上角菜单区域，再按回车打开菜单。
-
-启用成功后，顶部菜单栏会多出一个 **Developer（开发者）** 菜单。
-
----
-
-
-
-1. 点击新出现的 **Developer** 菜单。
-2. 选择 **Configure Third-Party Inference…（配置第三方推理…）**。
-
----
-
-
-
-打开配置窗口后，按下面方式逐项设置：
-
-| 配置项 | 操作 |
-|---|---|
-| **Use this configuration** | 打开开关（必须开启） |
-| **Gateway** | 选择 `Anthropic-compatible` |
-| **Gateway base URL** | 粘贴你的第三方 API Base URL（`https://` 开头） |
-| **Gateway API key** | 粘贴你的 API Key（中转站后台复制的那串密钥） |
-| **Gateway auth scheme** | 保持默认即可 |
-| **Gateway extra headers** | 一般留空，除非服务商明确要求额外请求头 |
-
-设置完后，点击右下角 **Apply locally（本地应用）**。
-
----
-
-
-
-1. 配置完成后，Claude Desktop 可能会提示重启。如果没有提示，也建议**手动完全退出**后重新打开。
-2. 重新打开后，进入 **Cowork、Code 或 Projects** 相关页面。
-3. 输入一个简单问题测试。
-
-如果模
-
-... [阅读全文](https://idao.fun/blog/claude-desktop-third-party-api/)
-
----
-### [开源AI Agent框架对比与实战：搭建你的第一个智能助手](https://idao.fun/blog/open-source-agent-framework/)
-
-- **发布日期**：2026-04-25
-- **更新日期**：2026-04-26
-- **分类**：AI应用
-- **标签**：AI, Agent, 开源, Python
-- **描述**：对比LangChain、AutoGPT、CrewAI等主流AI Agent框架，并通过实战项目演示如何搭建一个能自动处理任务的智能助手
-
-AI Agent（智能代理）是指能够自主感知环境、制定计划并执行任务的 AI 系统。与普通的 LLM 调用不同，Agent 可以：
-
-- 拆解复杂任务为子步骤
-- 调用外部工具（搜索、计算、API）
-- 记忆上下文和中间结果
-- 自我修正和迭代
-
-
-
-
-
-最成熟的 Agent 框架，生态丰富。
-
-```python
-from langchain.agents import create_react_agent
-from langchain.tools import tool
-
-@tool
-def search(query: str) -> str:
-    """搜索互联网"""
-    return search_api(query)
-
-agent = create_react_agent(llm, tools=[search])
-```
-
-
-
-专注于多 Agent 协作。
-
-```python
-from crewai import Agent, Task, Crew
-
-researcher = Agent(role="研究员", goal="收集信息")
-writer = Agent(role="写手", goal="撰写报告")
-
-task = Task(description="研究AI趋势", agent=researcher)
-crew = Crew(agents=[researcher, writer], tasks=[task])
-```
-
-
-
-最早出圈的自主 Agent，适合长期运行的自动化任务。
-
-
-
-这个 Agent 会每天早上自动抓取 Hacker News 热门，整理成简报发送到邮箱。
-
-
-
-AI Agent 是 2026 年最值得关注的技术方向之一。选择合适的框架，结合具体业务场景，可以大幅提升自动化水平。
-
-> 原创技术博客 · 开源项目分享 · AI全栈创作社区  [idao.fun](https://idao.fun)
-
-... [阅读全文](https://idao.fun/blog/open-source-agent-framework/)
-
----
-### [2026年开发者必备AI精选测评](https://idao.fun/blog/ai-tools-guide-2026/)
-
-- **发布日期**：2026-04-22
-- **分类**：AI应用
-- **标签**：AI, 开发工具, 效率
-- **描述**：实测2026年最值得关注的AI编程助手、自动化工具和工作流，帮你提升开发效率，减少重复劳动
-
-2026年，AI 已经从"能用"发展到"好用"。对于全栈开发者来说，合理使用 AI 工具可以将日常开发效率提升 2-3 倍。
-
-
-
-
-
-Cursor 是目前最受欢迎的 AI 原生 IDE，它基于 VS Code 内核，深度集成了 AI 能力。
-
-**核心功能**：
-- Tab 补全：预测你的下一步操作
-- 内联编辑：直接在代码中修改
-- 对话式编程：用自然语言描述需求
-
-
-
-作为 AI 编程助手，大语言模型已经能够处理复杂的编程任务。
-
-
-
-使用 n8n、Zapier 等工具，结合 AI 能力，可以构建强大的自动化工作流。
-
-
-
-目前我日常使用的 AI 工作流：
-
-1. **代码生成**：使用 Cursor 的 AI 功能生成样板代码
-2. **代码审查**：提交 PR 前用 AI 做一轮自动化审查
-3. **文档生成**：自动生成 API 文档和变更日志
-4. **测试编写**：AI 辅助生成单元测试和集成测试
-
-
-
-虽然 AI 工具很强大，但开发者仍需保持批判性思维：
-
-- AI 生成的代码务必 review
-- 不要盲信 AI 的建议
-- 理解原理比复制代码更重要
-
-> 原创技术博客 · 开源项目分享 · AI全栈创作社区  [idao.fun](https://idao.fun)
-
-... [阅读全文](https://idao.fun/blog/ai-tools-guide-2026/)
-
-### AI工具与基础设施
-
----
-### [CodeGraph：当 AI 编码代理拥有预建的知识图谱](https://idao.fun/blog/2026-05-27-codegraph-pre-indexed-code-intelligence/)
-
-- **发布日期**：2026-05-27
-- **分类**：AI工具与基础设施
-- **标签**：CodeGraph, MCP, 代码智能, AI编码代理, tree-sitter, 静态分析, 语义搜索
-- **描述**：一个 21K+ star 的开源项目，用 tree-sitter + SQLite 为 AI 编码代理预索引代码语义图，平均减少 71% 的工具调用和 35% 的成本。拆解其架构选择、基准数据和工程取舍。
-
-2025 年中到 2026 年，AI 编码代理经历了从"聊天助手"到"自主工程师"的转变。Claude Code、Cursor、Codex CLI、OpenCode、Hermes Agent——这些工具不再只是补全代码，而是能自己探索代码库、理解架构、定位 bug、执行修复。
-
-但有一个问题一直没解决好：**探索成本**。
-
-当一个代理第一次面对一个陌生代码库，它要做的事和人类工程师差不多——翻目录、搜关键词、读文件、追踪调用链。区别在于，人类翻几页就知道该往哪走，而代理要一个个调用 grep、glob、Read 工具，每次调用都是 token 消耗和延迟。在 VS Code 这样近万文件的仓库里，一个架构问题可能触发几十次工具调用，烧掉几百万 token，换来一两分钟的等待。
-
-2026 年初，一个叫 CodeGraph 的开源项目开始解决这个问题。思路很直接：**把探索工作前置**。
-
-在代理开始工作之前，先对整个代码库做一次完整的语义索引，存成知识图谱。代理问"这个函数被谁调用"的时候，不需要 grep，不需要读文件，直接从索引里拿答案。一个工具调用就够了。
-
-这个项目今天在 GitHub 上有 21K+ star，被 Claude Code、Cursor、OpenCode、Hermes Agent 等主流编码代理的原生 MCP 生态支持。这篇文章从技术角度拆一下：它做了什么、怎么做的、哪些设计决策值得关注。
-
----
-
-
-
-先看一个典型的场景。
-
-你在 Claude Code 里问："这个项目的认证流程怎么工作的？"
-
-没有 CodeGraph 的代理会这样做：
-
-1. 用 grep 搜索 "login"、"auth"、"token" 等关键词
-2. 发现了一堆匹配文件
-3. 逐个读这些文件
-4. 发现了更多不认识的函数
-5. 再 grep 那些函数名
-6. 再读更多文件
-7. 如此循环直到拼出完整图景
-
-这不是猜测，来自 CodeGraph 自己的基准测试。在不使用 CodeGraph 的情况下，Claude Code 回答 Excalidraw 代码库的一个架构问题，平均触发了 **79 次工具调用**，处理了 **350 万 token**，耗时 **3 分钟**。同样的任务，使用 CodeGraph 索引后：**3 次工具调用**，**34.4 万 token**，**48 秒**。
-
-差距不是一点点，是 26 倍的工具调用差距。
-
-核心问题在于，AI 代理当前探索代码的方式，本质上是在"盲搜"。它不知道函数之间怎么连接，不知道调用链怎么走，不知道某个更改会影响哪些模块。它必须通过大量读写操作，在上下文中逐步拼出这个图景。每次 Read 都是一次猜测，而大部分的猜测不命中目标。
-
-CodeGraph 的解法是：**在代理开始工作之前，先把地图画好**。
-
----
-
-
-
-CodeGraph 的架构可以拆成三层理解。
-
-
-
-代码库的原始信息是文本文件，但文本对机器来说是扁平无结构的。CodeGraph 用 tree-sitter 把每个源文件解析成 AST（抽象语法树），然后跑语言特定的查询模式来提取两类东西：
-
-**节点（Nodes）**——函数、类、方法、类型定义、路由、组件等。每个节点记录名称、位置、源码范围、文档注释。
-
-**边（Edges）**——调用关系、导入依赖、继承、实现、引用，以及框架特定的连接（比如 Django URL 模式到视图函数，NestJS 控制器到 HTTP 方法处理函数）。
-
-截止写这篇文章时，Cod
-
-... [阅读全文](https://idao.fun/blog/2026-05-27-codegraph-pre-indexed-code-intelligence/)
-
----
-### [ECC：193K star 的 AI 编码代理调优系统，一个人撑起了一个生态](https://idao.fun/blog/2026-05-27-everything-claude-code-agent-harness-system/)
-
-- **发布日期**：2026-05-27
-- **分类**：AI工具与基础设施
-- **标签**：ECC, everything-claude-code, Claude Code, Agent Harness, AI 代理, 代理调优, AgentShield
-- **描述**：前身是 everything-claude-code。一个生于 Anthropic 黑客松的项目，10 个月后成长为 193K star、246 个技能、61 个代理、支持 8+ 平台的 AI 代理调优系统。拆解它的技能系统、跨平台架构、安全体系和 Rust 控制面。
-
-2026 年 5 月底，GitHub Trending 上出现了一个惊人的数字：一个叫 ECC 的项目在短时间内积累了 193K+ star。
-
-它的前身是 "everything-claude-code"，一开始是一个 Claude Code 配置和技能的集合。不到一年时间，它变成了一个完整的"代理 harness 调优系统"——61 个代理、246 个技能、76 个传统命令 shim、支持 8 个以上的 AI 编码代理平台、一个 Rust 控制面原型、一个安全扫描工具、一个 GitHub App，全部由一个人主导维护。
-
-这篇文章不是为了鼓吹数字。而是想拆解：**一个单维护者的开源项目，凭什么能在一个细分领域长到这个规模。**
-
----
-
-
-
-ECC 的全称是 "Everything Claude Code"（仍然保留了这个缩写，但项目范围早已超出 Claude Code）。
-
-它的官方定位是：
-
-> *The agent harness performance optimization system.*
-
-拆开看：
-
-- **Harness** —— 这个术语指的是 AI 编码代理的运行环境（Claude Code、Cursor、Codex、OpenCode、Gemini CLI 等都是不同的 harness）。
-- **Performance optimization** —— 不是优化代码执行速度，而是优化"代理的运行效率"：token 使用、上下文管理、技能调用、安全策略、记忆持久化。
-- **System** —— 不是单个配置或脚本，是一整套：技能 + 代理 + hooks + 规则 + MCP 配置 + 安全扫描 + 评估框架。
-
-打个不准确的比方：如果说 CodeGraph 是给代理装了一个更好的导航地图，Understand Anything 是给人装了一个观景台，那 ECC 更像是给整个"代理操作系统"做的一套调优工具包——从内核配置到用户态工具都覆盖。
-
-项目的自我描述里有一句很诚实的话：
-
-> *Not just configs. A complete system: skills, instincts, memory optimization, continuous learning, security scanning, and research-first development.*
-
-"Not just configs" 这个否定很重要——因为项目早期确实经常被误解为一个配置文件合集而已。
-
----
-
-
-
-ECC 来自 2025 年的一场 Anthropic 黑客松。一个人——Affaan Mustafa——用 Claude Code 写了最初的版本，核心是一个简单的想法：把生产环境中跑 Claude Code 的经验和模式整理成可复用的技能和配置。
-
-项目在 GitHub 上发布后，增长曲线很不寻常：
-
-- 2025 年底：达到 100K+ star
-- 2026 年 2 月（v1.6.0）：引入 AgentShield 集成、Codex CLI 支持、GitHub Marketplace 发布
-- 2026 年 3 月（v1.8.0）：重构为"harness performance system"的定位，引入 hook 运行时控制
-- 2026 年 3 月（v1.9.0）：选择性安装架构、6 个新代理、SQLite 状态存储
-- 2026 年 4 月（v2.0.0-rc.1）：Dashboard GUI、R
-
-... [阅读全文](https://idao.fun/blog/2026-05-27-everything-claude-code-agent-harness-system/)
-
----
-### [Understand Anything：一个 33K star 的开源项目，把「读代码」变成了「看地图」](https://idao.fun/blog/2026-05-27-understand-anything-code-knowledge-graph/)
-
-- **发布日期**：2026-05-27
-- **分类**：AI工具与基础设施
-- **标签**：Understand Anything, 知识图谱, 代码理解, Claude Code 插件, LLM, tree-sitter, 开发者工具
-- **描述**：用 LLM + tree-sitter 的混合架构，把任何代码库转成交互式知识图谱。自动生成架构导览、业务域映射、差异影响分析——不是给代理看的索引，是给人看的图谱。
-
-几个月前我写过一篇关于 CodeGraph 的文章，它用 tree-sitter + SQLite 给 AI 编码代理预建了一个可查询的语义索引。
-
-但如果你注意到那篇文章里读到的用例——"怎么降低代理的探索成本""某个函数被谁调了""改这个会影响什么"——会发现这些问题的提问者始终是 **AI 代理**，不是人。
-
-有个问题藏在这个叙事里：**代理理解代码之后，人的理解怎么办？**
-
-当团队新人面对一个 20 万行的代码库，他需要的不是"给我这个函数的调用链"，而是"这个项目到底是干什么的""各模块怎么组织的""我先读什么再读什么"。这些问题，纯结构化的代码索引回答不了。
-
-今天要拆的项目——Understand Anything——切入的就是这个缝隙。
-
-它的 README 里有一句话很有代表性，也成了它的 GitHub 话题标签：
-
-> *"Graphs that teach > graphs that impress."*
-
-不追求图谱看起来多炫，追求图谱能教会你东西。
-
-这篇文章从技术角度拆一下这个 33K+ star 的项目。
-
----
-
-
-
-先澄清一个容易混淆的点。
-
-在 AI 编码代理生态里，目前有两类"代码知识图谱"工具，看起来相似，目标用户完全不同：
-
-- **CodeGraph** 是给代理用的。暴露 MCP 工具让代理直接查询，目的是省 token、省时间、省工具调用。
-- **Understand Anything** 是给人用的。生成可视化图谱加自然语言解释，目的是帮人理解架构、加速上手、支持决策。
-
-理解这个定位差异，后面的设计选择就都能串起来了。
-
-Understand Anything 把自己定位为一个 **Claude Code 插件**，而不是一个 MCP 服务器。安装方式也体现了这一点：
-
-```
-/plugin marketplace add Lum1104/Understand-Anything
-/plugin install understand-anything
-/understand
-```
-
-它不是代理在后台默默调用的基础设施，而是开发者主动触发的分析工具。
-
----
-
-
-
-项目的核心洞察是：**纯静态分析能提取"结构"，但提取不了"意图"**。
-
-一段代码的结构信息——定义了什么函数、导入了哪些模块、调用了什么接口——tree-sitter 可以确定性地解析出来。但"这段代码是做什么用的"、"它为什么存在"、"它跟业务逻辑怎么对应"，代码本身不直接回答这些问题。
-
-Understand Anything 的方案是两层：
-
-
-
-跟大部分代码分析工具一样，底层用 tree-sitter 把源文件解析成 AST。这层是纯确定性的——同样的输入永远得到同样的输出。提取的内容包括：
-
-- 导入/导出关系
-- 函数和类定义
-- 调用点
-- 继承关系
-- 文件指纹（用于增量变更检测）
-
-一个值得注意的实现细节：在扫描阶段，tree-sitter 会预先解析出一个 `importMap`（整个项目的导入依赖图），在后续的分析中直接传递给各 agent，避免每个 agent 各自重新推导。
-
-
-
-tree-sitter 做不了的事交给 LLM：读取解析后的结构信息加原始源代码，为每个节点生成：
-
-- **自然语言摘要**——"这个模块处理用户认证，包含登录/注册/密码重置功能"
-- **标签**——如 `auth`、`middleware`、`data-access`
-- **架构层归属**——API/Serv
-
-... [阅读全文](https://idao.fun/blog/2026-05-27-understand-anything-code-knowledge-graph/)
-
-### 芯片与半导体
-
----
-### [从摩尔定律到韬定律：半导体产业六十年的范式转移](https://idao.fun/blog/2026-05-27-moore-law-to-tao-law-semiconductor-paradigm-shift/)
-
-- **发布日期**：2026-05-27
-- **分类**：芯片与半导体
-- **标签**：韬定律, 摩尔定律, 半导体, 华为, 芯片, 逻辑折叠, τ缩微, 后摩尔时代
-- **描述**：2026年5月25日，华为在ISCAS上正式提出「韬（τ）定律」，用时间缩微替代几何缩微。这篇文章从摩尔定律的历史局限出发，拆解韬定律的技术内核、工程落地与产业含义。
-
-2026 年 5 月 25 日，上海，ISCAS 2026。
-
-何庭波站在讲台上，用一篇论文和一场演讲，发布了一个以希腊字母 τ 命名的半导体新原则——韬（τ）定律。这是中国科技公司第一次在全球半导体行业提出指导产业发展的顶层原则。消息传出当天，A 股芯片产业链全线暴涨，东芯股份、华虹公司直接封板。
-
-但比起资本市场的反应，真正值得认真对待的问题是：这究竟是一条有工程根基的技术路线，还是一次精心策划的战略叙事？它和统治半导体行业六十年的摩尔定律到底是什么关系？「替代」「超越」「补充」——哪个词更准确？
-
-这篇文章打算从三个层面回答这些问题：第一，摩尔定律为什么走到了尽头，以及它的"尽头"到底是什么意思；第二，韬定律的技术内核到底是什么，逻辑折叠如何在物理层面运作；第三，也是最容易被忽略的——当华为说"用时间代替空间"时，它实际上在做什么样的事情。
-
-这不是一篇「华为牛逼」或「华为吹牛」的文章。这两件事都太简单了。
-
----
-
-
-
-要理解韬定律，得先理解摩尔定律到底出了什么问题。
-
-
-
-戈登·摩尔 1965 年在《电子学》杂志上提出的，其实只是一个观察。他发现芯片上的晶体管数量大约每年翻一番，后来修正为每两年翻一番。这听起来像一条经验曲线，但后来被整个半导体行业当作了一份**产业契约**。
-
-契约的内容很直接：每 18-24 个月，全行业一起把晶体管尺寸缩小，让同样面积里塞进两倍数量的晶体管，于是性能翻倍、成本腰斩。英特尔、台积电、三星、EDA 厂商、设备商——整个链条上的每一个人都按这个节奏投资、研发、建厂。预言就这样自我实现了。
-
-真正支撑这个契约物理可行性的，是 1974 年的登纳德缩放定律（Dennard Scaling）。它提出：当晶体管尺寸等比缩小时，电压和电流也等比下降，使得功耗密度保持不变。简单说就是——晶体管缩小一半，功耗不变，速度更快，成本更低。这是一台完美的发动机。
-
-
-
-登纳德缩放在 2005 年前后率先失效。原因很直接：电压没办法跟着尺寸等比下降了。阈值电压已经低到接近物理极限，再降下去，晶体管关不严，漏电流飙升。结果就是晶体管虽然变小了，但功耗密度开始爬升，芯片越做越热。
-
-摩尔定律本身撑到了 7nm 节点（约 2018 年），然后也开始喘气。真正致命的是两条曲线：
-
-**物理极限**。当栅极长度进入个位数纳米范围，量子隧穿效应开始显现。电子可以直接"穿透"本该关断的绝缘层，就像你关上门但鬼魂能穿墙而过。这不是工程难题，是物理规律。
-
-**经济极限**。一座 3nm 晶圆厂的投资已经超过 200 亿美元，单个芯片的设计预算超过 10 亿美元。更关键的是，每晶体管成本在 7nm 之后不再下降，甚至出现反弹。摩尔定律的核心承诺——"同样成本下性能翻倍"——实质违约了。
-
-黄仁勋从 2022 年开始反复说"摩尔定律已死"，英伟达的做法是用 NVLink 把几千颗 GPU 连成巨大集群，靠系统规模碾压单芯片性能。台积电的做法是搞 CoWoS、SoIC 等先进封装，把多颗芯片拼在一起凑密度。整个行业都在用各种方式给摩尔定律"续命"，但没人提出一个新的、能让全行业对齐的指导原则。
-
-直到 2026 年 5 月。
-
----
-
-
-
-
-
-τ 是希腊字母 tau，电路理论中代表时间常数。一个简单定义：当信号电压从 0 跳变到 1（或反过来），它需要多长时间完成这个切换。这个时间由电路的电阻 R 和电容 C 决定：τ = RC。
-
-过去六十年的芯片进步，本质上一直在压缩 τ。晶体管做小 → 开关速度更快 → τ 下降；走线变短 → 信号传播更
-
-... [阅读全文](https://idao.fun/blog/2026-05-27-moore-law-to-tao-law-semiconductor-paradigm-shift/)
-
-### 前端架构
-
----
-### [AI Coding 为什么全选了 TUI？从 Claude Code 到 Codex CLI，终端架构的底层逻辑](https://idao.fun/blog/2026-05-16-ai-coding-tui-architecture-deep-dive/)
-
-- **发布日期**：2026-05-16
-- **分类**：前端架构
-- **标签**：TUI, AI Coding, Claude Code, 终端, React, 前端架构, Rust
-- **描述**：拆解四款 AI 编程工具的终端架构：Claude Code 自研 Ink 的 React Reconciler、Codex CLI 的 Rust+Ratatui 路线、Gemini CLI 的第三方 Ink 与 Aider 的 Rich 生态。以及 TUI 的五大未来方向。
-
-2025~2026 年，四个最具影响力的 AI 编程工具——OpenAI Codex CLI、Google Gemini CLI、Anthropic Claude Code、开源社区 Aider——不约而同地选择了**终端（Terminal）**作为主要交互界面。
-
-这不是偶然。如果你仔细看，它们的技术路线虽然分化严重，但"只选终端、不造 GUI"这个决策惊人地一致。为什么？GUI 不好吗？VS Code 不是有 Copilot 插件吗？为什么还要专门做一个终端工具？
-
-这篇文章会拆解这背后的逻辑：GUI 在 AI 编程场景下有什么结构性限制，终端为什么反而更适合，以及四个工具选择的四条完全不同技术路线各自在打什么算盘。
-
----
-
-
-
-过去十五年，GUI 在前端工程领域全面胜利。VS Code 用 Electron 证明了 Web 技术可以做桌面级 IDE，Chrome DevTools 把浏览器内部状态可视化到了极致，Figma 让协作设计摆脱了本地软件。作为前端工程师，我们既是 GUI 的构建者，也是最忠实的用户。
-
-但 GUI 的成功也藏着它的结构性问题。从交互管线的视角看，GUI 的本质是一场**像素预算的分配游戏**——按钮、文本、面板都在争夺二维空间。这种竞争带来了三个我每天都能感受到的问题：
-
-
-
-用 VS Code 调试 React 应用时，注意力被分散在：左边的文件树、中间的编辑器、底部的终端、右边的 DevTools 面板，可能还有弹出的 Copilot 侧边栏。每个面板都是独立的上下文容器。人脑的工作记忆只能同时保持 4±1 个组块的信息。GUI 的"所见即所得"，在某些场景下变成了"所见即所失"——我们看到的一切都在争夺有限的注意力。
-
-
-
-GUI 假设主要输入设备是鼠标或触控板。把一个想法转化为代码，需要经历：大脑构思 → 手部移动到鼠标 → 定位光标 → 点击/拖拽 → 返回键盘。这个过程在神经科学中叫"任务切换成本"，每次切换消耗约 200~500 毫秒的注意力重建时间。对一天编码 6 小时的前端工程师来说，累计就是数小时的纯等待时间。
-
-
-
-GUI 大量使用隐喻——文件夹图标代表目录，垃圾桶图标代表删除。这种隐喻在抽象层级上建立了一道屏障。批量重命名 100 个组件文件时，GUI 的"右键→重命名"是灾难性的；终端中 `find src -name "*.tsx" | xargs rename` 一行搞定。**命令行是人类意图最接近机器执行的路径。**
-
-用前端的语言类比：GUI 的渲染管线像是一个需要不断重排和重绘的复杂 DOM 树；而 TUI 更像一个精心优化的 Canvas 渲染层——它知道自己的边界是字符网格，可以跳过大量的布局协商，直接进行字符级别的绘制。
-
----
-
-
-
-四个 AI 编程工具的技术路线呈现出惊人的分化。这种分化不是在选编程语言，而是在回答同一个根本问题：**终端上的 UI 应该怎么组织？**
-
-| 工具 | 语言 | TUI 方案 | 核心哲学 |
-|------|------|----------|----------|
-| Claude Code | TypeScript | 自研 Ink (React Reconciler) | 声明式组件，DX 优先 |
-| Gemini CLI | TypeScript | 第三方 Ink (`vadimdemedes/ink`) | 开放生态，社区复用 |
-| Codex CLI | Rust | Ratatui (Immediate Mo
-
-... [阅读全文](https://idao.fun/blog/2026-05-16-ai-coding-tui-architecture-deep-dive/)
-
----
-### [React Fiber vs Vue 响应式：从调用栈到依赖图，前端两大架构的底层对决](https://idao.fun/blog/2026-05-16-react-vue-architecture-showdown/)
-
-- **发布日期**：2026-05-16
-- **分类**：前端架构
-- **标签**：React, Vue, 前端架构, Fiber, 响应式, Virtual DOM, JavaScript
-- **描述**：深入 React Fiber 调度系统与 Vue 响应式系统的架构本质——Stack Reconciler 的困境、Fiber 链表实现、Proxy 依赖追踪、编译器优化策略，以及 Svelte/Solid/Angular 在架构光谱上的位置。写给想真正理解框架原理的前端开发者。
-
-前端框架之争吵了快十年。但坦白说，大多数争论卡在"React 好用还是 Vue 好用"的层面，很少有人真正追问：**这两个框架为什么从根上就是两套东西？** 它们的差异不是 API 设计喜好不同，而是对"UI 的本质应该怎么抽象"这个问题给出了完全不同的回答。
-
-这篇文章从架构层面拆这两套方案：React 为什么选择在运行时重新实现一个操作系统调度器，Vue 为什么选择让编译器替你做大部分苦力。如果你只想快速上手哪个框架，这篇文章可能帮不上忙。但如果你想理解自己每天用的工具到底在做什么，它可能值得读。
-
----
-
-
-
-一切分歧从一个问题开始：**用户界面到底是什么？**
-
-
-
-React 团队的公式很简洁：
-
-```
-UI = f(state)
-```
-
-意思很直白：给定相同的状态，你应该得到完全相同的 UI。这是一个纯粹的数学映射。它的好处在于通用——框架不需要知道你的数据怎么变、变哪里，只需要在状态变化时重新执行整个函数，然后找出前后两次输出的差异。
-
-但这个等式藏了一个代价：**你不知道状态从哪里变、变多少，所以每次更新都得从头算一遍**。React 的解法是虚拟 DOM diff——在全量计算和最小 DOM 操作之间找平衡。Fiber 架构是这个思路的极端体现：既然我不知道哪些数据变了，我就把"重新计算"做到足够快，快到用户感知不到。
-
-
-
-尤雨溪选了另一条路。在他看来，`{{ message }}` 这个模板插值已经定义了"数据 `message` → 这个文本节点"的映射关系。编译器在构建时就能静态分析出这些绑定，运行时要做的事情不是"算出差异"，而是"精准推送"。
-
-```
-message → 追踪依赖 → 精确更新 DOM 节点
-```
-
-这里的优势是：**你不需要全量 diff，因为框架从一开始就知道谁依赖谁**。代价是：你得接受一套声明式的模板语法（或者遵守 Composition API 的使用规则），让编译器有迹可循。
-
-
-
-这两个回答直接决定了后续所有的架构决策：
-
-- React 押注**运行时的通用调度**——既然不知道哪里变了，就把"找变化"这个过程做得足够快、可中断、可分优先级
-- Vue 押注**编译时的静态分析**——既然我能提前知道绑定关系，那运行时只需要做最精准的更新
-
-这不是技术能力的差异，而是对同一个问题的不同**取舍**。理解了这个前提，后面的技术细节就都能串起来了。
-
----
-
-
-
-
-
-React 16 之前，Reconciliation 的过程是递归调用的：
-
-```
-function renderComponent(component) {
-  const vnode = component.render()
-  vnode.children.forEach(child => renderComponent(child))
-  patchDOM(vnode)
-}
-```
-
-你调用 `setState`，它从根节点开始深度优先遍历整棵树，递归调用，一次性返回。调用栈像这样：
-
-```
-App.render → Header.render → Nav.render → NavItem.render → ...
-→ ... 层层返回 → patch DOM
-```
-
-问题在于：**JavaScript 的调用栈是后进先出的，一旦进入递归，没有任何机制可以中断它**。如果你的组件树有 2000 个节点，一次 `setState` 可能要阻塞主线程 50~100ms。在 60fps 下，每一帧只有约 1
-
-... [阅读全文](https://idao.fun/blog/2026-05-16-react-vue-architecture-showdown/)
-
-### 技术深度
-
----
-### [GEO 生成式引擎优化完全指南：让你的内容成为 AI 的默认答案](https://idao.fun/blog/2026-05-16-geo-generative-engine-optimization-guide/)
-
-- **发布日期**：2026-05-16
-- **分类**：技术深度
-- **标签**：GEO, SEO, AI搜索, 生成式引擎优化, 内容优化, Schema, RAG
-- **描述**：2026 年 GEO 深度教程——从 RAG 原理到 llms.txt、Schema 结构化、实体权威建设与跨引擎监测。写给想在 ChatGPT、Perplexity、Gemini 等 AI 搜索中被优先引用的内容创作者与开发者。
-
-在 ChatGPT 输入一个问题，它直接给你一个合成答案，附带几个引用来源——这个场景现在不比"给你十个蓝色链接"稀罕了。Google 的 AI Overviews、Perplexity、Gemini、Claude、Copilot，每个都在做同样的事。2025 年的数据是，生成式 AI 搜索的市场渗透率已经超过 55%。
-
-这对做内容的人意味着一个有点残酷的现实：你花几个月优化的那个关键词排名，AI 一句"根据多个来源的分析……"就能抹平。用户不需要点进你的页面了，答案已经在搜索结果里了。
-
-**GEO（Generative Engine Optimization，生成式引擎优化）** 就是为这个局面来的。它的目标不是让页面排到第一，而是让你的内容成为 AI 生成答案时的引用来源。
-
----
-
-
-
-先弄清楚一件事：GEO 不是 SEO 的替代品。它是 AI 时代的增量层。
-
-
-
-| 维度 | SEO | GEO |
-|------|-----|-----|
-| 目标 | 排到搜索结果第一页 | 被 AI 当作答案的引用来源 |
-| 核心单位 | 关键词 + 页面 | 实体 + 语义片段 |
-| 流量机制 | 用户点链接进页面 | AI 直接引用，用户可能不点 |
-| 竞争对手 | 其他网站的页面 | AI 能检索到的所有信源 |
-| 指标 | 排名、点击率、流量 | 引用率、品牌提及、AI 可见度 |
-| 重心 | 外链 + 内容 + 技术 SEO | 结构化 + 实体权威 + 可提取性 |
-
-最关键的差异在流量机制上。SEO 的链路是"点击——浏览——转化"。GEO 的链路更短：用户直接在 AI 界面拿到答案。你的名字出现在引用里，那是品牌曝光；没出现，用户根本不知道你的存在。GEO 不保证流量，但保证你在 AI 的话语场里有张椅子。
-
-
-
-GEO 不是从零开始，它是在 SEO 基础上加一层。Google 都找不到的页面，AI 更找不到——多数 AI 引擎的实时检索依赖传统搜索引擎的索引库。好的 SEO 是 GEO 的前提，但不够。
-
-```
-GEO = SEO + 结构化 + 实体权威 + 可提取性
-```
-
----
-
-
-
-要理解 GEO，先理解 AI 引擎的决策机制。目前主流的生成式搜索引擎（ChatGPT with Search、Perplexity、Gemini、Copilot）都跑在 **RAG（Retrieval-Augmented Generation）** 架构上，流程分四步：
-
-
-
-用户输入"2026 年最好的前端框架是什么"，AI 先判断这是个"对比推荐类"问题，拆出核心实体：`前端框架`、`2026`、`对比`、`推荐`。
-
-
-
-系统从索引库（Bing/Google 爬取结果、私有知识库、API 数据源）里搜出最相关的 N 个片段。这步不只看关键词匹配，更看语义向量相似度——即使页面没有"最好的前端框架"这个短语，只要内容在讨论框架对比，就可能被匹配到。
-
-
-
-候选片段经过多层打分：
-- **信源权威性**——网站整体可信度、作者资质、被引用频次
-- **结构化程度**——Schema 标记、清晰的标题层级、FAQ 结构
-- **事实密度**——具体数据、统计、可验证的声明
-- **时效性**——内容是否更新于 2025–2026 年
-- **语义匹配度**——和用户问题有多相关
-
-
-
-AI 把得分最高的几个片段拼成自然语言回答，引用处标注来源。被引用的片段通常是 40–80 个词——AI 不喜欢太长的段落（信息太散），也
-
-... [阅读全文](https://idao.fun/blog/2026-05-16-geo-generative-engine-optimization-guide/)
-
----
-### [GitNexus 深度解析：35K Stars 的零服务器代码智能引擎](https://idao.fun/blog/gitnexus-code-intelligence-engine/)
-
-- **发布日期**：2026-05-04
-- **分类**：技术深度
-- **标签**：代码智能, MCP, 知识图谱, 开源, TypeScript, 开发工具, 教程, GitNexus
-- **描述**：全面解读 GitNexus——基于知识图谱的代码智能引擎。本地运行、MCP 协议支持、14 种语言解析、16 个 MCP 工具，让 AI Agent 真正理解你的代码库。
-
-> 项目地址：[github.com/abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | 35.4K Stars | PolyForm Noncommercial 1.0.0 协议
-
-
-
-**GitNexus** 是一个"零服务器代码智能引擎"。它从你的代码库中构建**知识图谱**，通过 MCP（Model Context Protocol）让 AI Agent 获得结构化的代码理解能力。
-
-官方描述：*"Zero-Server Code Intelligence Engine"*
-
-> 传统方式下，AI 工具只能"看到"代码文本，却不理解代码之间的语义关系。GitNexus 在索引阶段就把代码的结构、依赖、调用链、执行流全部整理成知识图谱——AI 只需一次查询就能获取完整的代码上下文。
-
-
-
-| 特性 | 说明 |
-|---|---|
-| **知识图谱** | 将代码库的结构、依赖、调用链预计算为图结构 |
-| **完全本地** | CLI 模式下零网络调用，索引存储在本地 |
-| **14 种语言** | TypeScript/JavaScript/Python/Java/Go/Rust/C++ 等 |
-| **16 个 MCP 工具** | 查询、上下文、影响分析、检测变更、重命名等 |
-| **MCP 协议** | 标准 Model Context Protocol 接入任意 AI 编辑器 |
-| **Web UI** | 浏览器端可视化图谱浏览器，代码不离机 |
-| **多仓库** | 支持多仓库分组管理与跨仓库查询 |
-| **混合搜索** | BM25 + 语义向量 + RRF 融合排序 |
-| **Agent 技能** | 自动安装代码技能到 Claude Code |
-
----
-
-
-
-
-
-GitNexus 在索引阶段对代码库进行深度分析，流程如下：
-
-```text
-源代码
-  ↓
-1. 结构分析 —— 遍历文件树，映射目录/文件关系
-2. AST 解析 —— Tree-sitter 提取语法树中的符号
-3. 依赖解析 —— 解析 imports、调用、继承关系
-4. 社区检测 —— 将相关符号聚类为功能社区
-5. 执行流追踪 —— 从入口点追踪调用链
-6. 混合搜索索引 —— BM25 + 语义向量 + RRF 融合
-  ↓
-知识图谱（.gitnexus/）
-```
-
-这些工作**在索引时一次性完成**，所以查询时无需 AI 反复拼凑上下文——一次调用就能获得完整信息。
-
-
-
-| 对比 | GitNexus | 传统 Graph RAG |
-|---|---|---|
-| **计算时机** | 索引时预计算结构分析 | 查询时实时推理 |
-| **查询次数** | 单次调用获取完整上下文 | 多次查询拼凑信息 |
-| **结果质量** | 结构化、完整、确定 | 碎片化、受限于 LLM 推理 |
-| **适用模型** | 小模型也能准确回答 | 依赖大模型推理能力 |
-
----
-
-
-
-
-
-在本地索引代码库，运行 MCP 服务器，AI 编辑器通过 MCP 协议连接。所有数据本地运行，零网络请求。
-
-
-
-完全在浏览器中运行的**可视化图谱浏览器 + AI 聊天**：
-
-- 代码永远不会离开你的机器
-- 支持 WebGL 图谱可视化（Sigma.js + Graphology）
-- AI 聊天基于 LangChain ReAct
-
-通过 `
-
-... [阅读全文](https://idao.fun/blog/gitnexus-code-intelligence-engine/)
-
----
-### [OpenMetadata 深度解析：开源元数据平台](https://idao.fun/blog/openmetadata-data-platform/)
-
-- **发布日期**：2026-05-04
-- **分类**：技术深度
-- **标签**：元数据, 数据治理, 数据平台, 开源, Java, TypeScript, Python, 教程
-- **描述**：全面解读 OpenMetadata——统一元数据平台，覆盖数据发现、数据可观测性与数据治理。84+ 连接器、列级血缘、数据质量测试、丰富的协作能力。
-
-> 项目地址：[github.com/open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | 13.8K Stars | Apache 2.0 协议
-
-
-
-**OpenMetadata** 是一个开源、统一的元数据平台，为数据发现、数据可观测性和数据治理而设计。它提供了一个**中央元数据仓库**，支持列级血缘追踪和团队协作。
-
-官方描述：*"A unified metadata platform for data discovery, data observability, and data governance."*
-
-> 简而言之：如果你有大量数据资产（表、仪表盘、管道等），需要一个地方来组织、搜索、理解和管理它们——这就是 OpenMetadata 做的事情。
-
-
-
-| 特性 | 说明 |
-|---|---|
-| **统一元数据仓库** | 连接数据资产、用户、工具产生的元数据 |
-| **84+ 连接器** | 覆盖数据仓库、数据库、仪表盘、消息系统、管道等 |
-| **列级血缘** | 字段级别的数据血缘追踪，支持手动编辑 |
-| **数据质量** | 无代码质量测试，交互式结果面板 |
-| **数据治理** | 域、数据产品、标签、角色权限控制 |
-| **数据可观测性** | 数据新鲜度、体积、质量、延迟指标 |
-| **协作** | 事件通知、告警、公告、对话线程 |
-| **SSO + RBAC** | 单点登录 + 基于角色的访问控制 |
-| **205 个版本** | 持续迭代，最新 v1.12.6 |
-
----
-
-
-
-OpenMetadata 由四大核心组件构成：
-
-
-
-- 元数据的核心定义和词汇表
-- 基于通用抽象和类型构建
-- 支持自定义扩展和属性
-
-
-
-- 中央元数据仓库
-- 存储和管理元数据图谱
-- 连接数据资产、用户、工具生成的元数据
-
-
-
-- 基于 Schema 构建的生产和消费元数据的接口
-- RESTful API 设计
-- 支持事件通知和 Webhook
-
-
-
-- 可插拔框架
-- **84+ 连接器**支持各种数据源
-- 通过 Airflow 等工具调度
-
-```text
-数据源 ─┐
-数据库 ─┤
-仪表盘 ─┼── 摄取框架 ── 元数据 API ── 元数据存储 ── UI
-管道 ───┤                              │
-消息系统 ┘                       ┌─────┴──────┐
-                           数据发现  数据质量  数据治理
-```
-
----
-
-
-
-
-
-| 功能 | 说明 |
-|---|---|
-| **搜索** | 关键词搜索、关联查询、高级过滤 |
-| **浏览** | 按表、主题、仪表盘、管道、服务分类浏览 |
-| **数据字典** | 字段定义、数据类型、描述信息 |
-
-
-
-- **列级血缘**：字段级别的端到端数据流向
-- **查询过滤**：基于 SQL 查询自动推导血缘
-- **手动编辑**：无代码的可视化血缘编辑器
-
-
-
-- **无代码测试**：通过 UI 配置质量规则，无需写代码
-- **测试套件**：将相关测试分组管理
-- **结果面板**：交互式仪表盘展示质量结果
-
-
-
-| 功能 | 说明 |
-|---|---|
-| **域（Domains）** | 按业务领域组织数据资产 |
-| **
-
-... [阅读全文](https://idao.fun/blog/openmetadata-data-platform/)
-
----
-### [从 PRD 到回测全闭环：OpenSpec+Superpowers 开发用户系统实战](https://idao.fun/blog/2026-04-30-prd-openspec-superpowers-oh-my-opencode/)
-
-- **发布日期**：2026-04-30
-- **分类**：技术深度
-- **标签**：superpowers, ai编程, openspec, oh-my-opencode, opencode
-- **描述**：揭秘从 PRD 到回测的全闭环开发流程。结合 OpenSpec 需求管理、Superpowers 自动化与 oh-my-opencode 执行，实战演示如何高效构建用户系统。点击获取完整技术复盘。
-
-> 大家好，我是 iDao。10 年全栈开发，做过架构、运维，也在落地 AI 工程化。这里不搞虚的，只分享能直接跑、能直接用的代码、方案和经验。内容包括：全栈开发实战、系统搭建、可视化大屏、自动化部署、AI 应用、私有化部署等。关注我，一起写能落地的代码，做能上线的项目。
-
-很多人已经能用 AI 生成代码，但做不到“可持续交付”：没有 PRD 结构、任务拆分混乱、TDD 不落地、回测无标准、任务状态不可追踪。本文给出一套完整协同流程：用 OpenSpec 产出 PRD+技术规格，用 Superpowers 执行批量改造与质量守卫，用 oh-my-opencode 串联任务状态与自动回测，最终交付可运行的用户管理系统。你可以按模板完成一次端到端开发。
-
-这版把流程拉直：**PRD 输出 → 任务拆分 → TDD 开发 → 回测 → task 标记 → 交付归档**。按步骤执行即可跑通。
-
----
-
-
-
-
-代码先行，后面不断返工：字段改名、接口漂移、页面逻辑冲突。
-
-
-缺少统一规格源，团队和 AI 都在“猜需求”。
-
-
-在项目根目录建立 `docs/`，先让 OpenSpec 生成三份文件：
-
-- `docs/prd.md`（业务需求）
-- `docs/spec-api.yaml`（接口契约）
-- `docs/acceptance.md`（验收清单）
-
-可直接给 OpenCode / OpenSpec 的提示词：
-
-```text
-请基于“用户管理系统（登录、列表、新增、编辑、删除）”输出三份文档：
-
-1) PRD（docs/prd.md）
-- 背景、目标、范围（In/Out）
-- 用户角色（管理员）
-- 用户故事（Given/When/Then）
-- 非功能要求（性能、安全、可维护性）
-- 风险与依赖
-
-2) API Spec（docs/spec-api.yaml）
-- POST /api/login
-- GET /api/users
-- POST /api/users
-- PUT /api/users/{id}
-- DELETE /api/users/{id}
-- 统一响应结构：{ code, message, data, traceId }
-
-3) 验收标准（docs/acceptance.md）
-- 功能验收（CRUD、分页、搜索）
-- 接口验收（状态码、字段、错误码）
-- 回归验收（关键路径）
-```
-
-
-- PRD 中必须有 **In Scope / Out of Scope**
-- API Spec 字段名与 PRD 一致（如 `role`）
-- 验收文档至少 10 条可执行项
-
----
-
-
-
-
-开发中途不知道“现在做到哪一步”，AI 输出与人工修改互相覆盖。
-
-
-没有任务粒度和状态机制，缺少单一事实来源。
-
-
-建立 `tasks/tasks.yaml`，按“模块-子任务-状态”管理。
-状态建议：`todo -> doing -> review -> test -> done -> blocked`
-
-示例（可复制）：
-```yaml
-epic: user-management-mvp
-tasks:
-  - id: API-LOGIN-001
-    title: 实现登录接口与token签发
-    owner: ai
-    status: todo
-    depends_on: []
-    dod:
-      - 返回 code/message/data/traceId
-      - 错误密码返回 401
-  - id:
-
-... [阅读全文](https://idao.fun/blog/2026-04-30-prd-openspec-superpowers-oh-my-opencode/)
-
----
-### [深入 Superpowers：174k Stars 的开源 AI 编程方法论是如何工作的](https://idao.fun/blog/2026-04-30-superpowers/)
-
-- **发布日期**：2026-04-30
-- **分类**：技术深度
-- **标签**：superpowers, ai编程, 开源
-- **描述**：探索 Superpowers 开源项目，174k Stars 验证的 AI 编程方法论。揭秘其如何结合大模型与自动化工作流，提升开发效率。点击了解前沿技术细节。
-
-> **时效性声明**：本文最后更新于 2026 年 4 月 30 日，基于 obra/superpowers v5.0.7 版本编写。该项目迭代极快，建议读者查阅 GitHub 仓库获取最新信息。
-
----
-
-
-
-2025 年秋天，AI 编程已经火了大半年。Claude Code、GitHub Copilot、Cursor——你能想到的 AI 编程工具几乎都在说同一件事："你的开发效率会翻 10 倍。" 很多人也确实体验到了：写个 CRUD、补个测试、重构一段代码，AI 干得比人快。
-
-但有个难以启齿的问题——这些 AI 写出来的东西，经常一塌糊涂。
-
-不是语法有问题，是设计有问题。没有测试、没有边界处理、没有架构思考。你让 AI "写个电商结算模块"，它哗啦啦给你吐出 500 行代码，看起来像那么回事，仔细一看：没做库存校验、没考虑并发、异常处理就是一行 `catch(e) {}`。像一个充满热情但完全没有经验的实习生，通宵赶出来的东西——看着多，能用的少。
-
-Jesse Vincent（GitHub 上的 `obra`）也遇到了这个问题。但他的应对方式不太一样：他没有去抱怨"AI 不行"，而是写了一组 Markdown 文件。
-
-这组 Markdown 文件叫 **Superpowers**。到今天，它在 GitHub 上有 174k 个 star。
-
----
-
-
-
-很多人第一次听到 Superpowers 时的反应是："哦，又一个 Claude Code 插件。" 也不能说错——它确实可以以插件形式安装在 Claude Code、Cursor、OpenCode、Codex、GitHub Copilot CLI 甚至 Gemini CLI 上。但把它理解成"插件"就太亏了。
-
-Superpowers 的 README 第一行是这么写的：
-
-> **Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills.**
-
-翻译过来：这是一套完整的**软件开发方法论**，由一组可组合的"技能"构成。不是工具，不是库，不是框架——是方法论。
-
-它解决的问题很明确：AI 编程助手有天赋但没纪律。它们像那种聪明但从来不写测试的同事——代码出活快，出问题也快。Superpowers 做的事情，就是给这些聪明但管不住自己的 AI 套上一套**工程纪律**。
-
-这套纪律包含了 7 个阶段：
-
-```mermaid
-graph LR
-    A[Brainstorming] --> B[Git Worktrees]
-    B --> C[Writing Plans]
-    C --> D[Subagent-Driven Development]
-    D --> E[TDD]
-    E --> F[Code Review]
-    F --> G[Finishing Branch]
-```
-
-每个阶段对应一个或多个"技能"（Skills），技能是 Markdown 格式的指令文件，告诉 AI 应该怎么做。而且这些技能是**自动触发**的——AI 在开始做任何事之前，必须先检查有没有匹配的技能可用。
-
----
-
-
-
-理解 Superpowers 的关键是理解"技能"（Skill）这个概念。
-
-一个 Skill 就是一个 Markdown 文件。没什么魔法，就是 Mark
-
-... [阅读全文](https://idao.fun/blog/2026-04-30-superpowers/)
-
-### AI 工程
-
----
-### [Harness 驾驭工程深度教程：从 AGENTS.md 到全链路 AI 编码基础设施](https://idao.fun/blog/2026-05-16-harness-engineering-deep-coding-tutorial/)
-
-- **发布日期**：2026-05-16
-- **分类**：AI 工程
-- **标签**：Harness Engineering, AI Coding, Agent, 驾驭工程, CI CD, LLM, 工程实践
-- **描述**：基于 OpenAI 2026 年提出的 Harness Engineering 方法论，手把手搭建 AI 编码代理的工程基础设施——AGENTS.md、Linter 约束、CI 门控、反馈循环、熵管理。附完整项目模板。
-
-2026 年 2 月，OpenAI 发了一篇文章——"Harness Engineering: Leveraging Codex in an Agent-First World"。里面有一个数据点被反复引用：LangChain 做了一个实验，不改模型，只改 Harness，把 Terminal-Bench 2.0 上的准确率从 52.8% 提到 66.5%。
-
-52.8% → 66.5%。**没换模型，没换 prompt 技巧，没加 few-shot。** 只改了代理周围的基础设施——上下文怎么给、约束怎么定、出错怎么反馈。这组数字是这篇文章存在的全部理由。
-
-过去几个月，这个话题在国内社群迅速发酵：yeasy 写了完整的《智能体 Harness 工程指南》（从零实现 MiniHarness），技术栈、逸趣网、GitCode 上有大量实践总结。概念已经不缺了。
-
-缺的是能直接抄的东西。
-
-所以这篇不做概念科普。你假设读者已经知道"Agent = Model + Harness"这个公式，也知道 Harness Engineering 大概在解决什么问题。然后直接从第一行代码开始：
-
-> 从零搭建一个项目的 Harness 工程基础设施，大概需要什么？每层用什么工具？配置长什么样？哪层先做、哪层后做？
-
-我会用一个微型项目贯穿始终。每段代码可独立运行，每层配置可复制到真实项目。如果只能记住一句话，我希望是这个：
-
-**模型决定上限，Harness 决定下限。**
-
----
-
-
-
-选一个所有读者都能秒懂的场景：一个 Python CLI 工具，叫 `tcomment`——从终端提交 Git 变动并获得 AI 生成的 commit message。
-
-为什么要选这个：它小（200 行）、有外部依赖（Git + LLM API）、有测试、能立刻跑。每一层 Harness 都能在这个项目上找到落脚点。
-
-项目结构（我们逐层搭建）：
-
-```
-tcomment/
-├── AGENTS.md                  # Phase 0：项目地图
-├── pyproject.toml
-├── src/tcomment/
-│   ├── __init__.py
-│   ├── cli.py                 # 入口：click
-│   ├── git.py                 # Git 操作封装
-│   ├── llm.py                 # LLM 调用封装
-│   └── config.py              # 配置管理
-├── tests/
-│   ├── test_git.py
-│   └── test_llm.py
-├── docs/
-│   ├── architecture.md        # Phase 1：架构文档
-│   ├── design.md              # 设计文档
-│   └── adr/                   # 架构决策记录
-├── .github/workflows/
-│   └── ci.yml                 # Phase 3：CI 门控
-└── scripts/
-    ├── pre-commit.sh           # Phase 2：Hook 脚本
-    └── cleanup.sh             # Phase 4：熵管理
-```
-
-这看起来有很多文件，但每一层互相独立。你完全可以只
-
-... [阅读全文](https://idao.fun/blog/2026-05-16-harness-engineering-deep-coding-tutorial/)
-
-### 技术深究
-
----
-### [Bun v1.3.14 深度解析：Image API、HTTP/3、全局虚拟存储与五十项变革](https://idao.fun/blog/bun-v1-3-14-image-http3-global-store/)
-
-- **发布日期**：2026-05-13
-- **分类**：技术深究
-- **标签**：Bun, JavaScript, Runtime, HTTP3, QUIC, Image Processing, Package Manager, Performance
-- **描述**：Bun v1.3.14 是 Bun 历史上功能最密集的版本之一。内置 Image API、HTTP/3 服务器与客户端、全局虚拟存储、重写的 fs.watch、跨语言 LTO——解读这个 JS 运行时正在成为全能基础设施的路线图
-
-> Bun v1.3.14 发布于 2026 年 5 月 13 日。这是 Bun 历史上功能最密集的版本之一——50+ 项变更，涵盖内置图像处理引擎、HTTP/3 服务器与客户端、全新的全局包缓存架构。如果用一句话概括这个版本：**Bun 正在把自己从一个"更快的 Node.js"变成"全能的基础设施平台"**。
-
----
-
-
-
-v1.3.14 最引人注目的新特性是 `Bun.Image`——一个完全内置的图像处理 API。在它之前，Node.js 生态做图像处理几乎绕不开 `sharp`（原生 C++ 模块，安装需要编译环境）。Bun 用 Zig 实现了纯编译时内联的图像编解码，不依赖任何原生模块。
-
-
-
-Bun.Image 在 v1.3.14 中支持以下格式的**解码**：
-
-| 格式        | 支持      |
-| ----------- | --------- |
-| JPEG        | ✅        |
-| PNG         | ✅        |
-| WebP        | ✅        |
-| GIF         | ✅ (静态) |
-| BMP         | ✅        |
-| HEIC / HEIF | ✅        |
-| AVIF        | ✅        |
-| TIFF        | ✅        |
-
-编码输出支持 JPEG、PNG、WebP 和 AVIF。
-
-
-
-Bun.Image 的设计是"可链式组合"的——每个操作返回一个新的 Image 实例，不会就地修改：
-
-```typescript
-import { Image } from "bun";
-
-const image = await Image.open("photo.heic");
-
-const processed = image
-  .resize(800, 600, { fit: "cover" })
-  .rotate(-90)
-  .flip("horizontal")
-  .modulate({ brightness: 0.8, contrast: 1.2 })
-  .crop(100, 100, 400, 300);
-
-// 编码输出
-await processed.save("output.avif", { quality: 85 });
-await processed.encode("jpeg", { quality: 90 });  // 返回 Buffer
-
-// 直接响应 HTTP
-const body = new Response(processed.stream("webp"));
-```
-
-
-
-官方 blog 的数字：Bun.Image **通常比 sharp 快 1-2 倍**，在元数据读取场景尤为明显——`Image.metadata()` 比 sharp 的同类调用快 **70 倍**。这因为 sharp 的 metadata() 需要完整解码图像后才能解析元数据，而 Bun.Image 只在文件头部解析关键数据块就返回了结果。
-
-resize 操作（将 4K JPEG 缩放到 1920×1080）在两个库的实现上接近持平，Bun 略快 10-20%。但 Bun.Image 的初始化和内存分配开销明显更小——因为不需要在运行时加载任何动态库。
-
-
-
-Bun.Image 在 resize 方法上兼容 sharp 的命名参数：
-
-```typescri
-
-... [阅读全文](https://idao.fun/blog/bun-v1-3-14-image-http3-global-store/)
-
----
-### [Node.js v26.1.0 深度解读：FFI、后量子密码与调试器的进化](https://idao.fun/blog/nodejs-v26-1-0-ffi-post-quantum-debugger/)
-
-- **发布日期**：2026-05-13
-- **分类**：技术深究
-- **标签**：Node.js, FFI, Post-Quantum, Cryptography, Debugger, QUIC, Test Runner, OpenSSL
-- **描述**：全面解析 Node.js 26.1.0 版本——实验性 node:ffi 原生模块调用、后量子密码学支持、调试器运行时探针、测试框架成熟化，以及 OpenSSL/V8/nghttp2 等基础设施升级
-
-> Node.js v26.1.0 发布于 2026 年 5 月 7 日，由 Antoine du Hamel 发布。这是 Node.js 26 发布线进入 Current 阶段后的第一个次要版本。它不是一个"大版本"，但 `node:ffi` 模块的加入——让 JavaScript 直接调用 C 动态库——为这个已经 17 年的运行时打开了一扇全新的门。
-
----
-
-
-
-v26.1.0 最引人注目的新特性是 `node:ffi` 模块。FFI（Foreign Function Interface）不是什么新技术——Python 有 `ctypes`、LuaJIT 有 FFI 库、Rust 通过 `extern "C"` 天然支持。但在 Node.js 中，调用原生 C 库一直只能通过 **N-API 原生插件**的路径——需要写 C++ 代码、用 `node-gyp` 编译、处理跨平台 ABI 兼容性。门槛高，迭代周期长。
-
-`node:ffi` 改变了这一点：**在 JavaScript 中直接加载和调用动态库中的符号，不需要编译任何 C++ 代码。**
-
-```javascript
-import { dlopen, defineFFI } from 'node:ffi';
-
-// 定义函数签名
-const ffi = defineFFI({
-  'hello': { 
-    result: 'void', 
-    args: [], 
-    library: 'libhello' 
-  },
-  'add': { 
-    result: 'int', 
-    args: ['int', 'int'], 
-    library: 'libhello' 
-  }
-});
-
-// 直接调用
-ffi.hello();               // 调用 C 函数
-const sum = ffi.add(3, 4); // 返回 7
-```
-
-
-
-FFI 模块的文档和发布说明反复强调同一个词："inherently unsafe"。这不是客套话：
-
-- **无效指针导致段错误**：传一个野指针给 C 函数，整个进程直接崩
-- **错误的函数签名让结果不可预测**：如果 C 函数期望 `double` 但你传了 `int`，返回值是垃圾数据
-- **释放后的内存访问（use-after-free）**：C 层释放的内存，JS 侧仍然持有引用——这是经典的安全漏洞
-
-正因如此，`node:ffi` 需要显式启用：
-
-```bash
-node --experimental-ffi app.mjs
-
-node --experimental-ffi --allow-ffi app.mjs
-```
-
-
-
-从 commit 记录中可以看到，在合并到主分支前，`node:ffi` 的实现经历了多轮优化：
-
-- `FFIFunctionInfo` 被实现为 `BaseObject` 子类（#63071）
-- 使用 `unique_ptr` 管理 FFI 内存，避免泄漏（#63071）
-- `DynamicLibrary` 支持 `Symbol.dispose`，可以用 `using` 语法自动释放（#62925）
-- **Shared Buffer 快速路径**：对数值和指针类型的参数/返回值，避免了不必要的缓冲区分配（#62918）
-
-最后这个优化很关键。FFI 调用中大量场景是"传两个 int，拿一个 int 回来"——纯数值运算。没有 share
-
-... [阅读全文](https://idao.fun/blog/nodejs-v26-1-0-ffi-post-quantum-debugger/)
-
----
-### [9Router 深度解析：当 AI 编码工具需要一个智能交通指挥官](https://idao.fun/blog/9router-ai-coding-gateway/)
-
-- **发布日期**：2026-05-12
-- **分类**：技术深究
-- **标签**：9Router, AI 编码, LLM 路由, Claude Code, RTK, OpenAI, Codex, AI 网关
-- **描述**：深入分析 9Router 的架构设计、RTK 令牌压缩、三级 Fallback 引擎、格式翻译系统，以及它如何成为 AI 编码工具链中不可或缺的中间层
-
-如果你在过去一年里用过 Claude Code、Codex CLI 或 Cursor 写代码，你一定遇到过这个问题：订阅配额用完了，rate limit 卡住了，或者某个模型今天就是不在状态。
-
-于是你打开浏览器，登录另一个服务商的后台，复制 API key，改配置，重新开始。再遇到，再换。周而复始。
-
-9Router 想解决的事很简单：**在你和所有 AI 提供商之间，放一个智能路由器。**
-
-它运行在你本地，暴露一个 `http://localhost:20128/v1` 的 OpenAI 兼容端点。所有 AI 编码工具都把请求发到这个地址，9Router 自动决定发给谁——先用你的订阅配额，配额用完了切到便宜的按量付费 API，再不够就转去免费提供商。这一切在毫秒级完成，你的工具甚至不知道背后换过人。
-
-这个项目在 GitHub 上有 8,800 颗星，572 次提交，npm 周下载量可观，被用来连接 40+ 提供商和 100+ 模型。
-
-但 9Router 不止是一个简单的 API 代理。它的架构里有一些值得仔细看的设计。
-
-
-
-大多数本地代理工具都是单一的后端服务。9Router 选择了一条更复杂的路。
-
-它跑在 **Next.js 16 + Express 5** 的双引擎架构上。Next.js 的 App Router 处理所有管理面——仪表盘页面、提供商 CRUD、OAuth 流程、用量分析。Express 嵌入在同一个进程中，处理代理面的 MITM 流量拦截和协议转换。
-
-```
-同一进程，两套路由系统：
-  Next.js App Router → /api/*         → 仪表盘、管理 API
-  Express           → MITM proxy      → HTTPS 拦截 + 请求转发
-```
-
-这种设计有实在的好处：管理面和数据面共享内存中的状态，不需要通过 RPC 或 HTTP 调用同步。提供商配置更新后，代理面立即生效。没有缓存一致性问题，没有分布式事务。
-
-代价是进程内的复杂性——两套路由系统的生命周期管理、端口分配、优雅关闭都需要仔细处理。9Router 的 `src/mitm/server.js` 里有一段专职逻辑处理 Express 服务器的启动与 shutdown，与 Next.js 的生命周期挂钩。
-
-
-
-翻看 9Router 的 CHANGELOG，会发现它的发布节奏极其密集——从 v0.3.89 到 v0.4.31，大约一个月内发布了 40 多个版本，几乎每天一个。
-
-早期的重点是提供商接入：GitHub Copilot、Codex、Claude Code、Gemini CLI……每个新提供商意味着一种新的 OAuth 流程、一组新的 API 格式差异、一套新的 token 刷新机制。
-
-v0.3.98 引入的 **RTK** 是一个转折点。它不再只是做"路由"，而是开始在请求层面做优化——压缩 tool output 以节省 token。这标志着 9Router 从"被动代理"向"主动优化层"的转变。
-
-v0.3.96 的 **Caveman Mode** 走了更远——直接修改 system prompt，让模型用更简洁的语言输出，节省 output token。
-
-v0.4.11 后的版本开始拓展到多媒体领域：Text-to-Speech、Speech-to-Text、图像生成、Web Search/Fetch combo provider。9Router 不再只做 LLM
-
-... [阅读全文](https://idao.fun/blog/9router-ai-coding-gateway/)
-
----
-### [Anthropic Claude for Financial Services：一个开源项目如何定义投行 AI Agent 的架构标准](https://idao.fun/blog/anthropic-financial-services-agent-workflows/)
-
-- **发布日期**：2026-05-12
-- **分类**：技术深究
-- **标签**：Anthropic, Claude, 金融AI, Agent, MCP, 投行, Model Context Protocol, AI Agent编排
-- **描述**：深入分析 Anthropic 官方开源项目 financial-services 的架构设计、10 个投行 Agent 的实现模式、MCP 数据连接器集成，以及跨 Agent 编排机制
-
-2025 年底，当 Anthropic 在 GitHub 上开源 `financial-services` 这个仓库时，大多数人的第一反应是把它当作又一套 AI 玩具。7 个贡献者、52 次提交、零个 release——看起来像是 Anthropic 产品团队某个周五下午的 side project。
-
-但数字不会说谎。一年后，这个仓库积累了 20,800 颗星。不是因为它代码写得好看（事实上它的 Python 只占 86.4%，Shell 7.1%，JavaScript 6.5%，代码总量也不大），而是因为它准确地定义了"AI Agent 在金融服务业应该长什么样"。
-
-更重要的是，它的架构解决了一个困扰行业多年的问题：**LLM 的能力很强，但如何在合规框架内把它嵌入已有的金融工作流？**
-
-投行的 IT 系统不是一般的复杂。一个典型跨国投行的技术栈包括 Bloomberg Terminal、FactSet、CapIQ 等多个数据终端，Excel 模型的版本管理，PowerPoint 模板的合规审查，以及一整套从 KYC 到 GL 对账的后台流程。让 AI 在这套体系里干活，不是 API 调用的问题——而是架构问题。
-
-financial-services 这个项目给出了一个参考答案。
-
-
-
-这个项目最聪明的一点，是它的"一源双面"设计。每个 Agent 都只有一组系统提示和技能文件，但可以以两种完全不同的方式运行：
-
-1. **Claude Cowork 插件**——分析师在桌面端直接安装使用，通过斜杠命令交互
-2. **Claude Managed Agent**——平台团队将其部署为 HTTP API 端点，嵌入自己的工作流引擎
-
-目录结构清晰地反映了这个哲学：
-
-```
-plugins/
-  agent-plugins/           # 自主 Agent —— 各自包含完整系统提示
-  vertical-plugins/        # 技能/命令/连接器的垂直分类源
-  partner-built/           # 合作伙伴贡献的插件
-managed-agent-cookbooks/   # Managed Agent 部署模板
-claude-for-msft-365-install/ # Microsoft 365 插件管理工具
-```
-
-关键的工程直觉：**同一个 agents/`<slug>`.md 文件是两种部署方式的单一真相来源。** Cowork 直接加载它，Managed Agent 的 agent.yaml 通过 system.file 引用它。对 Agent 行为的任何修改，只需要改一个文件。
-
-这个设计巧妙避开了金融企业里最常见的"影子 IT"问题——分析师偷偷装个 SaaS 工具，合规部门不知道。Cowork 插件的安装通过 Marketplace 管理，Managed Agent 的部署经过 Platform Engineering 团队的审批流程。同一个 Agent，两种审批通道，各自适用不同场景。
-
-
-
-项目提供了 10 个命名 Agent，按功能领域分为四组：
-
-**覆盖与咨询（Coverage & Advisory）：**
-
-- **Pitch Agent**——投资银行 Pitch 书的端到端生成。给定一个标的公司和交易情景，自动构建可比公司分析（Comps）、先例交易、DCF 估值模型、LBO 模型，最后生成一份带品牌模板的 Pitch Deck。这是投行最核心的"拉皮条"工具—
-
-... [阅读全文](https://idao.fun/blog/anthropic-financial-services-agent-workflows/)
-
----
-### [Pixelle-Video 深度解析：AI 全自动短视频引擎](https://idao.fun/blog/pixelle-video-ai-short-video-engine/)
-
-- **发布日期**：2026-05-12
-- **分类**：技术深究
-- **标签**：AI, 视频生成, AIGC, ComfyUI, Pixelle-Video, LLM, TTS, Python, Streamlit
-- **描述**：全面解读 AIDC-AI 打造的开源 AI 短视频引擎——从架构设计到实战部署，从 ComfyUI 工作流到多流水线系统
-
-> 项目地址：[github.com/AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | **15.4K Stars** | Apache 2.0 协议 | 340+ Commits | 12 Releases（v0.1.15）
-
-
-
-Pixelle-Video 是一个由 AIDC-AI 打造的 AI 全自动短视频引擎。核心理念很简单：**输入一个主题，输出一条完整的视频**。不需要写脚本、找素材、学剪辑——AI 包办全部流程。
-
-```text
-一句话主题
-    ↓
-AI 写脚本 → AI 生成配图/视频 → TTS 配音 → 配 BGM → 合成输出
-```
-
-从 2025 年底开源以来，这个项目积累了 15,400+ Stars、340+ 次提交和 12 个正式版本。它的增长速度和社区活跃度，在 AI 短视频生成这个细分领域里算相当快的。微信社群和 Discord 都有稳定的用户讨论——这在中文 AI 开源项目里并不常见，很多项目火两周就冷下来了，Pixelle-Video 不是这样。
-
-**核心亮点速览：**
-
-| 特性                                   | 说明                                      |
-| -------------------------------------- | ----------------------------------------- |
-| **全自动流水线**                 | 输入主题→输出视频，零人工介入            |
-| **3 条流水线**                   | standard / custom / asset_based，灵活组合 |
-| **数字人 + 图生视频 + 动作迁移** | 最新支持的三个扩展模块                    |
-| **声音克隆**                     | 上传参考音频克隆特定音色                  |
-| **多模型 LLM**                   | GPT、通义千问、DeepSeek、Ollama 等        |
-| **ComfyUI 架构**                 | 原子能力灵活组合，可替换任何环节          |
-| **Windows 集成包**               | 解压双击即用，零配置                      |
-| **完全免费方案**                 | Ollama + 本地 ComfyUI = 零成本            |
-
----
-
-
-
-大多数同类工具把"生成视频"做成一个黑盒函数——输入文本，输出视频，中间不可控、不可拆、不可定制。Pixelle-Video 不是这样。
-
-
-
-核心代码在 `pixelle_video/service.py` 中，`PixelleVideoCore` 类是所有能力的统一入口：
-
-```
-PixelleVideoCore
-  ├── config          # 全局配置管理器（支持热加载）
-  ├── llm             # LLM 服务（直接调用 OpenAI SDK）
-  ├── tts             # TTS 服务（ComfyKi
-
-... [阅读全文](https://idao.fun/blog/pixelle-video-ai-short-video-engine/)
-
----
-### [whisper.cpp 深度解析：从边缘设备到实时语音识别](https://idao.fun/blog/whisper-cpp-edge-realtime-speech-recognition/)
-
-- **发布日期**：2026-05-12
-- **分类**：技术深究
-- **标签**：whisper.cpp, 语音识别, ASR, 边缘计算, ggml, OpenAI, Georgi Gerganov, C++, CUDA, Metal
-- **描述**：深入分析 whisper.cpp 的架构设计、模型推理机制、多后端加速方案，以及它在边缘 AI 推理引擎中的独特地位
-
-2022 年 9 月，OpenAI 开源了 Whisper 模型，一个在大规模弱监督数据上训练的语音识别系统。模型很强大——接近人类水平的准确度、支持 99 种语言、自动语言检测——但一个明显的问题是：它太重了。官方 Python 实现的 Transformer 架构，仅加载 large 模型就要吃掉 3GB+ 显存，在 CPU 上推理更是以分钟计。
-
-一个月后，一位名叫 Georgi Gerganov 的独立开发者，用纯 C/C++ 重写了 Whisper 的推理代码。仓库名很简单：whisper.cpp。
-
-三年半后的今天，这个项目拥有 49,600+ 颗星、6,400 次提交，被集成到从 iOS 原生应用到嵌入式 Linux 设备的无数产品中。macOS 上最流行的离线转录工具 MacWhisper、视频编辑软件中的自动字幕生成、智能录音笔的实时转写——底层跑的几乎都是 whisper.cpp。
-
-但真正让这个项目与众不同的，不是它"让 Whisper 能在 CPU 上跑"这个表面结果，而是它从架构设计上重新思考了"一个现代 ASR 推理引擎应该长什么样"。
-
-
-
-大多数深度学习推理框架倾向于大而全——TensorFlow Lite 几百 MB，ONNX Runtime 上百 MB，即使是轻量级的 NCNN 也有几十 MB。whisper.cpp 的核心推理代码，单文件 **whisper.cpp** 只有 329KB。
-
-这不是因为代码缩成一团。而是因为它**精确地为 Whisper 模型定制**，不包含任何通用框架的抽象层开销。
-
-整个代码库的层次结构非常清晰：
-
-```
-whisper.h          — C API，900+ 行，定义完整的外部接口
-whisper.cpp        — 核心推理引擎，模型加载、编码、解码
-whisper-arch.h     — 张量命名规范，定义 encoder/decoder 各层的 tensor 名称
-ggml.h / ggml.c    — 张量计算库，whisper.cpp 的底层引擎
-ggml-*.h           — 各硬件后端的加速实现
-```
-
-关键设计决策：**whisper.cpp 不依赖任何第三方深度学习框架**。它的底层计算库 ggml 是自研的，从一开始就针对 Transformer 架构的计算图做了优化。这意味着整个推理栈从矩阵乘法到内存分配全部可控，没有任何黑盒。
-
-
-
-ggml 的设计哲学是"跨平台 + 高性能 + 零外部依赖"。它没有用 Eigen、Xbyak 或任何第三方数学库，纯 C 实现：
-
-- **自动计算图**：每个张量操作自动构建计算图，支持自动求导
-- **量化内核**：4-bit、5-bit、8-bit 整数量化，以及标准 FP16/BF16
-- **后端抽象**：同一 API 无缝切换 CPU / CUDA / Metal / Vulkan
-- **内存效率**：使用内存池避免频繁分配，支持内存映射加载模型
-
-对于一个 Transformer 前向推理来说，核心操作就是矩阵乘法和注意力机制。ggml 对这两类操作做了深度手工优化——用 SIMD 指令集加速 GEMM，用分块策略减少 cache miss。在 Apple Silicon 上，ggml 甚至直接调用 AMX（Apple Matrix coprocessor）的指令，使 M1/M2 芯片的推理速度比纯 NEON 快 3-4 倍。
-
-ggml 本身后来也独立发展，成为 l
-
-... [阅读全文](https://idao.fun/blog/whisper-cpp-edge-realtime-speech-recognition/)
-
-### 图形技术
-
----
-### [SuperSplat 深度解析：7.6K Stars 的浏览器端 3D 高斯泼溅编辑器 — 在 Web 上编辑现实](https://idao.fun/blog/supersplat-3d-gaussian-splatting-editor/)
-
-- **发布日期**：2026-05-12
-- **分类**：图形技术
-- **标签**：3D, Gaussian Splatting, SuperSplat, PlayCanvas, WebGL2, WebGPU, 开源, 浏览器图形, 编辑器
-- **描述**：全面解读 PlayCanvas 打造的开源 3D 高斯泼溅编辑器 SuperSplat——PlayCanvas 引擎 + 12 种自定义着色器、11 个编辑工具、事件驱动架构、SOG/PLY/SPLAT 多格式支持、144 个迭代版本、PWA 原生体验，深挖其渲染管线与工程哲学。
-
-> 项目地址：[github.com/playcanvas/supersplat](https://github.com/playcanvas/supersplat) | 7.6K+ Stars | MIT 协议 | 144 Releases (v2.25.1) | 620+ Commits
-
-
-
-
-2023 年夏天，3D Gaussian Splatting（3DGS）论文在 SIGGRAPH 上炸场之后，整个三维重建领域都变了。它不需要像 NeRF 那样逐射线查询，也不需要像传统网格那样处理繁重的拓扑，而是用数万个微小的椭球体（Gaussian）直接编码场景的颜色、位置和透明度，渲染速度达到实时 30fps+，质量直逼离线渲染。
-
-然后问题来了：大家都用 COLMAP + 3DGS 训练脚本生成 `.ply` 文件，但没有任何工具可以**编辑**这些高斯点云——你不能删掉一片树叶，不能挪动一个物体，不能给特定区域改颜色。SuperSplat 就是填补这个空白的东西。
-
-它是 PlayCanvas 团队出品的一款**运行在浏览器中的 3D 高斯泼溅编辑器**，完全免费、开源（MIT）。你拖一个 `.ply` 或 `.splat` 文件进去，就能像 Photoshop 编辑图片一样编辑三维高斯点云——选中、删除、变换、裁剪、着色、测量，全套操作。
-
-这件事听起来简单，但做到"在浏览器里实时编辑上百万个高斯椭球体"，背后其实塞了整整一套**工业级 3D 渲染管线**。
-
-
-
-SuperSplat 选择了一条"老派但极其可靠"的路线。它没有上 React/Vue/Svelte，没有复杂的包管理，就是纯 TypeScript + 自己造的事件总线。
-
-打开 `src/main.ts`，整个应用的启动流程异常清晰：
-
-```
-Events（中央事件总线）
-  → EditHistory（异步操作队列，保证 undo/redo 串行化）
-  → localizeInit（i18next 多语言初始化）
-  → EditorUI（PCUI 界面框架渲染）
-  → createGraphicsDevice（PlayCanvas WebGL2 设备）
-  → Scene（核心 3D 场景管理）
-  → ToolManager（11 个工具注册）
-  → 各模块事件注册（timeline/camera-poses/track-manager/...）
-  → scene.start()（异步模型加载）
-```
-
-这个架构最值得关注的有两点。
-
-**第一是事件总线驱动的模块解耦。** 每个子系统只需要知道自己关心哪些事件，不需要知道谁在监听。比如颜色系统：
-
-```typescript
-events.on('setBgClr', (clr: Color) => { setBgClr(clr); });
-events.on('bgClr', (clr: Color) => {
-    document.body.style.backgroundColor = `rgba(...)`;
-});
-events.on('selectedClr', () => { scene.forceRender = true; });
-```
-
-背景色修改会触发 DOM 更新，选中色/未选中色/锁定色的变化触发场景重渲染。各模块通过 events 通信，谁都不直接依赖谁。
-
-**第二是用 `editQueue` 实现的异步操作串行化。** 3D 编辑中最怕的就是多个异步操作竞争状态——你
-
-... [阅读全文](https://idao.fun/blog/supersplat-3d-gaussian-splatting-editor/)
-
-### 技术分享
-
----
-### [深入 HTML-in-Canvas：当 Canvas 学会了渲染 DOM，前端图形生态要变天了](https://idao.fun/blog/2026-04-30-html-in-canvas/)
-
-- **发布日期**：2026-04-30
-- **分类**：技术分享
-- **标签**：canvas, webgl, webgpu
-- **描述**：探索 HTML-in-Canvas 技术，当 Canvas 学会渲染 DOM，前端图形生态迎来变革。了解这一创新如何重塑网页渲染，提升性能与交互体验，点击查看详细解析。
-
-> 你有没有想过一个问题：为什么 Canvas 里的文字永远那么丑？为什么游戏里的 UI 只能用 Canvas API 手画，而不能直接写个 `<div>` 上去？为什么每次做图表都要在 `ctx.fillText` 和 CSS 字体之间反复拉扯？今天，一个正在 Chromium 中孵化的 WICG 提案，要彻底终结这个延续了二十年的困局。
-
-
-
-- [📋 目录](#-目录)
-- [背景：Canvas 二十年的「盲人」困境](#背景canvas-二十年的盲人困境)
-- [前传：为什么 Canvas 一直渲染不了 HTML](#前传为什么-canvas-一直渲染不了-html)
-- [核心原语一：layoutsubtree——一纸「委任状」](#核心原语一layoutsubtree一纸委任状)
-- [核心原语二：drawElementImage——画布上的「复印机」](#核心原语二drawelementimage画布上的复印机)
-- [核心原语三：paint 事件——智能触发器](#核心原语三paint-事件智能触发器)
-- [Bonus：captureElementImage——通往 Worker 的传送门](#bonuscaptureelementimage通往-worker-的传送门)
-- [深水区：事件循环中的时序博弈](#深水区事件循环中的时序博弈)
-  - [Option A：在 ResizeObserver 时机触发（带循环）](#option-a在-resizeobserver-时机触发带循环)
-  - [Option B：紧接在 Paint 步骤之后触发（带循环）](#option-b紧接在-paint-步骤之后触发带循环)
-  - [Option C：紧接在 Paint 步骤之后触发（**不**循环）—— **被选中的方案**](#option-c紧接在-paint-步骤之后触发不循环-被选中的方案)
-- [同步公式：CSS Transform 背后的线性代数](#同步公式css-transform-背后的线性代数)
-- [隐私保护：看不见的边界](#隐私保护看不见的边界)
-- [生态地图：谁已经上车了](#生态地图谁已经上车了)
-  - [three.js — 原生 WebGL 纹理集成](#threejs--原生-webgl-纹理集成)
-  - [PlayCanvas — 3D 产品配置器 + HtmlSync](#playcanvas--3d-产品配置器--htmlsync)
-  - [VFX-JS — 视觉特效框架](#vfx-js--视觉特效框架)
-  - [three-html-render — 纯 JS Polyfill](#three-html-render--纯-js-polyfill)
-- [未解之谜与未来方向](#未解之谜与未来方向)
-  - [Open Issues 选读](#open-issues-选读)
-  - [未来：自动更新 Canvas](#未来自动更新-canvas)
-  - [标准化进程](#标准化进程)
-- [总结](#总结)
-
-
-
-2004 年，Apple 在 Safari 中引入了 `<canvas>` 元素，随后被 WHATWG 和 W3C 标准化。二十多年来，Canvas 成为 Web 上最强大的 2D/3D 图形基元——游戏、图表、数据可视化、创意工具、图像编辑……几乎一切"像素级别的操作"都跑在 Canvas 上。
-
-但它有一个致命的短板：**渲染不了真正的 HTML 内容*
-
-... [阅读全文](https://idao.fun/blog/2026-04-30-html-in-canvas/)
-
-### 全栈开发
-
----
-### [【百度】站长工具-平台工具使用手册](https://idao.fun/blog/2026-04-27-baidu-zhanzhang-tools/)
-
-- **发布日期**：2026-04-27
-- **分类**：全栈开发
-- **标签**：站长工具, 帮助手册
-- **描述**：关键词影响力，是百度搜索资源平台针对站点对于关键词数据分析的需求，推出的全新概念。涵盖该关键词下百度搜索可以为站点带来的全部收益指标，包括：排名、百度搜索流量、展现量等。在H5版本的搜索资源平台工具中首发的关键词影响力工具检测数值有：整体影响力、最大影响力、站点影响力
-
-搜索资源平台推荐站长添加主站（您网站的链接也许会使用www 和非 www 两种网址，建议添加用户能够真实访问到的网址），添加并验证后，可证明您是该域名的拥有者，可以快捷批量添加子站点，查看所有子站数据，无需再一一验证您的子站点。
-
-
-
-百度搜索资源平台提供两种验证方式（百度统计的导入方式已下线）：文件验证、html标签验证。
-
-* 文件验证：您需要下载验证文件，将文件上传至您的服务器，放置于域名根目录下。
-
-* html标签验证：将html标签添加至网站首页html代码的<head>标签与</head>标签之间。
-
-验证完成后，我们将会认为您是网站的拥有者。为使您的网站一直保持验证通过的状态，请保留验证的文件、html标签，我们会去定期检查验证记录。
-
-
-
-| 常见错误 | 推荐解决办法 |
-| --- | --- |
-| 无法解析您网站的域名 | 请检查网站的DNS设置是否正确，并更新您网站自己的DNS |
-| 无法连接到您网站的服务器 | 请检查网站服务器设置是否正确，是否可正常访问 |
-| 获取验证文件或网页发生错误 | 请检查服务器设置，或者稍后重试 |
-| 您网站跳转次数过多 | 请检查服务器设置，是否设置了多次跳转，如果设置了多次跳转，请取消跳转后重新尝试验证您的网站 |
-| 服务器检查结果为空 | 请检查服务器是否对百度做了特殊的设置（例如：对百度进行了封禁），或者稍后重试 |
-| 我们无法访问您的网站 | 请检查服务器设置是否正确，可能是您的网站是否对百度做了UA/IP封禁，如果做了封禁请解除封禁后重新尝试验证您的网站 |
-| 找不到验证的html标签或者验证的html标签内容错误 | 请检查html标签内容是否正确 |
-| 验证的文件内容错误 | 请检查html标签内容是否正确 |
-| 没有找到对应的DNS CNAME记录 | 请检查您网站的DNS设置是否正确 |
-| 您的网站跳转到另一个域名下 | 请检查服务器是否设置了跳转，如果设置了请去掉跳转后重新尝试验证您的网站 |
-
----
-
----
-
-
-
-普通收录工具是网站主动向百度搜索推送数据的工具，本工具可缩短爬虫发现网站链接时间，网站时效性内容建议使用普通收录工具，实时向搜索推送数据。普通收录工具主要包含API推送/sitemap/手动提交三种提交方式。
-
-
-
-API推送：最为快速的提交方式，建议您将站点当天新产出链接立即通过此方式推送给百度，以保证新链接可以及时被百度收录。
-
-sitemap：您可以定期将网站链接放到Sitemap中，然后将Sitemap提交给百度。百度会周期性的抓取检查您提交的Sitemap，对其中的链接进行处理，但收录速度慢于API推送。
-
-手动提交：如果您不想通过程序提交，那么可以采用此种方式，手动将链接提交给百度。
-
-
-
-> 及时发现：可以缩短百度爬虫发现您站点新链接的时间，使新发布的页面可以在第一时间被百度收录
-
-> 保护原创：对于网站的最新原创内容，使用API推送功能可以快速通知到百度，使内容可以在转发之前被百度发现
-
-
-
-
-
-
-
-2.1 curl推送示例
-
-将要提交的url数据写入一个本地文件，比如urls.txt，每个url占一行，然后调用curl命令：
-
-```
-curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.co
-
-... [阅读全文](https://idao.fun/blog/2026-04-27-baidu-zhanzhang-tools/)
-
----
-### [独立开发者主流技术栈（2026最新）](https://idao.fun/blog/2026-04-27-technology-developers/)
-
-- **发布日期**：2026-04-27
-- **分类**：全栈开发
-- **标签**：AI, 全栈开发, 独立开发者技术栈, 2026技术趋势
-- **描述**：2026独立开发者主流技术栈全指南。涵盖前端框架、后端架构与AI工具链，助您打造高效MVP。掌握前沿选型，从0到1快速变现，点击查看详细技术图谱。
-
-独立开发者的技术栈核心追求：**全栈统一、开发高效、部署简单、成本极低、生态完善**，以下按Web、移动端、桌面端、数据库、运维/工具、AI辅助六大维度，整理当前最主流、最实用的技术选型（含热门组合与单类选项）。
-
-
-
-
-
-- **核心框架**：**Next.js 15**（全栈React，App Router+Server Components，一人搞定前后端）
-- **备选框架**：Nuxt 3（Vue全栈，上手快）、Remix、SvelteKit
-- **样式方案**：**Tailwind CSS** + **shadcn/ui**（无样式组件+自由定制，开发最快）
-- **备选UI**：Ant Design、Material Design、DaisyUI、Chakra UI
-- **状态管理**：Zustand、Jotai、Redux Toolkit、Pinia（Vue）
-- **数据请求**：TanStack Query（React Query）、SWR、Axios
-- **表单/验证**：React Hook Form + Zod、Formik
-- **语言**：**TypeScript**（必选，类型安全，减少bug）
-
-
-
-- **Node.js生态（最主流）**
-  - 框架：Express、NestJS（企业级）、Hono（轻量Edge）
-  - 全栈：Next.js API Routes/Edge Functions（无需单独后端）
-- **Python生态（AI/数据/快速原型）**
-  - 框架：FastAPI（高性能API）、Flask（极简）、Django（全功能）
-- **备选**：Go（Gin，高性能）、Rust（Axum，安全高效）
-- **ORM**：**Prisma**（全数据库支持，生态最好）、Drizzle（轻量Serverless）
-
-
-
-- **跨平台首选**：**Flutter**（Dart，性能接近原生，一套代码双端）
-- **Web开发者首选**：**React Native**（React语法，复用Web技能）
-- **轻量/小程序转App**：UniApp（Vue语法，支持多端+小程序）、Taro
-- **原生（性能极致）**：Android（Kotlin+Jetpack Compose）、iOS（Swift+SwiftUI）
-
-
-
-- **主流**：**Electron**（React/Vue+Node，成熟稳定，如VS Code）
-- **新锐轻量**：**Tauri**（Rust后端，体积小、性能优）
-- **备选**：Qt（C++，跨平台原生）、WPF（Windows原生）
-
-
-
-
-
-- **托管首选**：**Supabase**（PostgreSQL，免费500MB，自带认证/存储/实时）
-- **备选托管**：Neon、PlanetScale（Serverless MySQL）、Turso（SQLite）
-- **自建**：PostgreSQL、MySQL（经典稳定）
-
-
-
-- **文档型**：MongoDB（托管MongoDB Atlas）
-- **缓存/实时**：Redis（托管Upstash）
-- **向量数据库（AI）**：Milvus、Pinecone、Chroma
-
-
-
-- **部署（免费额度足）**
-  - Web：**Vercel**（Next.js最佳
-
-... [阅读全文](https://idao.fun/blog/2026-04-27-technology-developers/)
-
-### 前端开发
-
----
-### [Astro全栈开发实战：从零搭建高性能内容网站](https://idao.fun/blog/astro-fullstack-guide/)
-
-- **发布日期**：2026-04-20
-- **分类**：前端开发
-- **标签**：Astro, 全栈开发, TailwindCSS, 教程
-- **描述**：深入讲解如何使用Astro框架结合Tailwind CSS和Content Collections，从零搭建一个高性能、SEO友好的内容网站。
-
-Astro 是一个现代化的静态网站生成器，它引入了创新的 **岛屿架构（Islands Architecture）**，能够在构建时生成纯静态 HTML，只在需要交互的地方加载 JavaScript。这使得 Astro 网站在性能上具有天然优势。
-
-
-
-1. **零 JS 默认**：默认情况下，Astro 页面不加载任何 JavaScript
-2. **内容集合**：类型安全的 Content Collections，让内容管理变得简单
-3. **多框架支持**：可以在同一项目中混用 React、Vue、Svelte 等组件
-4. **优秀的 SEO**：天然支持 SSG，搜索引擎友好
-
-
-
-首先，创建项目：
-
-```bash
-bun create astro@latest
-```
-
-安装必要的集成：
-
-```bash
-bunx astro add tailwind
-bunx astro add sitemap
-```
-
-
-
-在 `src/content/config.ts` 中定义博客文章的 Schema：
-
-```typescript
-import { z, defineCollection } from 'astro:content'
-
-const blogCollection = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    description: z.string().max(160),
-    publishDate: z.date(),
-    tags: z.array(z.string()).default([]),
-    category: z.string().default('general'),
-  }),
-})
-```
-
-
-
-使用 `getStaticPaths` 动态生成所有文章页面：
-
-```typescript
-export async function getStaticPaths() {
-  const posts = await getCollection('blog')
-  return posts.map((post) => ({
-    params: { slug: post.slug },
-    props: { post },
-  }))
-}
-```
-
-
-
-Astro 为内容网站提供了极佳的开发体验和运行时性能。结合 Tailwind CSS 和 Content Collections，可以快速搭建一个类型安全、性能优异的技术博客。
-
-... [阅读全文](https://idao.fun/blog/astro-fullstack-guide/)
-
+- [首页](https://idao.fun/): iDao技术魔方，独立全栈开发者 · AI实战 · 全栈开发 · 开源教程
+- [博客](https://idao.fun/blog/): 全栈开发与AI实战原创教程，共 52 篇文章
+- [AI精选](https://idao.fun/ai/): AI工具实测、评测与推荐，共 142 个
+- [开源项目](https://idao.fun/projects/): 开源项目源码与深度复盘
+- [关于](https://idao.fun/about/): 独立全栈开发者与技术博主个人介绍
+- [技术服务](https://idao.fun/service/): 成都独立全栈开发定制服务
+- [在线工具集](https://idao.fun/utils/): 即开即用的开发者在线工具，共 21 个
+- [友情链接](https://idao.fun/links/): 优质站点友情链接互换
+- [赞助支持](https://idao.fun/sponsor/): 赞助支持本站持续创作
+- [站内搜索](https://idao.fun/search/): Pagefind 全文搜索
+- [隐私政策](https://idao.fun/privacy/): 隐私政策说明
+- [服务条款](https://idao.fun/terms/): 网站服务条款
+
+## 在线工具 · 计算工具（3 个）
+
+- [BMI 计算器](https://idao.fun/utils/bmi-calculator.md): compute · BMI/健康/体重/身体质量指数/计算工具 · 在线身体质量指数（BMI）计算工具，根据身高体重快速计算 BMI 值，并提供体重状况分类参考（偏瘦/正常/超重/肥胖）。（原始 Markdown 正文）
+- [亲戚关系计算器](https://idao.fun/utils/kinship-calculator.md): compute · 亲戚/称呼/关系/称谓/辈分 · 在线亲戚称呼计算工具，输入关系链即可算出正确称呼。支持性别选择、呼称方向切换，涵盖中国传统家庭称谓体系。（原始 Markdown 正文）
+- [贷款计算器](https://idao.fun/utils/loan-calculator.md): compute · 贷款/房贷/月供/利率/等额本息/等额本金 · 在线个人贷款计算工具，支持等额本息和等额本金两种还款方式，快速计算月供、总利息与还款总额。（原始 Markdown 正文）
+
+## 在线工具 · 编码转换（4 个）
+
+- [图片Base64 转换器](https://idao.fun/utils/base64-image-converter.md): convert · Base64/图片/编码/图片转换/Data URI · 在线图片 Base64 编码转换工具，支持 JPG、PNG、GIF、WebP 等格式，可将图片转换为 Base64 编码字符串，或将 Base64 编码还原为图片并下载。（原始 Markdown 正文）
+- [字节单位转换器](https://idao.fun/utils/byte-converter.md): convert · 字节/单位换算/存储容量/Byte/文件大小/转换工具 · 在线存储容量单位转换工具，支持 Byte、KB、MB、GB、TB、PB 等多种单位的精确互转，快速了解文件大小换算。（原始 Markdown 正文）
+- [文件 HEX 值计算器](https://idao.fun/utils/hex-converter.md): convert · HEX/十六进制/进制转换/二进制/文件分析/数据转储 · 在线文件 HEX 值分析工具，支持文本与十六进制互转、上传文件查看 HEX 二进制转储，快速查看文件底层数据结构。（原始 Markdown 正文）
+- [人民币大写转换](https://idao.fun/utils/rmb-converter.md): convert · 人民币/大写/金额/财务/票据 · 在线人民币金额大小写转换工具，支持小写数字转中文大写金额（含圆角分），遵循金融票据规范标准。（原始 Markdown 正文）
+
+## 在线工具 · 开发工具（9 个）
+
+- [进制转换](https://idao.fun/utils/base-converter.md): dev · 进制/转换/二进制/十六进制/Base64 · 在线整数进制转换工具，支持 2 至 64 进制互转，涵盖二进制、八进制、十进制、十六进制、Base64 及自定义进制。（原始 Markdown 正文）
+- [Base64 编解码](https://idao.fun/utils/base64-encode.md): dev · Base64/编码/解码/base64url · 在线 Base64 字符串编码与解码工具。支持标准 Base64 与 URL-safe Base64（base64url）互转，实时输出，一键复制。（原始 Markdown 正文）
+- [颜色转换](https://idao.fun/utils/color-converter.md): dev · 颜色/HEX/RGB/HSL/转换 · 在线颜色格式转换工具，支持 HEX、RGB、HSL、HWB、LCH、CMYK、CSS 颜色名称互转，内置取色器，修改任意格式自动同步。（原始 Markdown 正文）
+- [Crontab 表达式生成器](https://idao.fun/utils/crontab-generator.md): dev · Crontab/Cron/Linux/定时任务/运维/调度/表达式 · 在线 Crontab 表达式生成与解释工具，快速生成 Linux 定时任务表达式，支持常用时间周期选择、各字段单独配置，并自动生成人类可读的中文解释。（原始 Markdown 正文）
+- [HTTP 接口测试](https://idao.fun/utils/http-tester.md): dev · HTTP/API 调试/开发工具/REST · 在线 HTTP 请求调试工具，支持 GET/POST/PUT/DELETE 等方法，可自定义请求头、请求体，查看响应状态码、响应头和响应体。（原始 Markdown 正文）
+- [JSON 格式化](https://idao.fun/utils/json-formatter.md): dev · JSON/格式化/开发工具 · 在线 JSON 格式化、压缩与验证工具。支持 JSON 美化排版、语法校验、转义与压缩，适合 API 调试与数据查看。（原始 Markdown 正文）
+- [JWT 解析](https://idao.fun/utils/jwt-parser.md): dev · JWT/令牌/解码/认证 · 在线 JSON Web Token (JWT) 解析与解码工具。自动解码 JWT 的 Header、Payload 和 Signature，支持标准 JWT claims 的人类可读名称显示和时间戳自动转换。（原始 Markdown 正文）
+- [日期时间转换](https://idao.fun/utils/timestamp-converter.md): dev · 时间戳/日期/转换/ISO/RFC · 在线日期时间格式转换工具，支持同时显示 JS locale、ISO 8601、ISO 9075、RFC 3339、RFC 7231、Unix 时间戳、UTC 格式、Mongo ObjectID、Excel 序列号等 10 种格式。（原始 Markdown 正文）
+- [URL 编解码](https://idao.fun/utils/url-encode.md): dev · URL/编码/Web开发 · 在线 URL 编码与解码工具。支持对 URL 参数、中文、特殊符号进行 encodeURIComponent 编码与解码。（原始 Markdown 正文）
+
+## 在线工具 · 加密安全（3 个）
+
+- [加密解密](https://idao.fun/utils/encryption-tool.md): security · 加密/解密/AES/TripleDES/Rabbit/RC4 · 在线文本加密解密工具，支持 AES、TripleDES、Rabbit、RC4 等算法，实时加密解密你的文本内容。（原始 Markdown 正文）
+- [Hash 文本](https://idao.fun/utils/hash-text.md): security · Hash/MD5/SHA/SHA256/SHA512/哈希 · 在线文本哈希计算工具，支持 MD5、SHA1、SHA224、SHA256、SHA384、SHA512、SHA3、RIPEMD160 等多种哈希算法，实时计算并支持十六进制和 Base64 输出。（原始 Markdown 正文）
+- [随机密码生成器](https://idao.fun/utils/password-generator.md): security · 密码/安全/随机 · 在线随机密码生成工具。支持自定义密码长度、包含字符类型（大写/小写/数字/符号），一键复制高强度密码。（原始 Markdown 正文）
+
+## 在线工具 · 文本工具（2 个）
+
+- [文本格式转换](https://idao.fun/utils/case-converter.md): text · 大小写/转换/命名规范 · 在线文本大小写转换工具，支持 14 种格式互转：大小写、驼峰、蛇形、帕斯卡、连字符、点分隔、路径形式等。（原始 Markdown 正文）
+- [字数统计](https://idao.fun/utils/word-counter.md): text · 字数/统计/写作 · 在线字数统计工具。实时统计文字数量、字符数、段落数、行数，支持中英文混排与去除空格统计。（原始 Markdown 正文）
+
+## AI 工具 · AI绘画（14 个）
+
+- [ComfyUI](https://idao.fun/ai/comfyui.md): 分类「AI绘画」· 2026-04-27 · ComfyUI 是开源模块化 AI 图像工作流编辑器，支持 Stable Diffusion、Flux 等模型，以节点流程方式灵活构建复杂生成管线。（官网 https://comfyui.org/，原始 Markdown 正文）
+- [DALL·E](https://idao.fun/ai/dalle.md): 分类「AI绘画」· 2026-04-27 · OpenAI 推出的文生图模型系列，以高语义理解与自然语言精准渲染著称，最新版本 DALL·E 3 支持复杂提示词与细节控制。（官网 https://openai.com/dall-e-3，原始 Markdown 正文）
+- [Adobe Firefly](https://idao.fun/ai/firefly.md): 分类「AI绘画」· 2026-04-27 · Adobe Firefly 是 Adobe 推出的创意 AI 工具，深度集成 Photoshop、Illustrator 等产品，支持生成式填充与文本效果。（官网 https://firefly.adobe.com/，原始 Markdown 正文）
+- [FLUX](https://idao.fun/ai/flux.md): 分类「AI绘画」· 2026-04-27 · FLUX 是 Black Forest Labs 推出的开源图像生成模型家族，支持文生图、图生图、图像编辑和修复。（官网 https://flux.ai/，原始 Markdown 正文）
+- [Ideogram](https://idao.fun/ai/ideogram.md): 分类「AI绘画」· 2026-04-27 · Ideogram 是专注于文字渲染的 AI 图像生成工具，支持精准的文字嵌入和多种艺术风格。（官网 https://ideogram.ai/，原始 Markdown 正文）
+- [Imagen](https://idao.fun/ai/imagen.md): 分类「AI绘画」· 2026-04-27 · Google 高能摄影级图像生成模型，强调照片真实感与语义精准度，最新 Imagen 4 支持更高分辨率与细节还原。（官网 https://deepmind.google/technologies/imagen/，原始 Markdown 正文）
+- [即梦AI](https://idao.fun/ai/jimeng.md): 分类「AI绘画」· 2026-04-27 · 即梦AI一站式智能创作平台，即刻造梦。提供AI绘画和AIGC视频创作体验，拥有激发无限创作灵感的社区。（官网 https://jimeng.jianying.com/，原始 Markdown 正文）
+- [Leonardo AI](https://idao.fun/ai/leonardo.md): 分类「AI绘画」· 2026-04-27 · 面向创作者的 AI 图像生成平台，提供多模型切换、精细编辑与品牌一致性工具，适合商业设计。（官网 https://leonardo.ai/，原始 Markdown 正文）
+- [Midjourney](https://idao.fun/ai/midjourney.md): 分类「AI绘画」· 2026-04-27 · Midjourney 是全球领先的 AI 图像生成工具，支持 Discord 和 Web 双端，V8 版本支持原生 2K 输出和 5 倍速生成。（官网 https://www.midjourney.com/，原始 Markdown 正文）
+- [Nano Banana](https://idao.fun/ai/nano-banana.md): 分类「AI绘画」· 2026-04-27 · Google 最新图像生成与编辑模型，集成于 Gemini，支持对话式创作、4K 输出与 SynthID 水印。（官网 https://gemini.google/us/overview/image-generation/，原始 Markdown 正文）
+- [Playground AI](https://idao.fun/ai/playground.md): 分类「AI绘画」· 2026-04-27 · 简洁易用的 AI 图像生成与编辑平台，支持多模型、滤镜风格与快速迭代，适合创作者快速出图。（官网 https://playgroundai.com/，原始 Markdown 正文）
+- [海艺 AI](https://idao.fun/ai/seaart.md): 分类「AI绘画」· 2026-04-27 · 海艺 AI（SeaArt）是站式 AI 创作平台，支持文生图、图生视频与多模型切换，适合创作者快速生成视觉内容。（官网 https://www.seaart.ai/，原始 Markdown 正文）
+- [Seedream / SeeDream](https://idao.fun/ai/seedream.md): 分类「AI绘画」· 2026-04-27 · 字节跳动推出的统一图像生成与编辑模型，支持 4K 输出、多图参考与指令级编辑，速度超 10× 提升。（官网 https://seedream.pro/，原始 Markdown 正文）
+- [Stable Diffusion](https://idao.fun/ai/stable-diffusion.md): 分类「AI绘画」· 2026-04-27 · Stable Diffusion 是开源图像生成模型，提供多个 WebUI 选择（A1111/Forge/ComfyUI），本地运行完全免费。（官网 https://stability.ai/，原始 Markdown 正文）
+
+## AI 工具 · AI编程工具（34 个）
+
+- [Atoms](https://idao.fun/ai/atoms.md): 分类「AI编程工具」· 2026-08-04 · 多智能体 AI 开发团队，从 MetaGPT 进化而来（官网 https://atoms.dev/，原始 Markdown 正文）
+- [Augment Code](https://idao.fun/ai/augment-code.md): 分类「AI编程工具」· 2026-08-04 · 企业级 agentic 编程平台：Context Engine 语义索引整个代码库，PR 审查与 agent 编排开箱即用（官网 https://www.augmentcode.com/，原始 Markdown 正文）
+- [Base44](https://idao.fun/ai/base44.md): 分类「AI编程工具」· 2026-08-04 · 纯自然语言生成完整应用的 AI 构建器，被 Wix 收购（官网 https://www.base44.com/，原始 Markdown 正文）
+- [Cline](https://idao.fun/ai/cline.md): 分类「AI编程工具」· 2026-08-04 · 开源可审计的 AI 编码 Agent，BYOK 自带模型、零厂商锁定（官网 https://cline.bot/，原始 Markdown 正文）
+- [Devin](https://idao.fun/ai/devin.md): 分类「AI编程工具」· 2026-08-04 · Cognition 的自主 AI 软件工程师，云端沙箱里独立完成开发任务（官网 https://devin.ai/，原始 Markdown 正文）
+- [Dreamflow](https://idao.fun/ai/dreamflow.md): 分类「AI编程工具」· 2026-08-04 · 基于 Flutter 的 AI 移动应用可视化构建器（官网 https://dreamflow.app/，原始 Markdown 正文）
+- [Emdash](https://idao.fun/ai/emdash.md): 分类「AI编程工具」· 2026-08-04 · 开源 Agentic 开发环境：桌面并行运行多个编码 agent，各自独立 Git worktree（官网 https://emdash.sh/，原始 Markdown 正文）
+- [Emergent 2.0](https://idao.fun/ai/emergent.md): 分类「AI编程工具」· 2026-08-04 · 首个 agentic vibe-coding 平台，单 prompt 从设计到部署全自动（官网 https://emergent.sh/，原始 Markdown 正文）
+- [Gemini CLI](https://idao.fun/ai/gemini-cli.md): 分类「AI编程工具」· 2026-08-04 · Google 开源的终端 AI 编程 Agent，1M token 上下文与慷慨免费层（官网 https://github.com/google-gemini/gemini-cli，原始 Markdown 正文）
+- [Google AI Studio](https://idao.fun/ai/google-ai-studio.md): 分类「AI编程工具」· 2026-08-04 · Google 全栈 vibe coding 平台，Antigravity + Firebase 内置（官网 https://aistudio.google.com/，原始 Markdown 正文）
+- [Google Antigravity](https://idao.fun/ai/google-antigravity.md): 分类「AI编程工具」· 2026-08-04 · Google 的 agentic 开发平台：IDE + CLI + SDK 三件套，个人免费（官网 https://antigravity.google/，原始 Markdown 正文）
+- [Kilo Code](https://idao.fun/ai/kilo-code.md): 分类「AI编程工具」· 2026-08-04 · 开源 agentic 工程平台：一个 agent 横跨 VS Code、JetBrains、CLI 与云端，500+ 模型零加价（官网 https://kilo.ai/，原始 Markdown 正文）
+- [Lovable](https://idao.fun/ai/lovable.md): 分类「AI编程工具」· 2026-08-04 · 聊天生成全栈 Web 应用的 AI 全栈工程师，无需代码基础（官网 https://lovable.dev/，原始 Markdown 正文）
+- [OpenAI Codex](https://idao.fun/ai/openai-codex.md): 分类「AI编程工具」· 2026-08-04 · OpenAI 云端编码 Agent，并行任务、隔离云执行，现已并入 ChatGPT（官网 https://openai.com/codex/，原始 Markdown 正文）
+- [PlugThis](https://idao.fun/ai/plugthis.md): 分类「AI编程工具」· 2026-08-04 · 专为 Chrome 扩展打造的 AI 生成器（官网 https://plugthis.ai/，原始 Markdown 正文）
+- [Pythagora](https://idao.fun/ai/pythagora.md): 分类「AI编程工具」· 2026-08-04 · 14 个专业 AI agent 模拟完整开发团队：从需求到部署的全自动应用开发平台（官网 https://www.pythagora.ai/，原始 Markdown 正文）
+- [Replit](https://idao.fun/ai/replit.md): 分类「AI编程工具」· 2026-08-04 · 云端一体化开发环境，零配置从写代码到部署上线（官网 https://replit.com/，原始 Markdown 正文）
+- [Tempo](https://idao.fun/ai/tempo.md): 分类「AI编程工具」· 2026-08-04 · AI 可视化 React 应用编辑器，提示词直出真实代码（官网 https://www.tempo.new/，原始 Markdown 正文）
+- [UI Bakery](https://idao.fun/ai/ui-bakery.md): 分类「AI编程工具」· 2026-08-04 · AI 低代码内部工具构建器，连接数据库与 API（官网 https://uibakery.io/，原始 Markdown 正文）
+- [v0 by Vercel](https://idao.fun/ai/v0.md): 分类「AI编程工具」· 2026-08-04 · Vercel 出品的 React/Next.js UI 生成器，一句话生成精美前端组件（官网 https://v0.dev/，原始 Markdown 正文）
+- [Warp](https://idao.fun/ai/warp.md): 分类「AI编程工具」· 2026-08-04 · 从 AI 终端进化为 Agentic 开发环境：开源终端 + 多模型编码 agent + 云端 Oz 编排（官网 https://www.warp.dev/，原始 Markdown 正文）
+- [Windsurf](https://idao.fun/ai/windsurf.md): 分类「AI编程工具」· 2026-08-04 · 原 Codeium 的 AI 编程助手，被 Cognition 收购后于 2026 年更名 Devin Desktop（官网 https://windsurf.com/，原始 Markdown 正文）
+- [Aider](https://idao.fun/ai/aider.md): 分类「AI编程工具」· 2026-04-27 · Aider 是开源 AI 编程助手，支持与 GPT-4o、Claude 等模型协同编辑代码，通过 Git 追踪更改。（官网 https://aider.chat/，原始 Markdown 正文）
+- [Ant CLI](https://idao.fun/ai/ant-cli.md): 分类「AI编程工具」· 2026-04-27 · Ant CLI 是 Anthropic 官方推出的命令行工具，用于创建、配置和管理云端 Claude Agent，会话按时间计费。（官网 https://docs.anthropic.com/en/docs/ant-cli，原始 Markdown 正文）
+- [Bolt.new](https://idao.fun/ai/bolt-new.md): 分类「AI编程工具」· 2026-04-27 · Bolt.new 是开源全栈 AI 编程助手，支持 AI 生成完整项目并直接在浏览器运行和部署。（官网 https://bolt.new/，原始 Markdown 正文）
+- [Claude Code](https://idao.fun/ai/claude-code.md): 分类「AI编程工具」· 2026-04-27 · Claude Code 是 Anthropic 推出的官方 CLI 编程助手，支持终端内代码编写、重构、调试与项目理解。（官网 https://docs.anthropic.com/en/docs/claude-code，原始 Markdown 正文）
+- [Codebuddy](https://idao.fun/ai/codebuddy.md): 分类「AI编程工具」· 2026-04-27 · Codebuddy 是腾讯推出的 AI 编程助手，深度集成 VS Code 和 JetBrains，支持多文件编辑、语音交互与代码库理解。（官网 https://codebuddy.ai/，原始 Markdown 正文）
+- [Continue](https://idao.fun/ai/continue.md): 分类「AI编程工具」· 2026-04-27 · Continue 是开源 AI 编程助手，深度集成 VS Code 和 JetBrains，提供智能代码补全和对话辅助。（官网 https://www.continue.dev/，原始 Markdown 正文）
+- [GitHub Copilot](https://idao.fun/ai/copilot.md): 分类「AI编程工具」· 2026-04-27 · GitHub Copilot 是微软 GitHub 推出的 AI 编程助手，支持代码补全、函数生成、Bug 修复与多语言理解。（官网 https://github.com/features/copilot，原始 Markdown 正文）
+- [Cursor](https://idao.fun/ai/cursor.md): 分类「AI编程工具」· 2026-04-27 · Cursor 是 AI 优先的编程 IDE，支持多 Agent 并行、多仓库协作与云端无缝切换，重新定义 AI 编程体验。（官网 https://cursor.com/，原始 Markdown 正文）
+- [OpenCode](https://idao.fun/ai/opencode.md): 分类「AI编程工具」· 2026-04-27 · OpenCode 是开源 AI 编程助手，支持终端、桌面应用和 IDE 扩展，连接任意模型提供代码编写、调试与重构能力。（官网 https://opencode.ai/，原始 Markdown 正文）
+- [OpenCode Go](https://idao.fun/ai/opencode-go.md): 分类「AI编程工具」· 2026-04-27 · 低成本开源编程模型订阅服务，首月 $5，之后 $10/月，稳定访问 100+ 开源编程模型。（官网 https://opencode.ai/zen，原始 Markdown 正文）
+- [Roo Code](https://idao.fun/ai/roocode.md): 分类「AI编程工具」· 2026-04-27 · Roo Code（原 Roo Cline）是开源 AI 编程助手，专注可靠性与稳定性，适合复杂多文件重构和关键任务。（官网 https://roo.ai/，原始 Markdown 正文）
+- [Trae AI](https://idao.fun/ai/trae.md): 分类「AI编程工具」· 2026-04-27 · Trae AI 是字节跳动推出的 Agentic IDE，专注自动化任务执行，支持自然语言开发、任务分解与多步骤工作流。（官网 https://www.trae.ai/，原始 Markdown 正文）
+
+## AI 工具 · AI视频生成（5 个）
+
+- [HeyGen](https://idao.fun/ai/heygen.md): 分类「AI视频生成」· 2026-04-27 · HeyGen 是专业 AI 数字人视频平台，Avatar V 模型可在 15 秒内创建逼真的 AI 数字分身。（官网 https://www.heygen.com/，原始 Markdown 正文）
+- [可灵 AI](https://idao.fun/ai/kling.md): 分类「AI视频生成」· 2026-04-27 · 可灵 AI 是快手推出的 AI 视频生成平台，支持文生视频、图生视频与原生 4K 高清视频生成。（官网 https://klingai.com/，原始 Markdown 正文）
+- [Pika Labs](https://idao.fun/ai/pika.md): 分类「AI视频生成」· 2026-04-27 · Pika Labs 是高性价比 AI 视频生成工具，提供慷慨的免费额度，支持 Pikaffects、Pikaframes 等创意功能。（官网 https://pika.art/，原始 Markdown 正文）
+- [Runway](https://idao.fun/ai/runway.md): 分类「AI视频生成」· 2026-04-27 · Runway 是领先的 AI 视频生成平台，Gen-4.5 版本提供世界顶级视频质量和创意控制能力。（官网 https://runwayml.com/，原始 Markdown 正文）
+- [Google Veo](https://idao.fun/ai/veo.md): 分类「AI视频生成」· 2026-04-27 · Google Veo 是 DeepMind 推出的 AI 视频生成模型，Veo 4 支持 4K 分辨率和最长 2 分钟视频。（官网 https://deepmind.google/veo，原始 Markdown 正文）
+
+## AI 工具 · 大语言模型（43 个）
+
+- [Amazon Nova](https://idao.fun/ai/amazon-nova.md): 分类「大语言模型」· 2026-08-04 · AWS 原生多模态模型家族，覆盖 Micro 到 Premier 全档位，含图像、视频、语音生成与 Forge 定制。（官网 https://aws.amazon.com/nova/，原始 Markdown 正文）
+- [Anthropic](https://idao.fun/ai/anthropic.md): 分类「大语言模型」· 2026-08-04 · Anthropic 是 Claude 系列模型的研发公司，2026 年已迭代至 Claude Opus 5 / Sonnet 5 / Haiku 4.5，并提供企业级 API、Tool Use 与 AI 安全治理能力。（官网 https://www.anthropic.com/，原始 Markdown 正文）
+- [Apple 基础模型](https://idao.fun/ai/apple-foundation-models.md): 分类「大语言模型」· 2026-08-04 · Apple 端侧 + 私有云计算模型框架，2026 年开源核心，可接入任意 LLM 的 Swift 原生协议。（官网 https://developer.apple.com/apple-intelligence/，原始 Markdown 正文）
+- [百川智能](https://idao.fun/ai/baichuan.md): 分类「大语言模型」· 2026-08-04 · 百川智能提供 Baichuan 4 通用基座与 Baichuan-M4 医疗专用大模型，医疗领域三大榜单世界第一，事实性幻觉率全球新低。（官网 https://www.baichuan-ai.com/，原始 Markdown 正文）
+- [Cohere](https://idao.fun/ai/cohere.md): 分类「大语言模型」· 2026-08-04 · Cohere 提供面向企业场景的大模型与检索增强能力，2026 年旗舰为 Command A+（开源 MoE）与 Command A，强调可控、安全与私有化部署。（官网 https://cohere.com/，原始 Markdown 正文）
+- [Command R](https://idao.fun/ai/command-r.md): 分类「大语言模型」· 2026-08-04 · Cohere 的企业级对话与 RAG 优化模型系列，现已演进至 Command R2（原生 SQL/Python/R 数据分析）与 Command A 系列承接。（官网 https://cohere.com/command，原始 Markdown 正文）
+- [DeepSeek](https://idao.fun/ai/deepseek.md): 分类「大语言模型」· 2026-08-04 · 深度求索（DeepSeek），专注于研究世界领先的通用人工智能底层模型与技术，挑战人工智能前沿性难题。基于自研训练框架、自建智算集群和万卡算力等资源，各大模型在公开评测榜单及真实样本外的泛化效果均有超越同级别模型的出色表现。（官网 https://www.deepseek.com/，原始 Markdown 正文）
+- [文心大模型](https://idao.fun/ai/ernie.md): 分类「大语言模型」· 2026-08-04 · 文心大模型（ERNIE）是百度自研的旗舰大模型体系，文心 5.0/5.1 已实现原生全模态统一建模，覆盖企业级文本、图像、音频、视频应用场景。（官网 https://yiyan.baidu.com/，原始 Markdown 正文）
+- [Grok](https://idao.fun/ai/grok.md): 分类「大语言模型」· 2026-08-04 · xAI 通用大模型，Grok 4.5 旗舰强化编码与 Agent 能力，Grok 5 仍在训练中。（官网 https://grok.com/，原始 Markdown 正文）
+- [腾讯混元](https://idao.fun/ai/hunyuan.md): 分类「大语言模型」· 2026-08-04 · 腾讯混元大模型，Hy3 正式版以 295B 总参/21B 激活的 MoE 架构开源，快慢思考融合，面向 Agent 场景大幅优化。（官网 https://hunyuan.tencent.com/，原始 Markdown 正文）
+- [IBM Granite](https://idao.fun/ai/ibm-granite.md): 分类「大语言模型」· 2026-08-04 · IBM 企业级开源模型家族，Apache 2.0 许可 + ISO 42001 认证，兼顾合规、编码与 RAG。（官网 https://www.ibm.com/granite，原始 Markdown 正文）
+- [AI21 Jamba](https://idao.fun/ai/jamba.md): 分类「大语言模型」· 2026-08-04 · AI21 混合 SSM-Transformer 开源模型家族，256K 超长上下文，长文档 RAG 与私有部署首选。（官网 https://www.ai21.com/，原始 Markdown 正文）
+- [Kimi](https://idao.fun/ai/kimi.md): 分类「大语言模型」· 2026-08-04 · Kimi 是一款AI智能助手，由 Moonshot 自研的大语言模型驱动，支持在线搜索、深度思考、多模态推理和超长文本对话。（官网 https://www.moonshot.cn/，原始 Markdown 正文）
+- [Meta Llama](https://idao.fun/ai/llama.md): 分类「大语言模型」· 2026-08-04 · Meta 开源权重模型家族，Llama 5 原生多模态 + 5M 超长上下文，支持私有化部署与定制微调。（官网 https://www.llama.com/，原始 Markdown 正文）
+- [MiniMax](https://idao.fun/ai/minimax.md): 分类「大语言模型」· 2026-08-04 · MiniMax M2 系列是专为 Agent 与代码场景打造的开源大模型，M2.7 支持自我迭代训练，具备超长上下文与细粒度 MoE。（官网 https://www.minimaxi.com/，原始 Markdown 正文）
+- [NVIDIA Nemotron](https://idao.fun/ai/nemotron.md): 分类「大语言模型」· 2026-08-04 · NVIDIA 开源模型家族，Mamba-MoE 混合架构，最高 1M 上下文，面向 Agent 工作流与私有化部署。（官网 https://developer.nvidia.com/nemotron，原始 Markdown 正文）
+- [千问](https://idao.fun/ai/qianwen.md): 分类「大语言模型」· 2026-08-04 · 阿里云通义千问 Qwen 系列大模型，Qwen3.6 起混合思考模式，覆盖开源到旗舰 API 的完整矩阵。（官网 https://www.qianwen.com/，原始 Markdown 正文）
+- [商汤日日新](https://idao.fun/ai/sensenova.md): 分类「大语言模型」· 2026-08-04 · 商汤 SenseNova 原生多模态智能体模型，理解生成一体，可生成信息图与 PPT，适配办公智能体。（官网 https://www.sensenova.cn/，原始 Markdown 正文）
+- [讯飞星火](https://idao.fun/ai/spark.md): 分类「大语言模型」· 2026-08-04 · 科大讯飞通用大模型，中文理解与语音生态领先，提供 Lite 到 4.0 Ultra 六档 API。（官网 https://xinghuo.xfyun.cn/，原始 Markdown 正文）
+- [阶跃星辰 StepFun](https://idao.fun/ai/stepfun.md): 分类「大语言模型」· 2026-08-04 · 阶跃星辰（StepFun）Step 3.7 Flash 以 196B 总参/11B 激活开源，最高 400 tokens/s，面向 Agent 生产化的高效推理模型。（官网 https://www.stepfun.com/，原始 Markdown 正文）
+- [零一万物 Yi](https://idao.fun/ai/yi.md): 分类「大语言模型」· 2026-08-04 · 零一万物（01.AI）以 Yi-Lightning 百亿级 MoE 模型立足，现已转向万智 2.5 企业级多智能体方向。（官网 https://www.lingyiwanwu.com/，原始 Markdown 正文）
+- [智谱 GLM](https://idao.fun/ai/zhipu.md): 分类「大语言模型」· 2026-08-04 · 智谱 GLM 提供通用对话、代码与推理能力，支持企业级 API 接入与应用构建。（官网 https://open.bigmodel.cn/，原始 Markdown 正文）
+- [Aquila](https://idao.fun/ai/aquila.md): 分类「大语言模型」· 2026-04-27 · 智源研究院推出的开源大语言模型系列，支持中英双语与长上下文，兼顾推理性能与部署效率。（官网 https://model.baai.ac.cn/，原始 Markdown 正文）
+- [BLOOM](https://idao.fun/ai/bloom.md): 分类「大语言模型」· 2026-04-27 · BigScience 国际合作项目推出的多语言大语言模型，支持 46 种语言，完全开放权重，推动 AI 民主化。（官网 https://huggingface.co/bigscience，原始 Markdown 正文）
+- [Code Llama](https://idao.fun/ai/codellama.md): 分类「大语言模型」· 2026-04-27 · Meta 推出的代码专用大语言模型系列，基于 Llama 架构优化，支持代码生成、补全与调试，覆盖 80+ 编程语言。（官网 https://ai.meta.com/blog/code-llama-large-language-model-coding/，原始 Markdown 正文）
+- [DBRX](https://idao.fun/ai/dbrx.md): 分类「大语言模型」· 2026-04-27 · Databricks 推出的开源 MoE 大模型，132B 总参数，36B 活跃参数，性能超越同规模密集模型。（官网 https://www.databricks.com/blog/introducing-dbrx，原始 Markdown 正文）
+- [豆包](https://idao.fun/ai/doubao.md): 分类「大语言模型」· 2026-04-27 · 字节跳动独立研发的人工智能豆包，依托先进的大模型技术打造，兼具知识解答、创意创作、日常陪伴、问题分析、实用工具等多重能力。既能为你科普各类常识、解答学习工作难题、梳理逻辑思路，也可以帮你撰写文案、构思内容、放松闲聊、提供生活建议。（官网 https://www.doubao.com/，原始 Markdown 正文）
+- [Falcon](https://idao.fun/ai/falcon.md): 分类「大语言模型」· 2026-04-27 · 阿联酋技术创新研究院（TII）推出的开源大语言模型系列，以高性能、可商用著称，支持多语言与长上下文。（官网 https://falconllm.tii.ae/，原始 Markdown 正文）
+- [Gemini](https://idao.fun/ai/gemini.md): 分类「大语言模型」· 2026-04-27 · Gemini 是 Google 的多模态模型家族，覆盖轻量到高性能场景，适合搜索增强、代码、视觉理解与长上下文任务。（官网 https://gemini.google.com/，原始 Markdown 正文）
+- [Gemma](https://idao.fun/ai/gemma.md): 分类「大语言模型」· 2026-04-27 · Google 推出的轻量级开放权重模型系列，基于 Gemini 同源技术，适合本地部署与边缘推理。（官网 https://ai.google.dev/gemma，原始 Markdown 正文）
+- [书生·浦语](https://idao.fun/ai/internlm.md): 分类「大语言模型」· 2026-04-27 · 上海人工智能实验室推出的开源大语言模型与多模态模型系列，支持百万 token 超长上下文，兼顾推理性能与部署效率。（官网 https://internlm.intern-ai.com.cn/，原始 Markdown 正文）
+- [MiniCPM](https://idao.fun/ai/minicpm.md): 分类「大语言模型」· 2026-04-27 · 面壁智能推出的轻量化高性能开源模型系列，小参数实现媲美大模型的能力，适合端侧与边缘部署。（官网 https://www.minicpm.ai/，原始 Markdown 正文）
+- [Mistral](https://idao.fun/ai/mistral.md): 分类「大语言模型」· 2026-04-27 · Mistral 提供高性能开源与商业大模型能力，适用于对话、代码、RAG 与企业级 AI 应用开发。（官网 https://mistral.ai/，原始 Markdown 正文）
+- [Mixtral](https://idao.fun/ai/mixtral.md): 分类「大语言模型」· 2026-04-27 · Mistral AI 推出的开源 MoE 模型系列，8x7B/8x22B 参数，性能超越 Llama 2 70B，推理成本更低。（官网 https://mistral.ai/news/mixtral-of-experts/，原始 Markdown 正文）
+- [MPT](https://idao.fun/ai/mpt.md): 分类「大语言模型」· 2026-04-27 · Databricks MosaicML 推出的开源商业可用大模型系列，支持 65K 超长上下文，针对企业级训练与推理优化。（官网 https://www.databricks.com/mosaic，原始 Markdown 正文）
+- [Nous Hermes](https://idao.fun/ai/nous-hermes.md): 分类「大语言模型」· 2026-04-27 · NousResearch 推出的高性能开源对话模型系列，基于 Llama 微调，在指令遵循与推理上表现卓越。（官网 https://nousresearch.com/，原始 Markdown 正文）
+- [OLMo](https://idao.fun/ai/olmo.md): 分类「大语言模型」· 2026-04-27 · Allen AI 推出的完全开放大语言模型，包含训练数据、代码、权重全流程透明，推动 AI 可复现研究。（官网 https://allenai.org/olmo，原始 Markdown 正文）
+- [OpenAI](https://idao.fun/ai/openai.md): 分类「大语言模型」· 2026-04-27 · OpenAI 提供面向对话、推理、代码与多模态任务的通用模型服务，支持从原型到生产的统一 API 体验。（官网 https://openai.com/，原始 Markdown 正文）
+- [Perplexity API](https://idao.fun/ai/perplexity.md): 分类「大语言模型」· 2026-04-27 · Perplexity API 结合大模型回答与在线检索能力，适合问答、调研与带引用的内容生成。（官网 https://www.perplexity.ai/，原始 Markdown 正文）
+- [Phi](https://idao.fun/ai/phi.md): 分类「大语言模型」· 2026-04-27 · 微软推出的小参数高性能模型系列，以极低成本实现媲美大模型推理能力，适合本地与边缘部署。（官网 https://ai.microsoft.com/phi，原始 Markdown 正文）
+- [RedPajama](https://idao.fun/ai/redpajama.md): 分类「大语言模型」· 2026-04-27 · Together AI 推出的完全开源大模型系列，基于透明可复现的数据集训练，推动开放 AI 生态发展。（官网 https://www.together.ai/，原始 Markdown 正文）
+- [Solar](https://idao.fun/ai/solar.md): 分类「大语言模型」· 2026-04-27 · Upstage 推出的高性能开源模型系列，以单 GPU 运行超越多 GPU 大模型的效率著称，最新 Solar Pro 3 达 102B 参数。（官网 https://upstage.ai/solar，原始 Markdown 正文）
+- [StarCoder](https://idao.fun/ai/starcoder.md): 分类「大语言模型」· 2026-04-27 · BigCode 项目推出的开源代码专用大语言模型，支持 80+ 编程语言，为代码生成、补全与理解任务优化。（官网 https://www.bigcode-project.org/，原始 Markdown 正文）
+
+## AI 工具 · 技能Skill（12 个）
+
+- [Anthropic Agent Skills](https://idao.fun/ai/agent-skills.md): 分类「技能Skill」· 2026-08-04 · 由 Anthropic 发起并开放标准化的 Agent Skills 体系（agentskills.io），以 SKILL.md 文件夹为单位的可复用能力包，已被 20+ 编程平台采用。（官网 https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills，原始 Markdown 正文）
+- [Awesome AI Skill Hub](https://idao.fun/ai/awesome-ai-skills.md): 分类「技能Skill」· 2026-08-04 · AI Skill 生态导航：从官方 Agent Skills 标准到社区精选库（ComposioHQ awesome-claude-skills 67K+ stars）与新兴技能市场的一站式入口。（官网 https://github.com/ComposioHQ/awesome-claude-skills，原始 Markdown 正文）
+- [CocoLoop Hub](https://idao.fun/ai/cocoloop-hub.md): 分类「技能Skill」· 2026-08-04 · CocoLoop Hub 是中文 AI Agent Skills 商店，收录 16 万+ Skills，提供 CLS 安全检查与国内镜像下载加速。（官网 https://hub.cocoloop.cn/，原始 Markdown 正文）
+- [Cursor Rules & Skills 最佳实践](https://idao.fun/ai/cursor-rules.md): 分类「技能Skill」· 2026-08-04 · Cursor 2026 双机制：.cursor/rules/*.mdc 常驻规则（.cursorrules 单文件已弃用）+ .cursor/skills 按需技能，配合四种激活模式注入上下文。（官网 https://cursor.com/cn/docs/rules，原始 Markdown 正文）
+- [GStack](https://idao.fun/ai/gstack.md): 分类「技能Skill」· 2026-08-04 · Y Combinator CEO Garry Tan 开源的 Claude Code 配置，内置 23 个角色化 slash 命令覆盖产品开发全生命周期。（官网 https://github.com/garrytan/gstack，原始 Markdown 正文）
+- [Karpathy Guidelines](https://idao.fun/ai/karpathy-skills.md): 分类「技能Skill」· 2026-08-04 · 源自 Andrej Karpathy 的 LLM 编程 Agent 四条铁律（17 万+ stars 社区实现）：先思考、保持简单、外科手术式改动、聚焦目标。（官网 https://github.com/multica-ai/andrej-karpathy-skills，原始 Markdown 正文）
+- [Matt Pocock's Skills](https://idao.fun/ai/mattpocock-skills.md): 分类「技能Skill」· 2026-08-04 · 小而可组合的 Agent 技能集，以 grill-me 拷问式需求澄清（11 万+ stars）闻名，反 all-in-one 的轻量选择。（官网 https://github.com/mattpocock/skills，原始 Markdown 正文）
+- [SkillHub](https://idao.fun/ai/skillhub.md): 分类「技能Skill」· 2026-08-04 · SkillHub 是腾讯云推出的中文 AI Skills 社区，收录 2.2 万+ 技能，支持高速镜像、SkillPay 付费技能与团队空间。（官网 https://skillhub.cn/，原始 Markdown 正文）
+- [Skills.sh](https://idao.fun/ai/skills-sh.md): 分类「技能Skill」· 2026-08-04 · Vercel 维护的 Open Agent Skills 生态平台，57,000+ 技能一键安装，npx skills CLI 支持 70+ AI 编程工具。（官网 https://skills.sh/，原始 Markdown 正文）
+- [SkillsMP](https://idao.fun/ai/skillsmp.md): 分类「技能Skill」· 2026-08-04 · SkillsMP 是国际 Agent Skills 市场，索引 239 万+ 公开 SKILL.md，支持按职业、创作者、仓库检索并提供 REST API。（官网 https://skillsmp.com/，原始 Markdown 正文）
+- [Superpowers](https://idao.fun/ai/superpowers.md): 分类「技能Skill」· 2026-08-04 · Github 上最热门的 Agent 技能框架（obra/superpowers，22 万+ stars），用可组合技能串联完整软件开发生命周期方法论。（官网 https://github.com/obra/superpowers，原始 Markdown 正文）
+- [OpenCode Skills 精选](https://idao.fun/ai/opencode-skills.md): 分类「技能Skill」· 2026-04-27 · OpenCode 官方与社区 Skill 生态，覆盖 brainstorming、调试、UI 设计等 50+ 场景，支持一键安装与自定义开发。（官网 https://opencode.ai/docs/skills，原始 Markdown 正文）
+
+## AI 工具 · 提示词工程（3 个）
+
+- [FlowGPT](https://idao.fun/ai/flowgpt.md): 分类「提示词工程」· 2026-04-27 · 全球最大 AI 提示词社区，覆盖 ChatGPT、Midjourney、Stable Diffusion 等，支持一键复制与在线运行。（官网 https://flowgpt.com/，原始 Markdown 正文）
+- [提示词工程指南](https://idao.fun/ai/prompt-engineering.md): 分类「提示词工程」· 2026-04-27 · 系统性提示词设计与优化方法，覆盖 Zero-shot、CoT、ToT 等主流技术，配套实战案例与评测框架。（官网 https://www.promptingguide.ai/，原始 Markdown 正文）
+- [PromptPerfect](https://idao.fun/ai/promptperfect.md): 分类「提示词工程」· 2026-04-27 · AI 提示词一键优化工具，支持多模型适配（GPT、Claude、Midjourney 等），内置评分与迭代改进。（官网 https://promptperfect.jina.ai/，原始 Markdown 正文）
+
+## AI 工具 · 智能体Agent（19 个）
+
+- [Budibase](https://idao.fun/ai/budibase.md): 分类「智能体Agent」· 2026-08-04 · 开源低代码平台 + AI Agent 构建器：让 agent 连接数据、工具与自动化，直接跑通内部运营流程。（官网 https://budibase.com/，原始 Markdown 正文）
+- [Composio](https://idao.fun/ai/composio.md): 分类「智能体Agent」· 2026-08-04 · 开源 AI Agent 工具集成与认证平台：1000+ 预认证工具、托管 OAuth、沙箱执行，让 agent 真正动手。（官网 https://composio.dev/，原始 Markdown 正文）
+- [LangWatch](https://idao.fun/ai/langwatch.md): 分类「智能体Agent」· 2026-08-04 · 开源 LLMOps 平台：AI Agent 仿真测试、评估与可观测一体，把不确定的 agent 变成可靠的生产系统。（官网 https://langwatch.ai/，原始 Markdown 正文）
+- [OpenHands](https://idao.fun/ai/openhands.md): 分类「智能体Agent」· 2026-08-04 · 开源自主 AI 软件工程 Agent 平台（前身 OpenDevin），规划-编码-调试-开 PR，模型无关、可完全自托管。（官网 https://www.openhands.dev/，原始 Markdown 正文）
+- [Osaurus](https://idao.fun/ai/osaurus.md): 分类「智能体Agent」· 2026-08-04 · 原生 macOS AI Agent 沙盒：本地模型优先、完全离线、开源免费，数据永不离开你的 Mac。（官网 https://osaurus.ai/，原始 Markdown 正文）
+- [Sim](https://idao.fun/ai/sim.md): 分类「智能体Agent」· 2026-08-04 · 开源 AI Agent 工作区：可视化、对话式或代码三种方式构建、部署与编排 agent 工作流。（官网 https://www.sim.ai/，原始 Markdown 正文）
+- [agent-browser](https://idao.fun/ai/agent-browser.md): 分类「智能体Agent」· 2026-04-27 · agent-browser 为 AI 编程助手提供真实浏览器控制能力，支持页面导航、元素交互、截图与内容提取。（官网 https://github.com/pi-kit/agent-browser，原始 Markdown 正文）
+- [AutoGen](https://idao.fun/ai/autogen.md): 分类「智能体Agent」· 2026-04-27 · 微软推出的多 Agent 对话框架，支持人机协作与分布式 Agent 群，适合复杂推理与工具链场景。（官网 https://microsoft.github.io/autogen/，原始 Markdown 正文）
+- [AutoGPT](https://idao.fun/ai/autogpt.md): 分类「智能体Agent」· 2026-04-27 · 开源自主 AI Agent 框架，支持任务自动分解、多步执行与工具调用，是 Agentic AI 的经典参考实现。（官网 https://agpt.co/，原始 Markdown 正文）
+- [扣子 Coze](https://idao.fun/ai/coze.md): 分类「智能体Agent」· 2026-04-27 · 扣子（Coze）是字节跳动推出的 AI 智能体平台，支持可视化编排工作流、多模型接入与一键发布到多个渠道。（官网 https://www.coze.cn/，原始 Markdown 正文）
+- [CrewAI](https://idao.fun/ai/crewai.md): 分类「智能体Agent」· 2026-04-27 · 多 Agent 协作框架，以角色化 Agent 团队模拟真实工作流程，支持顺序、层级、异步等多种协作模式。（官网 https://www.crewai.com/，原始 Markdown 正文）
+- [Dify](https://idao.fun/ai/dify.md): 分类「智能体Agent」· 2026-04-27 · Dify 是开源 LLM 应用编排平台，支持可视化工作流、知识库管理、Agent 构建与多模型接入。（官网 https://dify.ai/，原始 Markdown 正文）
+- [Hermes Agent](https://idao.fun/ai/hermes-agent.md): 分类「智能体Agent」· 2026-04-27 · Hermes 是 Nous Research 打造的自学习 AI Agent，支持多平台接入、记忆增长、技能自创与研究级批量处理。（官网 https://hermes-agent.nousresearch.com/，原始 Markdown 正文）
+- [LangChain](https://idao.fun/ai/langchain.md): 分类「智能体Agent」· 2026-04-27 · LangChain 是构建大语言模型应用的开源框架，提供链式调用、Agent 编排、RAG 流水线与生产级可观测性。（官网 https://www.langchain.com/，原始 Markdown 正文）
+- [LangGraph](https://idao.fun/ai/langgraph.md): 分类「智能体Agent」· 2026-04-27 · LangChain 官方 Agent 编排框架，以状态图（StateGraph）精准控制 Agent 流程，支持人机协作与循环逻辑。（官网 https://www.langchain.com/langgraph，原始 Markdown 正文）
+- [MaxKB](https://idao.fun/ai/maxkb.md): 分类「智能体Agent」· 2026-04-27 · MaxKB 是开源企业级智能体平台，专注知识库问答与 RAG 流水线，支持零代码快速集成第三方系统。（官网 https://maxkb.cn/，原始 Markdown 正文）
+- [MetaGPT](https://idao.fun/ai/metagpt.md): 分类「智能体Agent」· 2026-04-27 · 多 Agent 软件公司模拟框架，以产品经理、架构师、工程师等角色协作生成完整软件项目，支持 SOP 驱动开发。（官网 https://docs.deepwisdom.ai/main/en/guide，原始 Markdown 正文）
+- [n8n](https://idao.fun/ai/n8n.md): 分类「智能体Agent」· 2026-04-27 · n8n 是开源工作流自动化平台，支持可视化编排 AI 智能体、API 集成与业务流程自动化。（官网 https://n8n.io/，原始 Markdown 正文）
+- [OpenClaw](https://idao.fun/ai/openclaw.md): 分类「智能体Agent」· 2026-04-27 · OpenClaw 是开源个人 AI 助手，支持多渠道接入、多模型连接与技能扩展，可在任意平台运行。（官网 https://openclaw.ai/，原始 Markdown 正文）
+
+## AI 工具 · 模型推理平台（12 个）
+
+- [Cerebras Inference](https://idao.fun/ai/cerebras.md): 分类「模型推理平台」· 2026-04-27 · Cerebras 提供高吞吐、低延迟的云推理服务，面向实时 AI 应用和批量调用场景。（官网 https://www.cerebras.ai/，原始 Markdown 正文）
+- [Fireworks AI](https://idao.fun/ai/fireworks.md): 分类「模型推理平台」· 2026-04-27 · Fireworks AI 提供高性能模型推理与微调服务，支持低延迟在线推理和弹性扩展。（官网 https://fireworks.ai/，原始 Markdown 正文）
+- [GroqCloud](https://idao.fun/ai/groq.md): 分类「模型推理平台」· 2026-04-27 · GroqCloud 提供低延迟推理服务，主打实时对话与高吞吐 API 场景。（官网 https://groq.com/，原始 Markdown 正文）
+- [llama.cpp](https://idao.fun/ai/llamacpp.md): 分类「模型推理平台」· 2026-04-27 · llama.cpp 是高性能纯 C/C++ 本地大模型推理引擎，支持 GGUF 格式模型在 CPU/GPU 上高效运行，无需依赖 Python。（官网 https://github.com/ggml-org/llama.cpp，原始 Markdown 正文）
+- [LLM Studio](https://idao.fun/ai/llm-studio.md): 分类「模型推理平台」· 2026-04-27 · LLM Studio 是开源大模型微调与推理平台，支持无代码微调和本地推理，适合模型定制和实验。（官网 https://llmstudio.ai/，原始 Markdown 正文）
+- [Metal](https://idao.fun/ai/metal.md): 分类「模型推理平台」· 2026-04-27 · Metal 是 Mistral AI 推出的本地大模型桌面应用，开源免费，支持多模型切换与隐私离线使用。（官网 https://github.com/mistralai/metal，原始 Markdown 正文）
+- [Ollama](https://idao.fun/ai/ollama.md): 分类「模型推理平台」· 2026-04-27 · Ollama 是本地大模型运行与服务工具，支持离线部署、OpenAI 兼容调用和模型快速切换。（官网 https://ollama.com/，原始 Markdown 正文）
+- [OpenRouter](https://idao.fun/ai/openrouter.md): 分类「模型推理平台」· 2026-04-27 · OpenRouter 聚合多家模型供应商，通过统一接口实现模型路由、回退与成本优化。（官网 https://openrouter.ai/，原始 Markdown 正文）
+- [SambaNova Cloud](https://idao.fun/ai/sambanova.md): 分类「模型推理平台」· 2026-04-27 · SambaNova Cloud 提供企业级生成式 AI 推理能力，强调性能、可扩展性与生产稳定性。（官网 https://sambanova.ai/，原始 Markdown 正文）
+- [SiliconFlow](https://idao.fun/ai/siliconflow.md): 分类「模型推理平台」· 2026-04-27 · SiliconFlow 提供多模型推理平台，支持国内开发者快速接入开源与商用模型能力。（官网 https://siliconflow.cn/，原始 Markdown 正文）
+- [Together AI](https://idao.fun/ai/together.md): 分类「模型推理平台」· 2026-04-27 · Together AI 聚焦开源模型云端推理与训练，适合快速试验多种模型并统一接入。（官网 https://www.together.ai/，原始 Markdown 正文）
+- [vLLM](https://idao.fun/ai/vllm.md): 分类「模型推理平台」· 2026-04-27 · vLLM 是高吞吐开源推理引擎，常用于自建 OpenAI 兼容接口以承载 Llama/Qwen 等模型。（官网 https://vllm.ai/，原始 Markdown 正文）
+
+## 开源项目
+
+- [开源AI Agent框架对比](https://idao.fun/projects/agent-comparison.md): 2026-04-15 · LangChain、CrewAI、AutoGPT三大主流开源Agent框架的深度对比研究与实战Demo，含多Agent协作案例。（https://github.com/idao-cube/agent-comparison，原始 Markdown 正文）
+- [iDao技术魔方](https://idao.fun/projects/astro-site.md): 2026-04-20 · 基于Astro 6的全栈技术博客与个人品牌站点，支持Markdown内容管理、RSS订阅、站内搜索、暗色模式。（https://github.com/idao-cube/astro-site，原始 Markdown 正文）
+
+## 博客文章（52 篇）
+
+- [Elysia vs Hono 完整性能对比：Bun 专属优化还是跨平台通用，2026 实测数据给出的答案](https://idao.fun/blog/2026-08-07-elysia-vs-hono-benchmark-deep-dive.md): 2026-08-07 · 分类「后端架构」，标签：Elysia / Hono / Bun / Node.js / 性能 / Benchmark / 边缘计算 / WebSocket / SSE / 后端 · 基于 2026 年 wrk/oha 压测实录，对比 Bun / Node / Cloudflare Workers 三种环境下 Elysia 与 Hono 的吞吐与延迟：为什么裸压测快 2 倍，真实业务却无区别。（原始 Markdown 正文）
+- [解剖 Claude Code：从入口架构逆向工程看 AI 编程工具的信任边界设计](https://idao.fun/blog/2026-08-03-claude-code-entry-architecture.md): 2026-08-03 · 分类「技术深度」，标签：Claude Code / 逆向工程 / 架构分析 / AI 编程工具 / 权限安全 / 编译时特性 · 从 cli.tsx 的 30 行入口到 init.ts 的启动决策链，逆向工程 Claude Code v2.1.88：编译时特性裁剪、信任分区、1778 行路径攻防与默认不信任的 Tool 契约。分析这套工程哲学如何塑造 AI Agent 的安全半径。（原始 Markdown 正文）
+- [前端未死，边界已变：从支付宝 AFX 打散看 2026 前端工程师的 AI 全栈转型](https://idao.fun/blog/2026-08-03-frontend-ai-fullstack-roadmap.md): 2026-08-03 · 分类「技术深度」，标签：前端 / AI 应用 / 职业转型 / AI Agent / AGENTS.md / MCP · 支付宝体验技术部 AFX 打散进业务线，"前端已死"再度刷屏。本文拆解中台终结的组织逻辑与框架转向 Agent 一等公民的信号，梳理前端转 AI 全栈的六阶段路线与安全门禁。（原始 Markdown 正文）
+- [AI 浏览器 Agent 的安全困局：当自动化工具可以偷走你的登录态](https://idao.fun/blog/2026-07-23-ai-browser-agent-security.md): 2026-07-23 · 分类「技术深度」，标签：安全 / 浏览器自动化 / CDP / Cookie 安全 / AI Agent / Prompt 注入 · AI 浏览器 Agent（browser-use、Claude Computer Use 等）通过 CDP 操作用户浏览器，可以无障碍读取所有 Cookie、Token 和 LocalStorage。本文结合最新开源项目，分析攻击面、现有防范方案的不足，并提出系统化的安全加固思路。（原始 Markdown 正文）
+- [从 `--end-of-options` 到 CWE-88：为什么你的包管理器正在被"破折号攻击"侵入](https://idao.fun/blog/2026-07-23-end-of-options-argument-injection.md): 2026-07-23 · 分类「技术深度」，标签：Git / 安全 / 参数注入 / CWE-88 / 包管理器 / DevSecOps · 深析 git 的 --end-of-options 标志背后的安全漏洞——参数注入（CWE-88）如何从 Unix 传统的 -- 约定演化到包管理器生态的系统性风险，以及为什么 19 个主流包管理器中只有 Go 的 cmd/go 真正理解了这个问题。（原始 Markdown 正文）
+- [Reddit 宣布纯 HTML 不安全：从 old.reddit.com 封堵看开放式网页的终局](https://idao.fun/blog/2026-07-23-reddit-plain-html-unsafe.md): 2026-07-23 · 分类「技术深度」，标签：Reddit / 开放互联网 / LLM / 数据抓取 / 平台化腐败 / Web 历史 · Reddit 以"安全"为由将 old.reddit.com 置于登录墙后，实际是在封堵数据抓取。深析这背后的 LLM 数据淘金热、互联网的"平台化腐败"循环，以及当纯 HTML 都被视为威胁时，开放 Web 还剩下什么。（原始 Markdown 正文）
+- [Bun 重写为 Rust：11天、64个Claude、16.5万美元，一次改变行业认知的激进实验](https://idao.fun/blog/2026-07-09-bun-rust-rewrite-deep-dive.md): 2026-07-09 · 分类「技术深度」，标签：Bun / Rust / Zig / AI 应用 / Claude / 重写 / 编程语言 / 深度 · Bun 创始人 Jarred Sumner 披露如何借助 Claude Fable 5，在 11 天内将 53 万行 Zig 代码重写为 Rust——零测试删除、全部通过、减重 20%、提速 5%。这是一篇关于技术勇气与 AI 潜力的深度分析。（原始 Markdown 正文）
+- [Node.js v26.5.0 深度解读：import Text、流式 ReadableStreamTee、以及隐藏的安全加固浪潮](https://idao.fun/blog/2026-07-09-nodejs-v26-5-0-deep-dive.md): 2026-07-09 · 分类「技术深度」，标签：Node.js / JavaScript / 运行时 / 版本发布 / 深度 · Node.js v26.5.0 带来了 --experimental-import-text、ReadableStreamTee 暴露、perf_hooks 逐轮询采样延迟、TLS 协商组报告等特性。更值得关注的是隐藏在提交日志中的安全加固、VFS 成熟化和性能优化——一次典型的 Current …（原始 Markdown 正文）
+- [TypeScript 7.0 RC 深度解读：Go 重写完成，10 倍提速，编译器的「奇点时刻」](https://idao.fun/blog/2026-07-09-typescript-7-rc-deep-dive.md): 2026-07-09 · 分类「技术深度」，标签：TypeScript / Go / 编译器 / 编程语言 / 前端 / 深度 · TypeScript 7.0 RC 正式发布——历经一年的 Go 重写工程终于面世。10 倍性能提升、并行类型检查、Parcel 级文件监听、Unicode 感知模板字面量类型……这是 TypeScript 编译器的一次「材料替换」，其意义不亚于从 JavaScript 到原生代码的跃迁。（原始 Markdown 正文）
+- [OpenMontage 架构深潜：当一个 LLM Agent 成为控制平面，代码该长什么样？](https://idao.fun/blog/2026-07-08-openmontage-architecture-deep-dive.md): 2026-07-08 · 分类「AI基础设施」，标签：AI 应用 / 开源 / AI Agent / OpenMontage / 视频制作 / 系统设计 · 跳过营销话术，我们钻进 OpenMontage 的 tools/、schemas/ 与 checkpoint 系统，看它如何用 YAML + Markdown 替代传统编排器，以及这套'技能即智能'的设计在工程上是否站得住脚。（原始 Markdown 正文）
+- [Agency-Agents 深度解析：400+ AI 专家的"梦之队"如何重塑开发工作流](https://idao.fun/blog/2026-07-03-agency-agents-ai-specialist-roster.md): 2026-07-03 · 分类「AI应用」，标签：AI 应用 / AI Agent / 开源 / 工作流 / 编程 / Claude Code / Cursor · 全面解读 msitarzewski/agency-agents——一个从 Reddit 帖子成长为 126K Stars 的开源项目，提供 400+ 精心设计的 AI Agent 角色档案，覆盖工程、设计、销售、营销等 16+ 领域，以及它对 AI 编程生态的深层影响。（原始 Markdown 正文）
+- [DeepSeek-Reasonix 深度解析：围绕前缀缓存设计的 AI 编程代理](https://idao.fun/blog/2026-07-03-deepseek-reasonix-coding-agent-deep-dive.md): 2026-07-03 · 分类「AI应用」，标签：AI 应用 / AI Agent / DeepSeek / Reasonix / 开源 / 编程 / Go / 前缀缓存 · 全面解读 esengine/DeepSeek-Reasonix——25.8K Stars 的 DeepSeek 原生 AI 编程代理。从 Go 重写、三支柱架构到前缀缓存稳定性，揭示什么让它与 Claude Code、Cursor 截然不同。（原始 Markdown 正文）
+- [写过的 Agent 越多，我越怀疑 Function Calling](https://idao.fun/blog/2026-06-29-function-calling-in-production.md): 2026-06-29 · 分类「AI应用」，标签：AI 应用 / Function Calling / AI Agent / LLM / 工程实践 · 从搭第一个天气查询 demo 到写了几百个工具定义，我最大的感受是：Function Calling 教程里写的都是真的，但最重要的那些事，它们都没写。（原始 Markdown 正文）
+- [OpenMontage 深度解剖：你的 AI 编程助手，其实是个视频工作室](https://idao.fun/blog/2026-06-29-openmontage-ai-video-production.md): 2026-06-29 · 分类「AI应用」，标签：AI 应用 / 开源 / 视频制作 / OpenMontage / AI Agent · 这个 GitHub 27.8k star 的开源项目宣称「把你的 AI 编程助手变成视频制作工作室」。我扒了它的架构，发现它做对了一件事——也踩了另一条坑。（原始 Markdown 正文）
+- [前端工具链的「Rust 化」：一场没有赢家的军备竞赛？](https://idao.fun/blog/2026-06-29-rust-tooling-revolution.md): 2026-06-29 · 分类「全栈开发」，标签：前端 / Rust / 工程化 / 工具链 / 深度 · Oxc、Rspack、Rolldown、Biome……Rust 重构的前端工具一个接一个冒出来，但它们真的让我们的开发体验变好了吗？（原始 Markdown 正文）
+- [AI Coding Method Map：从辅助到自主代理看懂AI编程的完整链路](https://idao.fun/blog/2026-06-20-ai-coding-method-map.md): 2026-06-20 · 分类「AI应用」，标签：编程 / AI Agent / 工作流 / MCP / CodeGraph / Superpower / Claude Code / Cursor · 从需求到交付，AI 编码代理到底是怎么工作的？拆解普通 Agent、工作流 Agent、IDE Agent 的本质差异，以及 CodeGraph、ECC、Superpower 等增强工具如何补齐能力缺口。（原始 Markdown 正文）
+- [Marketing Skills 深度解析：32K Stars 的 AI 营销技能体系](https://idao.fun/blog/2026-06-08-marketing-skills-ai-agent-deep-dive.md): 2026-06-08 · 分类「AI应用」，标签：AI 应用 / Marketing / AI Agent / Growth / SEO / CRO / Copywriting / 市场营销 · 全面解读 Corey Haines 打造的 AI Agent 营销技能仓库——43 个模块化 Skill、AARRR 框架驱动、139 种增长策略、fCMO 级营销计划、AI SEO 优化，以及 80+ 工具的 CLI/API 集成体系。（原始 Markdown 正文）
+- [从开源到商业：MoneyPrinterTurbo 的 AI 视频工厂架构剖析](https://idao.fun/blog/2026-05-28-money-printer-turbo-ai-video-factory-architecture.md): 2026-05-28 · 分类「AI应用」，标签：AI 应用 / 视频生成工厂 / AI Agent · MoneyPrinterTurbo 正是这样一个典型代表。它不是为 AI 代理而生的，但它展示了 AI 代理如何与视频素材库、大语言模型、语音合成、视频剪辑工具等外部服务交互，最终构建出一个完整的"视频生成工厂"。这正是 AI 编码代理从"理解代码"走向"理解世界"的重要一步。（原始 Markdown 正文）
+- [CodeGraph：当 AI 编码代理拥有预建的知识图谱](https://idao.fun/blog/2026-05-27-codegraph-pre-indexed-code-intelligence.md): 2026-05-27 · 分类「AI基础设施」，标签：CodeGraph / MCP / 代码智能 / AI Agent / tree-sitter / 静态分析 / 语义搜索 · 一个 21K+ star 的开源项目，用 tree-sitter + SQLite 为 AI 编码代理预索引代码语义图，平均减少 71% 的工具调用和 35% 的成本。拆解其架构选择、基准数据和工程取舍。（原始 Markdown 正文）
+- [ECC：193K star 的 AI 编码代理调优系统，一个人撑起了一个生态](https://idao.fun/blog/2026-05-27-everything-claude-code-agent-harness-system.md): 2026-05-27 · 分类「AI基础设施」，标签：ECC / AI Agent / Claude Code · 前身是 everything-claude-code。一个生于 Anthropic 黑客松的项目，10 个月后成长为 193K star、246 个技能、61 个代理、支持 8+ 平台的 AI 代理调优系统。拆解它的技能系统、跨平台架构、安全体系和 Rust 控制面。（原始 Markdown 正文）
+- [从摩尔定律到韬定律：半导体产业六十年的范式转移](https://idao.fun/blog/2026-05-27-moore-law-to-tao-law-semiconductor-paradigm-shift.md): 2026-05-27 · 分类「芯片与半导体」，标签：韬定律 / 摩尔定律 / 半导体 / 华为 / 芯片 / 逻辑折叠 / τ缩微 / 后摩尔时代 · 2026年5月25日，华为在ISCAS上正式提出「韬（τ）定律」，用时间缩微替代几何缩微。这篇文章从摩尔定律的历史局限出发，拆解韬定律的技术内核、工程落地与产业含义。（原始 Markdown 正文）
+- [Understand Anything：一个 33K star 的开源项目，把「读代码」变成了「看地图」](https://idao.fun/blog/2026-05-27-understand-anything-code-knowledge-graph.md): 2026-05-27 · 分类「AI基础设施」，标签：Understand Anything / 知识图谱 / 代码理解 / Claude Code 插件 / LLM / tree-sitter / 开发者工具 · 用 LLM + tree-sitter 的混合架构，把任何代码库转成交互式知识图谱。自动生成架构导览、业务域映射、差异影响分析——不是给代理看的索引，是给人看的图谱。（原始 Markdown 正文）
+- [AI Coding 为什么全选了 TUI？从 Claude Code 到 Codex CLI，终端架构的底层逻辑](https://idao.fun/blog/2026-05-16-ai-coding-tui-architecture-deep-dive.md): 2026-05-16 · 分类「全栈开发」，标签：TUI / 编程 / Claude Code / 终端 / React / 前端 / Rust · 拆解四款 AI 编程工具的终端架构：Claude Code 自研 Ink 的 React Reconciler、Codex CLI 的 Rust+Ratatui 路线、Gemini CLI 的第三方 Ink 与 Aider 的 Rich 生态。以及 TUI 的五大未来方向。（原始 Markdown 正文）
+- [GEO 生成式引擎优化完全指南：让你的内容成为 AI 的默认答案](https://idao.fun/blog/2026-05-16-geo-generative-engine-optimization-guide.md): 2026-05-16 · 分类「技术深度」，标签：GEO / SEO / AI 应用 / 生成式引擎优化 / 内容优化 / Schema / RAG · 2026 年 GEO 深度教程——从 RAG 原理到 llms.txt、Schema 结构化、实体权威建设与跨引擎监测。写给想在 ChatGPT、Perplexity、Gemini 等 AI 搜索中被优先引用的内容创作者与开发者。（原始 Markdown 正文）
+- [Harness 驾驭工程深度教程：从 AGENTS.md 到全链路 AI 编码基础设施](https://idao.fun/blog/2026-05-16-harness-engineering-deep-coding-tutorial.md): 2026-05-16 · 分类「AI应用」，标签：AI Agent / 编程 / 驾驭工程 / CI CD / LLM / 工程实践 · 基于 OpenAI 2026 年提出的 Harness Engineering 方法论，手把手搭建 AI 编码代理的工程基础设施——AGENTS.md、Linter 约束、CI 门控、反馈循环、熵管理。附完整项目模板。（原始 Markdown 正文）
+- [React Fiber vs Vue 响应式：从调用栈到依赖图，前端两大架构的底层对决](https://idao.fun/blog/2026-05-16-react-vue-architecture-showdown.md): 2026-05-16 · 分类「全栈开发」，标签：React / Vue / 前端 / Fiber / JavaScript · 深入 React Fiber 调度系统与 Vue 响应式系统的架构本质——Stack Reconciler 的困境、Fiber 链表实现、Proxy 依赖追踪、编译器优化策略，以及 Svelte/Solid/Angular 在架构光谱上的位置。写给想真正理解框架原理的前端开发者。（原始 Markdown 正文）
+- [Bun v1.3.14 深度解析：Image API、HTTP/3、全局虚拟存储与五十项变革](https://idao.fun/blog/2026-05-13-bun-v1-3-14-image-http3-global-store.md): 2026-05-13 · 分类「技术深度」，标签：Bun / JavaScript / Runtime / HTTP3 / QUIC / Image Processing / Package Manager / Performance · Bun v1.3.14 是 Bun 历史上功能最密集的版本之一。内置 Image API、HTTP/3 服务器与客户端、全局虚拟存储、重写的 fs.watch、跨语言 LTO——解读这个 JS 运行时正在成为全能基础设施的路线图（原始 Markdown 正文）
+- [Node.js v26.1.0 深度解读：FFI、后量子密码与调试器的进化](https://idao.fun/blog/2026-05-13-nodejs-v26-1-0-ffi-post-quantum-debugger.md): 2026-05-13 · 分类「技术深度」，标签：Node.js / FFI / Post-Quantum / Cryptography / Debugger / QUIC / Test Runner / OpenSSL · 全面解析 Node.js 26.1.0 版本——实验性 node:ffi 原生模块调用、后量子密码学支持、调试器运行时探针、测试框架成熟化，以及 OpenSSL/V8/nghttp2 等基础设施升级（原始 Markdown 正文）
+- [9Router 深度解析：当 AI 编码工具需要一个智能交通指挥官](https://idao.fun/blog/2026-05-12-9router-ai-coding-gateway.md): 2026-05-12 · 分类「技术深度」，标签：9Router / 编程 / LLM 路由 / Claude Code / RTK / OpenAI / Codex / AI 网关 · 深入分析 9Router 的架构设计、RTK 令牌压缩、三级 Fallback 引擎、格式翻译系统，以及它如何成为 AI 编码工具链中不可或缺的中间层（原始 Markdown 正文）
+- [AiToEarn 深度解析：11K Stars 的开源 AI 内容营销平台 — 当 AI Agent 开始帮你赚钱](https://idao.fun/blog/2026-05-12-aitoearn-ai-content-marketing-agent.md): 2026-05-12 · 分类「AI应用」，标签：AI 应用 / AI Agent / AiToEarn / 内容营销 / 开源 / OPC / MCP / 一人公司 / 自媒体 · 全面解读 yikart 打造的开源 AI 内容营销智能体 AiToEarn——四大 Agent 框架（Monetize/Publish/Engage/Create）、12 平台跨海分发、内容交易市场、MCP 协议集成、一人公司（OPC）操作系统，深挖其产品逻辑与商业哲学。（原始 Markdown 正文）
+- [Anthropic Claude for Financial Services：一个开源项目如何定义投行 AI Agent 的架构标准](https://idao.fun/blog/2026-05-12-anthropic-financial-services-agent-workflows.md): 2026-05-12 · 分类「技术深度」，标签：Anthropic / Claude / 金融AI / AI Agent / MCP / 投行 / Model Context Protocol · 深入分析 Anthropic 官方开源项目 financial-services 的架构设计、10 个投行 Agent 的实现模式、MCP 数据连接器集成，以及跨 Agent 编排机制（原始 Markdown 正文）
+- [Pixelle-Video 深度解析：AI 全自动短视频引擎](https://idao.fun/blog/2026-05-12-pixelle-video-ai-short-video-engine.md): 2026-05-12 · 分类「技术深度」，标签：AI 应用 / 视频生成 / ComfyUI / Pixelle-Video / LLM / TTS / Python / Streamlit · 全面解读 AIDC-AI 打造的开源 AI 短视频引擎——从架构设计到实战部署，从 ComfyUI 工作流到多流水线系统（原始 Markdown 正文）
+- [Ruflo 深度解析：49K Stars 的 AI Agent 编排平台 — 给 Claude Code 装上分布式神经系统](https://idao.fun/blog/2026-05-12-ruflo-agent-orchestration-platform.md): 2026-05-12 · 分类「AI应用」，标签：AI 应用 / AI Agent / Claude Code / 开源 / 编排 / MCP / 蜂群智能 · 全面解读 ruvnet 打造的开源多智能体编排平台 Ruflo——100+ Agent 蜂群协作、自学习 SONA 神经网络、跨机器 Agent 联邦、32 插件生态、GOAP 目标规划，深挖其架构设计与工程哲学。（原始 Markdown 正文）
+- [SuperSplat 深度解析：7.6K Stars 的浏览器端 3D 高斯泼溅编辑器 — 在 Web 上编辑现实](https://idao.fun/blog/2026-05-12-supersplat-3d-gaussian-splatting-editor.md): 2026-05-12 · 分类「图形技术」，标签：3D / Gaussian Splatting / SuperSplat / PlayCanvas / WebGL2 / WebGPU / 开源 / 浏览器图形 / 编辑器 · 全面解读 PlayCanvas 打造的开源 3D 高斯泼溅编辑器 SuperSplat——PlayCanvas 引擎 + 12 种自定义着色器、11 个编辑工具、事件驱动架构、SOG/PLY/SPLAT 多格式支持、144 个迭代版本、PWA 原生体验，深挖其渲染管线与工程哲学。（原始 Markdown 正文）
+- [whisper.cpp 深度解析：从边缘设备到实时语音识别](https://idao.fun/blog/2026-05-12-whisper-cpp-edge-realtime-speech-recognition.md): 2026-05-12 · 分类「技术深度」，标签：whisper.cpp / 语音识别 / ASR / 边缘计算 / ggml / OpenAI / Georgi Gerganov / C++ / CUDA / Metal · 深入分析 whisper.cpp 的架构设计、模型推理机制、多后端加速方案，以及它在边缘 AI 推理引擎中的独特地位（原始 Markdown 正文）
+- [DeepSeek TUI：原生 Rust 打造的终端 AI 编码 Agent](https://idao.fun/blog/2026-05-04-deepseek-tui-coding-agent.md): 2026-05-04 · 分类「AI应用」，标签：AI 应用 / AI Agent / DeepSeek / Rust / 编程工具 / TUI / 开源 / 教程 · 全面解读 DeepSeek TUI——基于 Rust 的终端原生编码 Agent，专为 DeepSeek V4 的 1M 上下文设计。单二进制分发、Ratatui UI、三模式交互、MCP 协议支持。（原始 Markdown 正文）
+- [GitNexus 深度解析：35K Stars 的零服务器代码智能引擎](https://idao.fun/blog/2026-05-04-gitnexus-code-intelligence-engine.md): 2026-05-04 · 分类「技术深度」，标签：代码智能 / MCP / 知识图谱 / 开源 / TypeScript / 开发工具 / 教程 / GitNexus · 全面解读 GitNexus——基于知识图谱的代码智能引擎。本地运行、MCP 协议支持、14 种语言解析、16 个 MCP 工具，让 AI Agent 真正理解你的代码库。（原始 Markdown 正文）
+- [OpenMetadata 深度解析：开源元数据平台](https://idao.fun/blog/2026-05-04-openmetadata-data-platform.md): 2026-05-04 · 分类「技术深度」，标签：元数据 / 数据治理 / 数据平台 / 开源 / Java / TypeScript / Python / 教程 · 全面解读 OpenMetadata——统一元数据平台，覆盖数据发现、数据可观测性与数据治理。84+ 连接器、列级血缘、数据质量测试、丰富的协作能力。（原始 Markdown 正文）
+- [OpenStock 深度解析：开源股票市场追踪平台](https://idao.fun/blog/2026-05-04-openstock-stock-market-platform.md): 2026-05-04 · 分类「AI应用」，标签：股票 / 开源 / Next.js / TypeScript / React / 金融 / 教程 / OpenStock · 全面解读 Open Dev Society 打造的开源股票追踪平台——Next.js 15 + React 19 + TypeScript，实时行情、智能监控、AI 日报，完全免费的开源替代方案。（原始 Markdown 正文）
+- [Claude Code 进阶：32 个精选 Skills + 8 个 MCP 服务器实测指南](https://idao.fun/blog/2026-05-02-claude-code-skills-mcp-guide.md): 2026-05-02 · 分类「AI应用」，标签：Claude / Claude Code / Skills / MCP / AI 应用 / 开发工具 / 教程 · 别再裸用 Claude Code 了！一篇讲透 Skills 与 MCP 的核心区别，亲测可用的一键安装命令和配置方案，让你的 AI 编程助手从补代码升级为全流程开发搭档。（原始 Markdown 正文）
+- [Hermes Agent 深度解析：129K Stars 的开源自进化 AI Agent](https://idao.fun/blog/2026-05-02-hermes-agent-deep-dive.md): 2026-05-02 · 分类「AI应用」，标签：AI 应用 / AI Agent / Nous Research / 开源 / Python / 教程 · 全面解读 Nous Research 打造的开源 AI Agent —— 闭环学习、多平台支持、终端 UI、模型无关架构，深度拆解其核心设计理念与实战用法。（原始 Markdown 正文）
+- [OpenClaw 深度解析：367K Stars 的开源个人 AI 助手](https://idao.fun/blog/2026-05-02-openclaw-ai-assistant-deep-dive.md): 2026-05-02 · 分类「AI应用」，标签：AI 应用 / AI Agent / 开源 / TypeScript / 工具 / 教程 · 全面解读 OpenClaw——自托管、本地优先的个人 AI 助手。支持 20+ 消息平台、多 Agent 路由、语音交互、Live Canvas，完全掌控你的 AI 数据。（原始 Markdown 正文）
+- [OpenCode 深度解析：153K Stars 的开源 AI 编码 Agent](https://idao.fun/blog/2026-05-02-opencode-ai-coding-agent-deep-dive.md): 2026-05-02 · 分类「AI应用」，标签：AI 应用 / AI Agent / OpenCode / 编程工具 / 开源 / TypeScript / 教程 · 全面解读 anomalyco 打造的开源 AI 编码助手——终端 TUI、双 Agent 架构（build/plan）、LSP 原生支持、模型无关、客户端/服务器分离设计。（原始 Markdown 正文）
+- [Claude Desktop 接入第三方 API 完整教程（Windows 实测）](https://idao.fun/blog/2026-05-01-claude-desktop-third-party-api.md): 2026-05-01 · 分类「AI应用」，标签：Claude / API / 教程 / 工具 / AI 应用 · 无需 Claude 官方订阅：只需几步配置，让 Claude Desktop 走你自己的 API，畅享 Cowork、Projects、Artifacts 等桌面端能力。（原始 Markdown 正文）
+- [深入 HTML-in-Canvas：当 Canvas 学会了渲染 DOM，前端图形生态要变天了](https://idao.fun/blog/2026-04-30-html-in-canvas.md): 2026-04-30 · 分类「技术深度」，标签：canvas / webgl / webgpu · 探索 HTML-in-Canvas 技术，当 Canvas 学会渲染 DOM，前端图形生态迎来变革。了解这一创新如何重塑网页渲染，提升性能与交互体验，点击查看详细解析。（原始 Markdown 正文）
+- [从 PRD 到回测全闭环：OpenSpec+Superpowers 开发用户系统实战](https://idao.fun/blog/2026-04-30-prd-openspec-superpowers-oh-my-opencode.md): 2026-04-30 · 分类「技术深度」，标签：superpowers / 编程 / openspec / oh-my-opencode / opencode · 揭秘从 PRD 到回测的全闭环开发流程。结合 OpenSpec 需求管理、Superpowers 自动化与 oh-my-opencode 执行，实战演示如何高效构建用户系统。点击获取完整技术复盘。（原始 Markdown 正文）
+- [深入 Superpowers：174k Stars 的开源 AI 编程方法论是如何工作的](https://idao.fun/blog/2026-04-30-superpowers.md): 2026-04-30 · 分类「技术深度」，标签：superpowers / 编程 / 开源 · 探索 Superpowers 开源项目，174k Stars 验证的 AI 编程方法论。揭秘其如何结合大模型与自动化工作流，提升开发效率。点击了解前沿技术细节。（原始 Markdown 正文）
+- [【百度】站长工具-平台工具使用手册](https://idao.fun/blog/2026-04-27-baidu-zhanzhang-tools.md): 2026-04-27 · 分类「全栈开发」，标签：站长工具 / 帮助手册 · 关键词影响力，是百度搜索资源平台针对站点对于关键词数据分析的需求，推出的全新概念。涵盖该关键词下百度搜索可以为站点带来的全部收益指标，包括：排名、百度搜索流量、展现量等。在H5版本的搜索资源平台工具中首发的关键词影响力工具检测数值有：整体影响力、最大影响力、站点影响力（原始 Markdown 正文）
+- [独立开发者主流技术栈（2026最新）](https://idao.fun/blog/2026-04-27-technology-developers.md): 2026-04-27 · 分类「全栈开发」，标签：AI 应用 / 全栈开发 / 独立开发者技术栈 / 2026技术趋势 · 2026独立开发者主流技术栈全指南。涵盖前端框架、后端架构与AI工具链，助您打造高效MVP。掌握前沿选型，从0到1快速变现，点击查看详细技术图谱。（原始 Markdown 正文）
+- [开源AI Agent框架对比与实战：搭建你的第一个智能助手](https://idao.fun/blog/2026-04-25-open-source-agent-framework.md): 2026-04-25 · 分类「AI应用」，标签：AI 应用 / AI Agent / 开源 / Python · 对比LangChain、AutoGPT、CrewAI等主流AI Agent框架，并通过实战项目演示如何搭建一个能自动处理任务的智能助手（原始 Markdown 正文）
+- [2026年开发者必备AI精选测评](https://idao.fun/blog/2026-04-22-ai-tools-guide-2026.md): 2026-04-22 · 分类「AI应用」，标签：AI 应用 / 开发工具 / 效率 · 实测2026年最值得关注的AI编程助手、自动化工具和工作流，帮你提升开发效率，减少重复劳动（原始 Markdown 正文）
+- [Astro全栈开发实战：从零搭建高性能内容网站](https://idao.fun/blog/2026-04-20-astro-fullstack-guide.md): 2026-04-20 · 分类「全栈开发」，标签：Astro / 全栈开发 / TailwindCSS / 教程 · 深入讲解如何使用Astro框架结合Tailwind CSS和Content Collections，从零搭建一个高性能、SEO友好的内容网站。（原始 Markdown 正文）
+
+## 资源与订阅
+
+- [llms.txt](https://idao.fun/llms.txt): 精炼版站点索引（AI 优先读取的轻量入口）
+- [urls.txt](https://idao.fun/urls.txt): 全站 URL 清单，每行一个，供搜索引擎推送接口（如百度链接提交）使用
+- [RSS 订阅](https://idao.fun/rss.xml): 博客与工具更新实时推送（RSS 2.0）
+- [Sitemap](https://idao.fun/sitemap.xml): 全站 XML 站点地图
+- [HTML 站点地图](https://idao.fun/sitemap/): 人类可读的 HTML 站点地图
+- [友情链接](https://idao.fun/links/): 优质站点友情链接互换
+- [赞助支持](https://idao.fun/sponsor/): 赞助支持本站持续更新
